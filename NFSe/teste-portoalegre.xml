@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GerarNfseEnvio xmlns="http://www.abrasf.org.br/nfse.xsd">
+  <LoteRps Id="Lote2014111893123" versao="1.00">
+    <NumeroLote>2014111893123</NumeroLote>
+    <Cnpj>12236348000161</Cnpj>
+    <InscricaoMunicipal>53352025</InscricaoMunicipal>
+    <QuantidadeRps>1</QuantidadeRps>
+    <ListaRps>
+      <Rps>
+        <InfRps Id="2014111893123">
+          <IdentificacaoRps>
+            <Numero>2014111893123</Numero>
+            <Serie>U</Serie>
+            <Tipo>1</Tipo>
+          </IdentificacaoRps>
+          <DataEmissao>2014-11-18T08:31:24.000-03:00</DataEmissao>
+          <NaturezaOperacao>2</NaturezaOperacao>
+          <OptanteSimplesNacional>2</OptanteSimplesNacional>
+          <IncentivadorCultural>2</IncentivadorCultural>
+          <Status>1</Status>
+          <Servico>
+            <Valores>
+              <ValorServicos>10</ValorServicos>
+              <IssRetido>2</IssRetido>
+              <ValorIss>0.5</ValorIss>
+              <BaseCalculo>10</BaseCalculo>
+              <Aliquota>5</Aliquota>
+              <ValorLiquidoNfse>10</ValorLiquidoNfse>
+              <DescontoCondicionado>0</DescontoCondicionado>
+            </Valores>
+            <ItemListaServico>17.05</ItemListaServico>
+            <CodigoTributacaoMunicipio>170500100</CodigoTributacaoMunicipio>
+            <Discriminacao>Teste</Discriminacao>
+            <CodigoMunicipio>4318705</CodigoMunicipio>
+          </Servico>
+          <Prestador>
+            <Cnpj>09512899000104</Cnpj>
+            <InscricaoMunicipal>55718620</InscricaoMunicipal>
+          </Prestador>
+          <Tomador>
+            <IdentificacaoTomador>
+              <CpfCnpj>
+                <Cpf>97110540006</Cpf>
+              </CpfCnpj>
+            </IdentificacaoTomador>
+            <RazaoSocial>Edson Rodrigues Alanis</RazaoSocial>
+            <Endereco>
+              <Endereco>Rua Bento Goncalves</Endereco>
+              <Numero>428</Numero>
+              <Complemento>Apto 510</Complemento>
+              <Bairro>Centro</Bairro>
+              <CodigoMunicipio>4318705</CodigoMunicipio>
+              <Uf>RS</Uf>
+              <Cep>93010220</Cep>
+            </Endereco>
+            <Contato/>
+          </Tomador>
+        </InfRps>
+      </Rps>
+    </ListaRps>
+  </LoteRps>
+</GerarNfseEnvio>

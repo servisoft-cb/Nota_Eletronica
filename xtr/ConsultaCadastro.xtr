@@ -1,0 +1,168 @@
+<XmlTransformation Version="1.0"><Transform Direction="ToCds" DataEncoding="UTF-8"><SelectEach dest="DATAPACKET\ROWDATA\ROW" from="\retConsCad\infCons\infCad"><Select dest="@IE" from="\IE"/><Select dest="@CNPJ" from="\CNPJ"/><Select dest="@CPF" from="\CPF"/><Select dest="@UF" from="\UF"/><Select dest="@cSit" from="\cSit"/><Select dest="@indCredNFe" from="\indCredNFe"/><Select dest="@indCredCTe" from="\indCredCTe"/><Select dest="@xNome" from="\xNome"/><Select dest="@xRegApur" from="\xRegApur"/><Select dest="@CNAE" from="\CNAE"/><Select dest="@dIniAtiv" from="\dIniAtiv"/><Select dest="@dUltSit" from="\dUltSit"/><Select dest="@IEUnica" from="\IEUnica"/><Select dest="@IEAtual" from="\IEAtual"/><Select dest="@xLgr" from="\ender\xLgr"/><Select dest="@nro" from="\ender\nro"/><Select dest="@xCpl" from="\ender\xCpl"/><Select dest="@xBairro" from="\ender\xBairro"/><Select dest="@cMun" from="\ender\cMun"/><Select dest="@xMun" from="\ender\xMun"/><Select dest="@CEP" from="\ender\CEP"/></SelectEach></Transform><XmlSchema RootName="retConsCad"><![CDATA[<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="retConsCad" type="retConsCadType"/>
+  <xs:complexType name="retConsCadType">
+    <xs:sequence>
+      <xs:element name="infCons" type="infConsType"/>
+    </xs:sequence>
+    <xs:attribute name="versao" type="xs:string"/>
+    <xs:attribute name="xmlns" type="xs:string"/>
+  </xs:complexType>
+  <xs:element name="infCons" type="infConsType"/>
+  <xs:complexType name="infConsType">
+    <xs:sequence>
+      <xs:element name="verAplic" type="verAplicType"/>
+      <xs:element name="cStat" type="cStatType"/>
+      <xs:element name="xMotivo" type="xMotivoType"/>
+      <xs:element name="UF" type="UFType"/>
+      <xs:element name="CNPJ" type="CNPJType"/>
+      <xs:element name="dhCons" type="dhConsType"/>
+      <xs:element name="cUF" type="cUFType"/>
+      <xs:element name="infCad" type="infCadType"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="verAplic" type="verAplicType"/>
+  <xs:simpleType name="verAplicType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="cStat" type="cStatType"/>
+  <xs:simpleType name="cStatType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="xMotivo" type="xMotivoType"/>
+  <xs:simpleType name="xMotivoType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="UF" type="UFType"/>
+  <xs:simpleType name="UFType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="CNPJ" type="CNPJType"/>
+  <xs:simpleType name="CNPJType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="dhCons" type="dhConsType"/>
+  <xs:simpleType name="dhConsType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="cUF" type="cUFType"/>
+  <xs:simpleType name="cUFType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="infCad" type="infCadType"/>
+  <xs:complexType name="infCadType">
+    <xs:sequence>
+      <xs:element name="IE" type="IEType"/>
+      <xs:element name="CNPJ" type="CNPJType"/>
+      <xs:element name="CPF" type="CPFType"/>
+      <xs:element name="UF" type="UFType"/>
+      <xs:element name="cSit" type="cSitType"/>
+      <xs:element name="indCredNFe" type="indCredNFeType"/>
+      <xs:element name="indCredCTe" type="indCredCTeType"/>
+      <xs:element name="xNome" type="xNomeType"/>
+      <xs:element name="xRegApur" type="xRegApurType"/>
+      <xs:element name="CNAE" type="CNAEType"/>
+      <xs:element name="dIniAtiv" type="dIniAtivType"/>
+      <xs:element name="dUltSit" type="dUltSitType"/>
+      <xs:element name="ender" type="enderType"/>
+      <xs:element name="IEUnica" type="IEUnicaType"/>
+      <xs:element name="IEAtual" type="IEAtualType"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="IE" type="IEType"/>
+  <xs:simpleType name="IEType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="CNPJ" type="CNPJType"/>
+  <xs:simpleType name="CNPJType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="CPF" type="CPFType"/>
+  <xs:simpleType name="CPFType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="UF" type="UFType"/>
+  <xs:simpleType name="UFType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="cSit" type="cSitType"/>
+  <xs:simpleType name="cSitType">
+    <xs:restriction base="xs:integer"/>
+  </xs:simpleType>
+  <xs:element name="indCredNFe" type="indCredNFeType"/>
+  <xs:simpleType name="indCredNFeType">
+    <xs:restriction base="xs:integer"/>
+  </xs:simpleType>
+  <xs:element name="indCredCTe" type="indCredCTeType"/>
+  <xs:simpleType name="indCredCTeType">
+    <xs:restriction base="xs:integer"/>
+  </xs:simpleType>
+  <xs:element name="xNome" type="xNomeType"/>
+  <xs:simpleType name="xNomeType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="xRegApur" type="xRegApurType"/>
+  <xs:simpleType name="xRegApurType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="CNAE" type="CNAEType"/>
+  <xs:simpleType name="CNAEType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="dIniAtiv" type="dIniAtivType"/>
+  <xs:simpleType name="dIniAtivType">
+    <xs:restriction base="xs:timeInstant"/>
+  </xs:simpleType>
+  <xs:element name="dUltSit" type="dUltSitType"/>
+  <xs:simpleType name="dUltSitType">
+    <xs:restriction base="xs:timeInstant"/>
+  </xs:simpleType>
+  <xs:element name="ender" type="enderType"/>
+  <xs:complexType name="enderType">
+    <xs:sequence>
+      <xs:element name="xLgr" type="xLgrType"/>
+      <xs:element name="nro" type="nroType"/>
+      <xs:element name="xBairro" type="xBairroType"/>
+      <xs:element name="cMun" type="cMunType"/>
+      <xs:element name="xMun" type="xMunType"/>
+      <xs:element name="CEP" type="CEPType"/>
+      <xs:element name="xCpl" type="xCplType"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="xLgr" type="xLgrType"/>
+  <xs:simpleType name="xLgrType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="nro" type="nroType"/>
+  <xs:simpleType name="nroType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="xBairro" type="xBairroType"/>
+  <xs:simpleType name="xBairroType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="cMun" type="cMunType"/>
+  <xs:simpleType name="cMunType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="xMun" type="xMunType"/>
+  <xs:simpleType name="xMunType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="CEP" type="CEPType"/>
+  <xs:simpleType name="CEPType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="IEUnica" type="IEUnicaType"/>
+  <xs:simpleType name="IEUnicaType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="IEAtual" type="IEAtualType"/>
+  <xs:simpleType name="IEAtualType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="xCpl" type="xCplType"/>
+  <xs:simpleType name="xCplType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+</xs:schema>]]></XmlSchema><CdsSkeleton/><XslTransform/><Skeleton><![CDATA[<?xml version="1.0"?><DATAPACKET Version="2.0"><METADATA><FIELDS><FIELD attrname="IE" fieldtype="string" WIDTH="14"/><FIELD attrname="CNPJ" fieldtype="string" WIDTH="14"/><FIELD attrname="CPF" fieldtype="string" WIDTH="11"/><FIELD attrname="UF" fieldtype="string" WIDTH="2"/><FIELD attrname="cSit" fieldtype="i4"/><FIELD attrname="indCredNFe" fieldtype="i4"/><FIELD attrname="indCredCTe" fieldtype="i4"/><FIELD attrname="xNome" fieldtype="string" WIDTH="60"/><FIELD attrname="xRegApur" fieldtype="string" WIDTH="60"/><FIELD attrname="CNAE" fieldtype="string" WIDTH="7"/><FIELD attrname="dIniAtiv" fieldtype="dateTime"/><FIELD attrname="dUltSit" fieldtype="dateTime"/><FIELD attrname="IEUnica" fieldtype="string" WIDTH="14"/><FIELD attrname="IEAtual" fieldtype="string" WIDTH="14"/><FIELD attrname="xLgr" fieldtype="string" WIDTH="255"/><FIELD attrname="nro" fieldtype="string" WIDTH="60"/><FIELD attrname="xCpl" fieldtype="string" WIDTH="60"/><FIELD attrname="xBairro" fieldtype="string" WIDTH="60"/><FIELD attrname="cMun" fieldtype="string" WIDTH="7"/><FIELD attrname="xMun" fieldtype="string" WIDTH="60"/><FIELD attrname="CEP" fieldtype="string" WIDTH="8"/></FIELDS><PARAMS/></METADATA><ROWDATA/><METADATA><FIELDS><FIELD attrname="IE" fieldtype="string" WIDTH="14"/><FIELD attrname="CNPJ" fieldtype="string" WIDTH="14"/><FIELD attrname="CPF" fieldtype="string" WIDTH="11"/><FIELD attrname="UF" fieldtype="string" WIDTH="2"/><FIELD attrname="cSit" fieldtype="i4"/><FIELD attrname="indCredNFe" fieldtype="i4"/><FIELD attrname="indCredCTe" fieldtype="i4"/><FIELD attrname="xNome" fieldtype="string" WIDTH="60"/><FIELD attrname="xRegApur" fieldtype="string" WIDTH="60"/><FIELD attrname="CNAE" fieldtype="string" WIDTH="7"/><FIELD attrname="dIniAtiv" fieldtype="dateTime"/><FIELD attrname="dUltSit" fieldtype="dateTime"/><FIELD attrname="IEUnica" fieldtype="string" WIDTH="14"/><FIELD attrname="IEAtual" fieldtype="string" WIDTH="14"/><FIELD attrname="xLgr" fieldtype="string" WIDTH="255"/><FIELD attrname="nro" fieldtype="string" WIDTH="60"/><FIELD attrname="xCpl" fieldtype="string" WIDTH="60"/><FIELD attrname="xBairro" fieldtype="string" WIDTH="60"/><FIELD attrname="cMun" fieldtype="string" WIDTH="7"/><FIELD attrname="xMun" fieldtype="string" WIDTH="60"/><FIELD attrname="CEP" fieldtype="string" WIDTH="8"/></FIELDS><PARAMS/></METADATA><ROWDATA/></DATAPACKET>
+]]></Skeleton></XmlTransformation>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<EnviarLoteRpsEnvio xmlns="http://www.abrasf.org.br/ABRASF/arquivos/nfse.xsd" xmlns:ns2="http://www.w3.org/2000/09/xmldsig#">
+    <LoteRps>
+        <NumeroLote>367289</NumeroLote>
+        <Cnpj>15062082000176</Cnpj>
+        <QuantidadeRps>1</QuantidadeRps>
+        <ListaRps>
+            <Rps>
+                <InfRps>
+                    <IdentificacaoRps>
+                        <Serie>NF</Serie>
+                        <Tipo>0</Tipo>
+                    </IdentificacaoRps>
+                    <DataEmissao>2013-01-03T17:33:21.403-02:00</DataEmissao>
+                    <NaturezaOperacao>52</NaturezaOperacao>
+                    <RegimeEspecialTributacao>6</RegimeEspecialTributacao>
+                    <OptanteSimplesNacional>1</OptanteSimplesNacional>
+                    <IncentivadorCultural>2</IncentivadorCultural>
+                    <Status>1</Status>
+                    <Servico>
+                        <Valores>
+                            <ValorServicos>1459.70</ValorServicos>
+                            <ValorDeducoes>0</ValorDeducoes>
+                            <ValorPis>0</ValorPis>
+                            <ValorCofins>0</ValorCofins>
+                            <ValorInss>0</ValorInss>
+                            <ValorIr>0</ValorIr>
+                            <ValorCsll>0</ValorCsll>
+                            <IssRetido>2</IssRetido>
+                            <ValorIss>29.19</ValorIss>
+                            <ValorIssRetido>0</ValorIssRetido>
+                            <OutrasRetencoes>0</OutrasRetencoes>
+                            <BaseCalculo>1459.70</BaseCalculo>
+                            <Aliquota>0.02</Aliquota>
+                            <ValorLiquidoNfse>1459.70</ValorLiquidoNfse>
+                            <DescontoIncondicionado>0</DescontoIncondicionado>
+                            <DescontoCondicionado>0</DescontoCondicionado>
+                        </Valores>
+                        <ItemListaServico>107</ItemListaServico>
+                        <CodigoCnae>6209100</CodigoCnae>
+                        <Discriminacao>IMPLANTAÇÃO CORDILHEIRA.
+VALOR EM 3 X COM VENCIMENTO DIA 07 DE CADA MÊS.</Discriminacao>
+                        <CodigoMunicipio>4318705</CodigoMunicipio>
+                    </Servico>
+                    <Prestador>
+                        <Cnpj>15062082000176</Cnpj>
+                    </Prestador>
+                    <Tomador>
+                        <IdentificacaoTomador>
+                            <CpfCnpj>
+                                <Cnpj>92930973000148</Cnpj>
+                            </CpfCnpj>
+                            <InscricaoMunicipal>35865</InscricaoMunicipal>
+                        </IdentificacaoTomador>
+                        <RazaoSocial>INTERSOMA CONT E PROCESS LTDA</RazaoSocial>
+                        <Endereco>
+                            <Endereco>SAO JOAQUIM</Endereco>
+                            <Numero>788</Numero>
+                            <Complemento>SALA 102</Complemento>
+                            <Bairro>CENTRO</Bairro>
+                            <CodigoMunicipio>4318705</CodigoMunicipio>
+                            <Uf>RS</Uf>
+                            <Cep>93010190</Cep>
+                        </Endereco>
+                        <Contato>
+                            <Telefone/>
+                            <Email>guilherme@intersoma.com.br</Email>
+                        </Contato>
+                    </Tomador>
+                    <IntermediarioServico>
+                        <CpfCnpj/>
+                    </IntermediarioServico>
+                    <ContrucaoCivil/>
+                </InfRps>
+            </Rps>
+        </ListaRps>
+    </LoteRps>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><DigestValue>b00J+zbhtO4pkhZCNqJ1iSL7D4k=</DigestValue></Reference></SignedInfo><SignatureValue>n/wzID1etuvrxI2g2I78ICZD4vXN8nDecFQtF4CuCtLW6BXWG+TqQPAyx0edWvqjmOzntT3eqAts
+PoguP5lcyVlEHPNGTCPK8lqpQPfE9FXZYwCD4doPIDB3BDvQYCjtg+dgBziW054LxzrGxAJgpSSx
+V4rWIbTGw+QYYMUpL/VkxnDr0qdLBctdWRQDoWi26zreR46IUdWkBSYxyea8gYY6bcBEzJLlIvk7
+5VY72ZOcMJaHCjoyu2uczRDrOSfLqZ/nT9lEoAxqpq64W93rEbCsFmuO6Itry/Q3jftf3Ebs5wrM
+DM3wz4O/fT50CbMeH+UcB32NZzLoM88bA0jvgQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>CN=MASH INFORMATICA LTDA ME:15062082000176,OU=AR SAFEWEB,OU=RFB e-CNPJ A3,OU=Secretaria da Receita Federal do Brasil - RFB,O=ICP-Brasil,L=SAO LEOPOLDO,ST=RS,C=BR</X509SubjectName><X509Certificate>MIIH9jCCBd6gAwIBAgIIO4slMJw8ndswDQYJKoZIhvcNAQELBQAwdTELMAkGA1UEBhMCQlIxEzAR
+BgNVBAoTCklDUC1CcmFzaWwxNjA0BgNVBAsTLVNlY3JldGFyaWEgZGEgUmVjZWl0YSBGZWRlcmFs
+IGRvIEJyYXNpbCAtIFJGQjEZMBcGA1UEAxMQQUMgU0VSQVNBIFJGQiB2MjAeFw0xMjAzMTIxMzM0
+MDBaFw0xNTAzMTIxMzM0MDBaMIHdMQswCQYDVQQGEwJCUjELMAkGA1UECBMCUlMxFTATBgNVBAcT
+DFNBTyBMRU9QT0xETzETMBEGA1UEChMKSUNQLUJyYXNpbDE2MDQGA1UECxMtU2VjcmV0YXJpYSBk
+YSBSZWNlaXRhIEZlZGVyYWwgZG8gQnJhc2lsIC0gUkZCMRYwFAYDVQQLEw1SRkIgZS1DTlBKIEEz
+MRMwEQYDVQQLEwpBUiBTQUZFV0VCMTAwLgYDVQQDEydNQVNIIElORk9STUFUSUNBIExUREEgTUU6
+MTUwNjIwODIwMDAxNzYwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC2VGjhSOEaE9Ln
+Amg0/vb9+FVr1YppL6/Aqei2PrcQ5lMohXiss5pEqI/6IejoGrFcQgIc2bYoo/N6X+GY1WbZLHah
+8+jo3oV4Wu8h4twXnxV+zQuGv3vSKT0jLiCLkJ38Tw6dZY/1eRRrFBAz8OmX3JqVEEOp6UCAzJPw
+eznGilrj3fq6KlcczZlRtkC4vbROSZCNSubXj3L7KLXmrjbzDSPiVUYQkzA+Cwwt27nZuYPsS7qo
+T5tFyOWB/S22Tgd8n7+qHdoqg0cD1NeMw4Zr+rgLoQc09zYQvW0A8YuIcxPVmRwmcf8KFmCLZpxv
+fNmoc7PMdcSmXEzBc9Kro3kBAgMBAAGjggMfMIIDGzCBmQYIKwYBBQUHAQEEgYwwgYkwSAYIKwYB
+BQUHMAKGPGh0dHA6Ly93d3cuY2VydGlmaWNhZG9kaWdpdGFsLmNvbS5ici9jYWRlaWFzL3NlcmFz
+YXJmYnYyLnA3YjA9BggrBgEFBQcwAYYxaHR0cDovL29jc3AuY2VydGlmaWNhZG9kaWdpdGFsLmNv
+bS5ici9zZXJhc2FyZmJ2MjAJBgNVHRMEAjAAMB8GA1UdIwQYMBaAFLKgxD1GnnzIhWwIHhAylGVG
+cEFzMHEGA1UdIARqMGgwZgYGYEwBAgMKMFwwWgYIKwYBBQUHAgEWTmh0dHA6Ly9wdWJsaWNhY2Fv
+LmNlcnRpZmljYWRvZGlnaXRhbC5jb20uYnIvcmVwb3NpdG9yaW8vZHBjL2RlY2xhcmFjYW8tcmZi
+LnBkZjCB8wYDVR0fBIHrMIHoMEqgSKBGhkRodHRwOi8vd3d3LmNlcnRpZmljYWRvZGlnaXRhbC5j
+b20uYnIvcmVwb3NpdG9yaW8vbGNyL3NlcmFzYXJmYnYyLmNybDBEoEKgQIY+aHR0cDovL2xjci5j
+ZXJ0aWZpY2Fkb3MuY29tLmJyL3JlcG9zaXRvcmlvL2xjci9zZXJhc2FyZmJ2Mi5jcmwwVKBSoFCG
+Tmh0dHA6Ly9yZXBvc2l0b3Jpby5pY3BicmFzaWwuZ292LmJyL2xjci9TZXJhc2EvcmVwb3NpdG9y
+aW8vbGNyL3NlcmFzYXJmYnYyLmNybDAOBgNVHQ8BAf8EBAMCBeAwHQYDVR0lBBYwFAYIKwYBBQUH
+AwIGCCsGAQUFBwMEMIG4BgNVHREEgbAwga2BFVNIQUxBLlZTRUJTQEdNQUlMLkNPTaAmBgVgTAED
+AqAdExtTSEFMQSBWQU5FU1NBIEJBUlJPU08gQlJBR0GgGQYFYEwBAwOgEBMOMTUwNjIwODIwMDAx
+NzagOAYFYEwBAwSgLxMtMDEwMTE5ODcwMDczMjU3NjA1OTAwMDAwMDAwMDAwMDAwMDAwMDAwMDAw
+MDAwoBcGBWBMAQMHoA4TDDAwMDAwMDAwMDAwMDANBgkqhkiG9w0BAQsFAAOCAgEAG12uIit2wci3
+ubdJVIRhCLDT/KibFSgN1o46PGICMHHXKUu/8t07O68/pCr8kk2drCEPfEk6hzE0zNwZChJS5gYH
+oILrkIQa4MFVn/tE35XMGwW59+6GBgArG2gNP+ZpFFFB7WouDes85ctMb1Os9e+SRN2MwrvTG5Pq
+5E6bwccT6ZQvKZ5EN7iWeeX03JN+H4EukfLLgno8WT/DBxX/kTQx+eCaQiqdeYLvCD9gPSgslYhf
+BrDkmHqPYf81pTA3JllzATJgfKtMG8ip7oAfvDrLhlcapN30mBt61Cn+14AFMcD+x3hSvnQF1znq
+Q8s6W89Rk3MFtQnCsAcNNwoO6xQBKV5UzCO8FhWc5pNtsUozoHhVSrMUxMEt17Lg4ULY0ZWjU1Td
+4v556cdi8TQIcG3EFQd1D3jyeFWTapVmerX4SSpyBtpXQ36u8M+kNjry8He2f5341rbtbYa8cv3v
+39+Z2bjpcf9FMIFnn2g6G8g1U4dNYYm2ZxlhWQBDeD7BnTBIEOND44eE8Yuw4uHcWd6S8SqrpSMq
+DQk8IT84937MPKfMjWs4s3/dO4fSZHL2TPTM9RoC7YBJeH+xCmvBytm9WsYXv1Degk8zNm6eOHQE
+Bl2mN94o2ubpATRUxeLgV++KARfXoxf+5cvAihga4QEemOSS7QnTp28EUiLo+fo=</X509Certificate></X509Data></KeyInfo></Signature></EnviarLoteRpsEnvio>

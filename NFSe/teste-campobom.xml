@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NFS-e>
+   <infNFSe versao="1.00">
+      <Id>
+         <cNFS-e>104462885</cNFS-e>
+         <natOp>Prestação de Serviços</natOp>
+         <mod>55</mod>
+         <serie>T  </serie>
+         <nNFS-e>7105</nNFS-e>
+         <dEmi>2014-10-01</dEmi>
+         <tpNF>1</tpNF>
+         <cMunFG>0</cMunFG>
+         <refNF>00036479340001085500T000007105104462885</refNF>
+         <tpEmis>N</tpEmis>
+         <anulada>N</anulada>
+         <notadebito>N</notadebito>
+      </Id>
+      <emit>
+         <CNPJ>03647934000108</CNPJ>
+         <xNome>ORGANIZACOES CONTABEIS SCHMOKEL LTDA ME</xNome>
+         <xFant>ORGANIZACOES CONTABEIS SCHMOKEL</xFant>
+         <IM>12065</IM>
+         <end>
+            <xLgr>Av. BRASIL </xLgr>
+            <nro>2680</nro>
+            <xCpl>BL.A SL.01 e 02</xCpl>
+			<xBairro>teste</xBairro>
+            <cMun>4303905</cMun>
+            <xMun>Campo Bom</xMun>
+            <UF>RS</UF>
+            <CEP>93700000</CEP>
+            <cPais>1058</cPais>
+            <xPais>Brasil</xPais>
+            <fone>35976977</fone>
+         </end>
+      </emit>
+      <TomS>
+         <CNPJ>88874391000114</CNPJ>
+         <xNome>LANDY CALÇADOS LTDA ME</xNome>
+         <ender>
+            <xLgr>AV. Victor Hugo Kunz</xLgr>
+            <nro>3049</nro>
+            <xBairro>Canudos</xBairro>
+            <cMun>4313409</cMun>
+            <xMun>Novo Hamburgo</xMun>
+            <UF>RS</UF>
+            <CEP>93537470</CEP>
+            <cPais>1058</cPais>
+            <xPais>Brasil</xPais>
+         </ender>
+         <IE>086/0062708</IE>
+         <Praca>Campo Bom-RS</Praca>
+      </TomS>
+      <det>
+         <nItem>1</nItem>
+         <serv>
+            <cServ>20025</cServ>
+            <xServ>SERVIÇOS PRESTADOS REFTE. SETEMBRO DE 2014</xServ>
+            <uTrib>UN</uTrib>
+            <qTrib>1.00</qTrib>
+            <vUnit>250.00</vUnit>
+            <vServ>250.00</vServ>
+            <vDesc>0.00</vDesc>
+            <vBCISS>0.00</vBCISS>
+            <pISS>0.00</pISS>
+            <vISS>0.00</vISS>
+            <pRetINSS>0.00</pRetINSS>
+         </serv>
+      </det>
+      <total>
+         <vServ>250.00</vServ>
+         <vDesc>0.00</vDesc>
+         <vOutro>0.00</vOutro>
+         <vtNF>250.00</vtNF>
+         <vtLiq>250.00</vtLiq>
+         <ISS>
+            <vBCISS>0.00</vBCISS>
+            <vISS>0.00</vISS>
+            <vBCSTISS>0.00</vBCSTISS>
+            <vSTISS>0.00</vSTISS>
+         </ISS>
+      </total>
+   </infNFSe>
+</NFS-e>

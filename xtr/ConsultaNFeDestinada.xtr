@@ -1,0 +1,227 @@
+<XmlTransformation Version="1.0"><Transform Direction="ToCds" DataEncoding="UTF-8"><SelectEach dest="DATAPACKET\ROWDATA\ROW" from="\retConsNFeDest\ret"><Select dest="@NSU" from="\resNFe@NSU"/><Select dest="@chNFe" from="\resNFe\chNFe"/><Select dest="@CNPJ" from="\resNFe\CNPJ"/><Select dest="@CPF" from="\resNFe\CPF"/><Select dest="@xNome" from="\resNFe\xNome"/><Select dest="@IE" from="\resNFe\IE"/><Select dest="@dEmi" from="\resNFe\dEmi"/><Select dest="@tpNF" from="\resNFe\tpNF"/><Select dest="@vNF" from="\resNFe\vNF"/><Select dest="@digVal" from="\resNFe\digVal"/><Select dest="@dhRecbto" from="\resNFe\dhRecbto"/><Select dest="@cSitNFe" from="\resNFe\cSitNFe"/><Select dest="@cSitConf" from="\resNFe\cSitConf"/></SelectEach></Transform><XmlSchema RootName="retConsNFeDest"><![CDATA[<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="retConsNFeDest" type="retConsNFeDestType"/>
+  <xs:complexType name="retConsNFeDestType">
+    <xs:sequence>
+      <xs:element name="tpAmb" type="tpAmbType"/>
+      <xs:element name="verAplic" type="verAplicType"/>
+      <xs:element name="cStat" type="cStatType"/>
+      <xs:element name="xMotivo" type="xMotivoType"/>
+      <xs:element name="dhResp" type="dhRespType"/>
+      <xs:element name="indCont" type="indContType"/>
+      <xs:element name="ultNSU" type="ultNSUType"/>
+      <xs:element name="ret" type="retType" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+    <xs:attribute name="versao" type="xs:string"/>
+    <xs:attribute name="xmlns" type="xs:string"/>
+  </xs:complexType>
+  <xs:element name="tpAmb" type="tpAmbType"/>
+  <xs:simpleType name="tpAmbType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="verAplic" type="verAplicType"/>
+  <xs:simpleType name="verAplicType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="cStat" type="cStatType"/>
+  <xs:simpleType name="cStatType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="xMotivo" type="xMotivoType"/>
+  <xs:simpleType name="xMotivoType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="dhResp" type="dhRespType"/>
+  <xs:simpleType name="dhRespType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="indCont" type="indContType"/>
+  <xs:simpleType name="indContType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="ultNSU" type="ultNSUType"/>
+  <xs:simpleType name="ultNSUType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="ret" type="retType"/>
+  <xs:complexType name="retType">
+    <xs:sequence>
+      <xs:element name="resNFe" type="resNFeType"/>
+      <xs:element name="resCanc" type="resCancType"/>
+      <xs:element name="resCCe" type="resCCeType"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="resNFe" type="resNFeType"/>
+  <xs:complexType name="resNFeType">
+    <xs:sequence>
+      <xs:element name="chNFe" type="chNFeType"/>
+      <xs:element name="CNPJ" type="CNPJType"/>
+      <xs:element name="xNome" type="xNomeType"/>
+      <xs:element name="IE" type="IEType"/>
+      <xs:element name="dEmi" type="dEmiType"/>
+      <xs:element name="tpNF" type="tpNFType"/>
+      <xs:element name="vNF" type="vNFType"/>
+      <xs:element name="digVal" type="digValType"/>
+      <xs:element name="dhRecbto" type="dhRecbtoType"/>
+      <xs:element name="cSitNFe" type="cSitNFeType"/>
+      <xs:element name="cSitConf" type="cSitConfType"/>
+      <xs:element name="CPF" type="CPFType"/>
+    </xs:sequence>
+    <xs:attribute name="NSU" type="xs:integer"/>
+  </xs:complexType>
+  <xs:element name="chNFe" type="chNFeType"/>
+  <xs:simpleType name="chNFeType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="CNPJ" type="CNPJType"/>
+  <xs:simpleType name="CNPJType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="xNome" type="xNomeType"/>
+  <xs:simpleType name="xNomeType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="IE" type="IEType"/>
+  <xs:simpleType name="IEType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="dEmi" type="dEmiType"/>
+  <xs:simpleType name="dEmiType">
+    <xs:restriction base="xs:timeInstant"/>
+  </xs:simpleType>
+  <xs:element name="tpNF" type="tpNFType"/>
+  <xs:simpleType name="tpNFType">
+    <xs:restriction base="xs:integer"/>
+  </xs:simpleType>
+  <xs:element name="vNF" type="vNFType"/>
+  <xs:simpleType name="vNFType">
+    <xs:restriction base="xs:float"/>
+  </xs:simpleType>
+  <xs:element name="digVal" type="digValType"/>
+  <xs:simpleType name="digValType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="dhRecbto" type="dhRecbtoType"/>
+  <xs:simpleType name="dhRecbtoType">
+    <xs:restriction base="xs:timeInstant"/>
+  </xs:simpleType>
+  <xs:element name="cSitNFe" type="cSitNFeType"/>
+  <xs:simpleType name="cSitNFeType">
+    <xs:restriction base="xs:integer"/>
+  </xs:simpleType>
+  <xs:element name="cSitConf" type="cSitConfType"/>
+  <xs:simpleType name="cSitConfType">
+    <xs:restriction base="xs:integer"/>
+  </xs:simpleType>
+  <xs:element name="CPF" type="CPFType"/>
+  <xs:simpleType name="CPFType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="resCanc" type="resCancType"/>
+  <xs:complexType name="resCancType">
+    <xs:sequence>
+      <xs:element name="chNFe" type="chNFeType"/>
+      <xs:element name="CNPJ" type="CNPJType"/>
+      <xs:element name="xNome" type="xNomeType"/>
+      <xs:element name="IE" type="IEType"/>
+      <xs:element name="dEmi" type="dEmiType"/>
+      <xs:element name="tpNF" type="tpNFType"/>
+      <xs:element name="vNF" type="vNFType"/>
+      <xs:element name="digVal" type="digValType"/>
+      <xs:element name="dhRecbto" type="dhRecbtoType"/>
+      <xs:element name="cSitNFe" type="cSitNFeType"/>
+      <xs:element name="cSitConf" type="cSitConfType"/>
+    </xs:sequence>
+    <xs:attribute name="NSU" type="xs:string"/>
+  </xs:complexType>
+  <xs:element name="chNFe" type="chNFeType"/>
+  <xs:simpleType name="chNFeType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="CNPJ" type="CNPJType"/>
+  <xs:simpleType name="CNPJType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="xNome" type="xNomeType"/>
+  <xs:simpleType name="xNomeType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="IE" type="IEType"/>
+  <xs:simpleType name="IEType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="dEmi" type="dEmiType"/>
+  <xs:simpleType name="dEmiType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="tpNF" type="tpNFType"/>
+  <xs:simpleType name="tpNFType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="vNF" type="vNFType"/>
+  <xs:simpleType name="vNFType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="digVal" type="digValType"/>
+  <xs:simpleType name="digValType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="dhRecbto" type="dhRecbtoType"/>
+  <xs:simpleType name="dhRecbtoType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="cSitNFe" type="cSitNFeType"/>
+  <xs:simpleType name="cSitNFeType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="cSitConf" type="cSitConfType"/>
+  <xs:simpleType name="cSitConfType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="resCCe" type="resCCeType"/>
+  <xs:complexType name="resCCeType">
+    <xs:sequence>
+      <xs:element name="chNFe" type="chNFeType"/>
+      <xs:element name="dhEvento" type="dhEventoType"/>
+      <xs:element name="tpEvento" type="tpEventoType"/>
+      <xs:element name="nSeqEvento" type="nSeqEventoType"/>
+      <xs:element name="descEvento" type="descEventoType"/>
+      <xs:element name="xCorrecao" type="xCorrecaoType"/>
+      <xs:element name="tpNF" type="tpNFType"/>
+      <xs:element name="dhRecbto" type="dhRecbtoType"/>
+    </xs:sequence>
+    <xs:attribute name="NSU" type="xs:string"/>
+  </xs:complexType>
+  <xs:element name="chNFe" type="chNFeType"/>
+  <xs:simpleType name="chNFeType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="dhEvento" type="dhEventoType"/>
+  <xs:simpleType name="dhEventoType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="tpEvento" type="tpEventoType"/>
+  <xs:simpleType name="tpEventoType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="nSeqEvento" type="nSeqEventoType"/>
+  <xs:simpleType name="nSeqEventoType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="descEvento" type="descEventoType"/>
+  <xs:simpleType name="descEventoType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="xCorrecao" type="xCorrecaoType"/>
+  <xs:simpleType name="xCorrecaoType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="tpNF" type="tpNFType"/>
+  <xs:simpleType name="tpNFType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="dhRecbto" type="dhRecbtoType"/>
+  <xs:simpleType name="dhRecbtoType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+</xs:schema>]]></XmlSchema><CdsSkeleton/><XslTransform/><Skeleton><![CDATA[<?xml version="1.0"?><DATAPACKET Version="2.0"><METADATA><FIELDS><FIELD attrname="NSU" fieldtype="i4"/><FIELD attrname="chNFe" fieldtype="string" WIDTH="44"/><FIELD attrname="CNPJ" fieldtype="string" WIDTH="14"/><FIELD attrname="CPF" fieldtype="string" WIDTH="14"/><FIELD attrname="xNome" fieldtype="string" WIDTH="60"/><FIELD attrname="IE" fieldtype="string" WIDTH="14"/><FIELD attrname="dEmi" fieldtype="dateTime"/><FIELD attrname="tpNF" fieldtype="i4"/><FIELD attrname="vNF" fieldtype="r8"/><FIELD attrname="digVal" fieldtype="string" WIDTH="28"/><FIELD attrname="dhRecbto" fieldtype="dateTime"/><FIELD attrname="cSitNFe" fieldtype="i4"/><FIELD attrname="cSitConf" fieldtype="i4"/></FIELDS><PARAMS/></METADATA><ROWDATA/><METADATA><FIELDS><FIELD attrname="NSU" fieldtype="i4"/><FIELD attrname="chNFe" fieldtype="string" WIDTH="44"/><FIELD attrname="CNPJ" fieldtype="string" WIDTH="14"/><FIELD attrname="CPF" fieldtype="string" WIDTH="14"/><FIELD attrname="xNome" fieldtype="string" WIDTH="60"/><FIELD attrname="IE" fieldtype="string" WIDTH="14"/><FIELD attrname="dEmi" fieldtype="dateTime"/><FIELD attrname="tpNF" fieldtype="i4"/><FIELD attrname="vNF" fieldtype="r8"/><FIELD attrname="digVal" fieldtype="string" WIDTH="28"/><FIELD attrname="dhRecbto" fieldtype="dateTime"/><FIELD attrname="cSitNFe" fieldtype="i4"/><FIELD attrname="cSitConf" fieldtype="i4"/></FIELDS><PARAMS/></METADATA><ROWDATA/></DATAPACKET>
+]]></Skeleton></XmlTransformation>

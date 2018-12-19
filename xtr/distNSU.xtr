@@ -1,0 +1,60 @@
+<XmlTransformation Version="1.0"><Transform Direction="ToCds"><SelectEach dest="DATAPACKET\ROWDATA\ROW" from="\retDistDFeInt\loteDistDFeInt\docZip"><Select dest="@NSU" from="@NSU"/><Select dest="@schema" from="@schema"/></SelectEach></Transform><XmlSchema RootName="retDistDFeInt"><![CDATA[<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="retDistDFeInt" type="retDistDFeIntType"/>
+  <xs:complexType name="retDistDFeIntType">
+    <xs:sequence>
+      <xs:element name="tpAmb" type="tpAmbType"/>
+      <xs:element name="verAplic" type="verAplicType"/>
+      <xs:element name="cStat" type="cStatType"/>
+      <xs:element name="xMotivo" type="xMotivoType"/>
+      <xs:element name="dhResp" type="dhRespType"/>
+      <xs:element name="ultNSU" type="ultNSUType"/>
+      <xs:element name="maxNSU" type="maxNSUType"/>
+      <xs:element name="loteDistDFeInt" type="loteDistDFeIntType"/>
+    </xs:sequence>
+    <xs:attribute name="xmlns:xsd" type="xs:string"/>
+    <xs:attribute name="xmlns:xsi" type="xs:string"/>
+    <xs:attribute name="versao" type="xs:string"/>
+    <xs:attribute name="xmlns" type="xs:string"/>
+  </xs:complexType>
+  <xs:element name="tpAmb" type="tpAmbType"/>
+  <xs:simpleType name="tpAmbType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="verAplic" type="verAplicType"/>
+  <xs:simpleType name="verAplicType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="cStat" type="cStatType"/>
+  <xs:simpleType name="cStatType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="xMotivo" type="xMotivoType"/>
+  <xs:simpleType name="xMotivoType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="dhResp" type="dhRespType"/>
+  <xs:simpleType name="dhRespType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="ultNSU" type="ultNSUType"/>
+  <xs:simpleType name="ultNSUType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="maxNSU" type="maxNSUType"/>
+  <xs:simpleType name="maxNSUType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="loteDistDFeInt" type="loteDistDFeIntType"/>
+  <xs:complexType name="loteDistDFeIntType">
+    <xs:sequence>
+      <xs:element name="docZip" type="docZipType" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="docZip" type="docZipType"/>
+  <xs:complexType name="docZipType">
+    <xs:sequence/>
+    <xs:attribute name="NSU" type="xs:string"/>
+    <xs:attribute name="schema" type="xs:string"/>
+  </xs:complexType>
+</xs:schema>]]></XmlSchema><CdsSkeleton/><XslTransform/><Skeleton><![CDATA[<?xml version="1.0"?><DATAPACKET Version="2.0"><METADATA><FIELDS><FIELD attrname="NSU" fieldtype="string" WIDTH="15"/><FIELD attrname="schema" fieldtype="string" WIDTH="23"/></FIELDS><PARAMS/></METADATA><ROWDATA/><METADATA><FIELDS><FIELD attrname="NSU" fieldtype="string" WIDTH="15"/><FIELD attrname="schema" fieldtype="string" WIDTH="23"/></FIELDS><PARAMS/></METADATA><ROWDATA/></DATAPACKET>
+]]></Skeleton></XmlTransformation>

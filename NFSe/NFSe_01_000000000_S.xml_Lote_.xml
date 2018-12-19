@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ConsultarLoteRpsResposta xmlns="http://www.issnetonline.com.br/webserviceabrasf/vsd/servico_consultar_lote_rps_resposta.xsd" xmlns:tc="http://www.issnetonline.com.br/webserviceabrasf/vsd/tipos_complexos.xsd">
+  <ListaNfse>
+    <CompNfse>
+      <tc:Nfse>
+        <tc:InfNfse>
+          <tc:Numero>60</tc:Numero>
+          <tc:CodigoVerificacao> F4 51 70</tc:CodigoVerificacao>
+          <tc:DataEmissao>2013-04-09T00:18:33</tc:DataEmissao>
+          <tc:IdentificacaoRps>
+            <tc:Numero>3</tc:Numero>
+            <tc:Serie>3</tc:Serie>
+            <tc:Tipo>1</tc:Tipo>
+          </tc:IdentificacaoRps>
+          <tc:DataEmissaoRps>2013-04-09T00:18:33</tc:DataEmissaoRps>
+          <tc:NaturezaOperacao>1</tc:NaturezaOperacao>
+          <tc:OptanteSimplesNacional>2</tc:OptanteSimplesNacional>
+          <tc:IncentivadorCultural>2</tc:IncentivadorCultural>
+          <tc:Competencia>201304</tc:Competencia>
+          <tc:NfseSubstituida>1</tc:NfseSubstituida>
+          <tc:OutrasInformacoes>&lt;br&gt;</tc:OutrasInformacoes>
+          <tc:Servico>
+            <tc:ItemListaServico>105</tc:ItemListaServico>
+            <tc:CodigoCnae>6203100</tc:CodigoCnae>
+            <tc:CodigoTributacaoMunicipio>2526</tc:CodigoTributacaoMunicipio>
+            <tc:Discriminacao>(LICENCIAMENTO SOFTWARE  Valor R$ 60,00) (Ref Março 2013 - Vencimento: 15/04/2013.)</tc:Discriminacao>
+            <tc:MunicipioPrestacaoServico>4313409</tc:MunicipioPrestacaoServico>
+            <tc:Valores>
+              <tc:ValorServicos>60.00</tc:ValorServicos>
+              <tc:IssRetido>2</tc:IssRetido>
+              <tc:BaseCalculo>60.00</tc:BaseCalculo>
+              <tc:Aliquota>2</tc:Aliquota>
+              <tc:ValorLiquidoNfse>60</tc:ValorLiquidoNfse>
+              <tc:ValorIss>1.20</tc:ValorIss>
+              <tc:DescontoCondicionado>0.00</tc:DescontoCondicionado>
+              <tc:DescontoIncondicionado>0.00</tc:DescontoIncondicionado>
+            </tc:Valores>
+          </tc:Servico>
+          <tc:PrestadorServico>
+            <tc:IdentificacaoPrestador>
+              <tc:CpfCnpj>
+                <tc:Cnpj>05874179000120</tc:Cnpj>
+              </tc:CpfCnpj>
+              <tc:InscricaoMunicipal>77026</tc:InscricaoMunicipal>
+            </tc:IdentificacaoPrestador>
+            <tc:RazaoSocial>Cri Assessoria e Informatica Ltda</tc:RazaoSocial>
+            <tc:NomeFantasia>Cri Assessoria e Informatica Ltda</tc:NomeFantasia>
+            <tc:Endereco>
+              <tc:Endereco>Rua Tupi</tc:Endereco>
+              <tc:Numero>758</tc:Numero>
+              <tc:Complemento>3</tc:Complemento>
+              <tc:Bairro>Centro</tc:Bairro>
+              <tc:Cidade>4313409</tc:Cidade>
+              <tc:Estado>RS</tc:Estado>
+              <tc:Cep>93336010</tc:Cep>
+            </tc:Endereco>
+            <tc:Contato>
+              <tc:Telefone>5135829143</tc:Telefone>
+            </tc:Contato>
+          </tc:PrestadorServico>
+          <tc:TomadorServico>
+            <tc:IdentificacaoTomador>
+              <tc:CpfCnpj>
+                <tc:Cnpj>08598422000112</tc:Cnpj>
+              </tc:CpfCnpj>
+            </tc:IdentificacaoTomador>
+            <tc:RazaoSocial>ELIANDRA E SCHETTINI IND COM ART COURO LTDA ME</tc:RazaoSocial>
+            <tc:Endereco>
+              <tc:Endereco>RUA COIMBRA</tc:Endereco>
+              <tc:Numero>188</tc:Numero>
+              <tc:Bairro>SOL NASCENTE</tc:Bairro>
+              <tc:Cidade>4307609</tc:Cidade>
+              <tc:Estado>RS</tc:Estado>
+              <tc:Cep>93600001</tc:Cep>
+            </tc:Endereco>
+            <tc:Contato>
+              <tc:Telefone>00000000000</tc:Telefone>
+            </tc:Contato>
+          </tc:TomadorServico>
+          <tc:OrgaoGerador>
+            <tc:CodigoMunicipio>4313409</tc:CodigoMunicipio>
+            <tc:Uf>RS</tc:Uf>
+          </tc:OrgaoGerador>
+          <tc:ValorCredito>0</tc:ValorCredito>
+        </tc:InfNfse>
+        <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+          <SignedInfo>
+            <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+            <SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" />
+            <Reference URI="">
+              <Transforms>
+                <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+              </Transforms>
+              <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+              <DigestValue>KZUk60ZaOisHTPWEVFy83Dl/QPE=</DigestValue>
+            </Reference>
+          </SignedInfo>
+          <SignatureValue>unUk4T+eQPe//NMLzmONtmgPfecgRRlzQHx5M/FSOwzBus71oNtcmEGc4XO9dYK5wihphT9ezPXoqUFbuKOtdzp6KmPf1+HggsiSNsYENTY47SN9Z2F/BkPv4wIpt9WgEadKiYAiy5w0q3H+Zw1o+FVcCfKQPtb+PjXO1TQJkhc=</SignatureValue>
+          <KeyInfo>
+            <X509Data>
+              <X509Certificate>MIIE6zCCA9OgAwIBAgIKYVdRhAABAAAAJjANBgkqhkiG9w0BAQUFADCB6DEvMC0GCSqGSIb3DQEJARYgYWNub3RhY29udHJvbEBub3RhY29udHJvbC5jb20uYnIxDzANBgNVBAYTBkJyYXNpbDEbMBkGA1UECBMSTWF0byBHcm9zc28gZG8gU3VsMRUwEwYDVQQHEwxDYW1wbyBHcmFuZGUxMTAvBgNVBAsTKERlcGFydGFtZW50byBkZSBUZWNub2xvZ2lhIGRhIEluZm9ybWFjYW8xJTAjBgNVBAoTHE5vdGEgQ29udHJvbCBUZWNub2xvZ2lhIEx0ZGExFjAUBgNVBAMTDUFDTk9UQUNPTlRST0wwHhcNMDYwNjE5MTkyNzUwWhcNMDcwNjE5MTkzNzUwWjCBqTELMAkGA1UEBhMCQlIxCzAJBgNVBAgTAk1TMRUwEwYDVQQHEwxDYW1wbyBHcmFuZGUxFTATBgNVBAoTDE5vdGEgQ29udHJvbDEWMBQGA1UECwwNSW1wbGFudGHDp8OjbzEWMBQGA1UEAxMNTWFyaW5hIEZsb3JlczEvMC0GCSqGSIb3DQEJARYgbWFyaW5hLm1hdHJpekBub3RhY29udHJvbC5jb20uYnIwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAO3b4upTb+Dzfn8455N9idfTqF2058s28IQ5/GfuNjHwUe1Gdjj+Ge+6CDopVJK/tBpTxmhjj7AfdVfvMrRaHWEruupna2Yc9sCUAdu+WxpwPU4p85l1NQ7hFZrDsPnMM1GnuWOiQa3K3QGnUKCbSz5JioBTxddSqxAr2trwFFzhAgMBAAGjggFWMIIBUjAOBgNVHQ8BAf8EBAMCBPAwRAYJKoZIhvcNAQkPBDcwNTAOBggqhkiG9w0DAgICAIAwDgYIKoZIhvcNAwQCAgCAMAcGBSsOAwIHMAoGCCqGSIb3DQMHMB0GA1UdDgQWBBSlHRez2aXfGIYCwV4SBWhZ3BH0hjATBgNVHSUEDDAKBggrBgEFBQcDAjAfBgNVHSMEGDAWgBRmX/X2zlSS737xO8NBSJ0or/3g4jBMBgNVHR8ERTBDMEGgP6A9hjtodHRwOi8vMjAwLjE5OS4yMTguMjM2L2NybHMvYWNub3RhY29udHJvbC9hY25vdGFjb250cm9sLmNybDBXBggrBgEFBQcBAQRLMEkwRwYIKwYBBQUHMAKGO2h0dHA6Ly8yMDAuMTk5LjIxOC4yMzYvbHBjL2Fjbm90YWNvbnRyb2wvbHBjbm90YWNvbnRyb2wucGRmMA0GCSqGSIb3DQEBBQUAA4IBAQCZNKnc4zeRso3V5jx1E81DwMIG8u/Kq+KQbxWE1bM+Qy7jQ0+LC0lJHQT9Ot7mD/WXmDLVTSy5aZbDBuc7uSaz6LgdgBekzUOcAvVhnv5r4Zu74zjcpWABn78T1P9LLPwJZmKZVFJei2fVuhoP+lbXHmKl8DCb3kAfpKE41/75rMchUBBGf8++Q1Wbq/ycs/cFldgcW1vtKThjAsIBJvFNAgPVXvdhmVf9aTXkdKvrYITmlhPt5oK5mxzKJK22aRUI8F3w6uvtHvBGB3mNusbR4mGgj2KqY7q4xtHpD17CgjG9Q9lCT8gunMDJDXJN7CymuzVZB00xKT1z/MMVcgH2</X509Certificate>
+            </X509Data>
+          </KeyInfo>
+        </Signature>
+      </tc:Nfse>
+    </CompNfse>
+  </ListaNfse>
+</ConsultarLoteRpsResposta>

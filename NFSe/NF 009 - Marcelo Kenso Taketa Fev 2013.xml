@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ConsultarNfseRpsResposta xmlns:tc="http://www.issnetonline.com.br/webserviceabrasf/vsd/tipos_complexos.xsd" xmlns:ts="http://www.issnetonline.com.br/webserviceabrasf/vsd/tipos_simples.xsd" xmlns="http://www.issnetonline.com.br/webserviceabrasf/vsd/servico_consultar_nfse_rps_resposta.xsd">
+  <CompNfse>
+    <tc:Nfse>
+      <tc:InfNfse>
+        <tc:Numero>9</tc:Numero>
+        <tc:CodigoVerificacao> AB 94 3A</tc:CodigoVerificacao>
+        <tc:DataEmissao>2013-02-04T23:16:30</tc:DataEmissao>
+        <tc:NaturezaOperacao>1</tc:NaturezaOperacao>
+        <tc:RegimeEspecialTributacao>1</tc:RegimeEspecialTributacao>
+        <tc:OptanteSimplesNacional>2</tc:OptanteSimplesNacional>
+        <tc:IncentivadorCultural>2</tc:IncentivadorCultural>
+        <tc:Competencia>201302</tc:Competencia>
+        <tc:NfseSubstituida>1</tc:NfseSubstituida>
+        <tc:OutrasInformacoes>REFERENTE HOSPEDAGEM DEZEMBRO 2012 e JANEIRO 2013&lt;br&gt; &amp;bull; .</tc:OutrasInformacoes>
+        <tc:Servico>
+          <tc:ItemListaServico>103</tc:ItemListaServico>
+          <tc:CodigoCnae>6311900</tc:CodigoCnae>
+          <tc:CodigoTributacaoMunicipio>2526</tc:CodigoTributacaoMunicipio>
+          <tc:Discriminacao>PRESTAÇÃO DE SERVIÇO INFORMATICA
+VENCIMENTO: 07/02/2013</tc:Discriminacao>
+          <tc:MunicipioPrestacaoServico>4313409</tc:MunicipioPrestacaoServico>
+          <tc:Valores>
+            <tc:ValorServicos>180</tc:ValorServicos>
+            <tc:ValorDeducoes>0</tc:ValorDeducoes>
+            <tc:ValorPis>0</tc:ValorPis>
+            <tc:ValorCofins>0</tc:ValorCofins>
+            <tc:ValorInss>0</tc:ValorInss>
+            <tc:ValorIr>0</tc:ValorIr>
+            <tc:ValorCsll>0</tc:ValorCsll>
+            <tc:IssRetido>2</tc:IssRetido>
+            <tc:OutrasRetencoes>0</tc:OutrasRetencoes>
+            <tc:BaseCalculo>180</tc:BaseCalculo>
+            <tc:Aliquota>2</tc:Aliquota>
+            <tc:ValorLiquidoNfse>180</tc:ValorLiquidoNfse>
+            <tc:ValorIssRetido>0</tc:ValorIssRetido>
+            <tc:ValorIss>3.6</tc:ValorIss>
+            <tc:DescontoCondicionado>0</tc:DescontoCondicionado>
+            <tc:DescontoIncondicionado>0</tc:DescontoIncondicionado>
+          </tc:Valores>
+        </tc:Servico>
+        <tc:PrestadorServico>
+          <tc:IdentificacaoPrestador>
+            <tc:CpfCnpj>
+              <tc:Cnpj>05874179000120</tc:Cnpj>
+            </tc:CpfCnpj>
+            <tc:InscricaoMunicipal>77026</tc:InscricaoMunicipal>
+          </tc:IdentificacaoPrestador>
+          <tc:RazaoSocial>Cri Assessoria e Informatica Ltda</tc:RazaoSocial>
+          <tc:NomeFantasia>Cri Assessoria e Informatica Ltda</tc:NomeFantasia>
+          <tc:Endereco>
+            <tc:Endereco>Rua Tupi</tc:Endereco>
+            <tc:Numero>758</tc:Numero>
+            <tc:Complemento>3</tc:Complemento>
+            <tc:Bairro>Centro</tc:Bairro>
+            <tc:Cidade>4313409</tc:Cidade>
+            <tc:Estado>RS</tc:Estado>
+            <tc:Cep>93336010</tc:Cep>
+          </tc:Endereco>
+          <tc:Contato>
+            <tc:Telefone>5135829143</tc:Telefone>
+          </tc:Contato>
+        </tc:PrestadorServico>
+        <tc:TomadorServico>
+          <tc:IdentificacaoTomador>
+            <tc:CpfCnpj>
+              <tc:Cpf>93164327072</tc:Cpf>
+            </tc:CpfCnpj>
+          </tc:IdentificacaoTomador>
+          <tc:RazaoSocial>MARCELO KENZO TAKETA</tc:RazaoSocial>
+          <tc:Endereco>
+            <tc:Endereco>Avenida Lúcio Bittencourt</tc:Endereco>
+            <tc:Numero>1485</tc:Numero>
+            <tc:Bairro>Vacchi</tc:Bairro>
+            <tc:Cidade>4320008</tc:Cidade>
+            <tc:Estado>RS</tc:Estado>
+            <tc:Cep>93214170</tc:Cep>
+          </tc:Endereco>
+          <tc:Contato>
+            <tc:Email>marcelo@taketa.com.br</tc:Email>
+          </tc:Contato>
+        </tc:TomadorServico>
+        <tc:OrgaoGerador>
+          <tc:CodigoMunicipio>4313409</tc:CodigoMunicipio>
+          <tc:Uf>RS</tc:Uf>
+        </tc:OrgaoGerador>
+        <tc:ValorCredito>0</tc:ValorCredito>
+      </tc:InfNfse>
+      <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+        <SignedInfo>
+          <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+          <SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" />
+          <Reference URI="http://www.w3.org/TR/2000/REC-xhtml1-20000126/">
+            <Transforms>
+              <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+            </Transforms>
+            <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+            <DigestValue>9nA/0zd4XCkxmiOZK1lpiLXmmgg=</DigestValue>
+          </Reference>
+        </SignedInfo>
+        <SignatureValue>
+        </SignatureValue>
+        <KeyInfo>
+          <X509Data>
+            <X509Certificate>
+            </X509Certificate>
+          </X509Data>
+        </KeyInfo>
+      </Signature>
+    </tc:Nfse>
+  </CompNfse>
+</ConsultarNfseRpsResposta>

@@ -1,0 +1,2783 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ConsultarNfseResposta xmlns="http://www.issnetonline.com.br/webserviceabrasf/vsd/servico_consultar_nfse_resposta.xsd" xmlns:tc="http://www.issnetonline.com.br/webserviceabrasf/vsd/tipos_complexos.xsd" xmlns:ts="http://www.issnetonline.com.br/webserviceabrasf/vsd/tipos_simples.xsd">
+  <ListaNfse>
+    <CompNfse>
+      <tc:Nfse>
+        <tc:InfNfse>
+          <tc:Numero>37</tc:Numero>
+          <tc:CodigoVerificacao>5 6 7E AC</tc:CodigoVerificacao>
+          <tc:DataEmissao>2013-03-11T16:04:02</tc:DataEmissao>
+          <tc:NaturezaOperacao>1</tc:NaturezaOperacao>
+          <tc:RegimeEspecialTributacao>1</tc:RegimeEspecialTributacao>
+          <tc:OptanteSimplesNacional>2</tc:OptanteSimplesNacional>
+          <tc:IncentivadorCultural>2</tc:IncentivadorCultural>
+          <tc:Competencia>201303</tc:Competencia>
+          <tc:NfseSubstituida>1</tc:NfseSubstituida>
+          <tc:OutrasInformacoes>- LICENCIAMENTO DE SOFTWARE REF. FEVEREIRO 2013&lt;br&gt; &amp;bull; .</tc:OutrasInformacoes>
+          <tc:Servico>
+            <tc:ItemListaServico>105</tc:ItemListaServico>
+            <tc:CodigoCnae>6203100</tc:CodigoCnae>
+            <tc:CodigoTributacaoMunicipio>2526</tc:CodigoTributacaoMunicipio>
+            <tc:Discriminacao>- LICENCIAMENTO DE SOFTWARE</tc:Discriminacao>
+            <tc:MunicipioPrestacaoServico>4313409</tc:MunicipioPrestacaoServico>
+            <tc:Valores>
+              <tc:ValorServicos>75</tc:ValorServicos>
+              <tc:ValorDeducoes>0</tc:ValorDeducoes>
+              <tc:ValorPis>0</tc:ValorPis>
+              <tc:ValorCofins>0</tc:ValorCofins>
+              <tc:ValorInss>0</tc:ValorInss>
+              <tc:ValorIr>0</tc:ValorIr>
+              <tc:ValorCsll>0</tc:ValorCsll>
+              <tc:IssRetido>2</tc:IssRetido>
+              <tc:OutrasRetencoes>0</tc:OutrasRetencoes>
+              <tc:BaseCalculo>75</tc:BaseCalculo>
+              <tc:Aliquota>2</tc:Aliquota>
+              <tc:ValorLiquidoNfse>75</tc:ValorLiquidoNfse>
+              <tc:ValorIssRetido>0</tc:ValorIssRetido>
+              <tc:ValorIss>1.5</tc:ValorIss>
+              <tc:DescontoCondicionado>0</tc:DescontoCondicionado>
+              <tc:DescontoIncondicionado>0</tc:DescontoIncondicionado>
+            </tc:Valores>
+          </tc:Servico>
+          <tc:PrestadorServico>
+            <tc:IdentificacaoPrestador>
+              <tc:CpfCnpj>
+                <tc:Cnpj>05874179000120</tc:Cnpj>
+              </tc:CpfCnpj>
+              <tc:InscricaoMunicipal>77026</tc:InscricaoMunicipal>
+            </tc:IdentificacaoPrestador>
+            <tc:RazaoSocial>Cri Assessoria e Informatica Ltda</tc:RazaoSocial>
+            <tc:NomeFantasia>Cri Assessoria e Informatica Ltda</tc:NomeFantasia>
+            <tc:Endereco>
+              <tc:Endereco>Rua Tupi</tc:Endereco>
+              <tc:Numero>758</tc:Numero>
+              <tc:Complemento>3</tc:Complemento>
+              <tc:Bairro>Centro</tc:Bairro>
+              <tc:Cidade>4313409</tc:Cidade>
+              <tc:Estado>RS</tc:Estado>
+              <tc:Cep>93336010</tc:Cep>
+            </tc:Endereco>
+            <tc:Contato>
+              <tc:Telefone>5135829143</tc:Telefone>
+            </tc:Contato>
+          </tc:PrestadorServico>
+          <tc:TomadorServico>
+            <tc:IdentificacaoTomador>
+              <tc:CpfCnpj>
+                <tc:Cnpj>01215283000151</tc:Cnpj>
+              </tc:CpfCnpj>
+            </tc:IdentificacaoTomador>
+            <tc:RazaoSocial>VALDIR FERNANDES DE OLIVEIRA ME</tc:RazaoSocial>
+            <tc:Endereco>
+              <tc:Endereco>Avenida Mauá</tc:Endereco>
+              <tc:Numero>2266</tc:Numero>
+              <tc:Complemento>SALA 3</tc:Complemento>
+              <tc:Bairro>Centro</tc:Bairro>
+              <tc:Cidade>4320008</tc:Cidade>
+              <tc:Estado>RS</tc:Estado>
+              <tc:Cep>93218270</tc:Cep>
+            </tc:Endereco>
+            <tc:Contato />
+          </tc:TomadorServico>
+          <tc:OrgaoGerador>
+            <tc:CodigoMunicipio>4313409</tc:CodigoMunicipio>
+            <tc:Uf>RS</tc:Uf>
+          </tc:OrgaoGerador>
+          <tc:ValorCredito>0</tc:ValorCredito>
+        </tc:InfNfse>
+        <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+          <SignedInfo>
+            <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+            <SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" />
+            <Reference URI="http://www.w3.org/TR/2000/REC-xhtml1-20000126/">
+              <Transforms>
+                <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+              </Transforms>
+              <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+              <DigestValue>MAXUC6orVAAdPxdeJw3M6Not9+E=</DigestValue>
+            </Reference>
+          </SignedInfo>
+          <SignatureValue />
+          <KeyInfo>
+            <X509Data>
+              <X509Certificate />
+            </X509Data>
+          </KeyInfo>
+        </Signature>
+      </tc:Nfse>
+    </CompNfse>
+    <CompNfse>
+      <tc:Nfse>
+        <tc:InfNfse>
+          <tc:Numero>38</tc:Numero>
+          <tc:CodigoVerificacao>B 5 22 D3</tc:CodigoVerificacao>
+          <tc:DataEmissao>2013-03-11T16:14:19</tc:DataEmissao>
+          <tc:NaturezaOperacao>1</tc:NaturezaOperacao>
+          <tc:RegimeEspecialTributacao>1</tc:RegimeEspecialTributacao>
+          <tc:OptanteSimplesNacional>2</tc:OptanteSimplesNacional>
+          <tc:IncentivadorCultural>2</tc:IncentivadorCultural>
+          <tc:Competencia>201303</tc:Competencia>
+          <tc:NfseSubstituida>1</tc:NfseSubstituida>
+          <tc:OutrasInformacoes>REF. IMPLANTAÇÃO E TREINAMENTO, E LICENCIAMENTO FEVEREIRO 2013&lt;br&gt; &amp;bull; .</tc:OutrasInformacoes>
+          <tc:Servico>
+            <tc:ItemListaServico>105</tc:ItemListaServico>
+            <tc:CodigoCnae>6203100</tc:CodigoCnae>
+            <tc:CodigoTributacaoMunicipio>2526</tc:CodigoTributacaoMunicipio>
+            <tc:Discriminacao>- IMPLANTAÇÃO E TREINAMENTO
+- LICENCIAMENTO DE SOFTWARE
+VENCIMENTO: 15/03/2013</tc:Discriminacao>
+            <tc:MunicipioPrestacaoServico>4313409</tc:MunicipioPrestacaoServico>
+            <tc:Valores>
+              <tc:ValorServicos>360</tc:ValorServicos>
+              <tc:ValorDeducoes>0</tc:ValorDeducoes>
+              <tc:ValorPis>0</tc:ValorPis>
+              <tc:ValorCofins>0</tc:ValorCofins>
+              <tc:ValorInss>0</tc:ValorInss>
+              <tc:ValorIr>0</tc:ValorIr>
+              <tc:ValorCsll>0</tc:ValorCsll>
+              <tc:IssRetido>2</tc:IssRetido>
+              <tc:OutrasRetencoes>0</tc:OutrasRetencoes>
+              <tc:BaseCalculo>360</tc:BaseCalculo>
+              <tc:Aliquota>2</tc:Aliquota>
+              <tc:ValorLiquidoNfse>360</tc:ValorLiquidoNfse>
+              <tc:ValorIssRetido>0</tc:ValorIssRetido>
+              <tc:ValorIss>7.2</tc:ValorIss>
+              <tc:DescontoCondicionado>0</tc:DescontoCondicionado>
+              <tc:DescontoIncondicionado>0</tc:DescontoIncondicionado>
+            </tc:Valores>
+          </tc:Servico>
+          <tc:PrestadorServico>
+            <tc:IdentificacaoPrestador>
+              <tc:CpfCnpj>
+                <tc:Cnpj>05874179000120</tc:Cnpj>
+              </tc:CpfCnpj>
+              <tc:InscricaoMunicipal>77026</tc:InscricaoMunicipal>
+            </tc:IdentificacaoPrestador>
+            <tc:RazaoSocial>Cri Assessoria e Informatica Ltda</tc:RazaoSocial>
+            <tc:NomeFantasia>Cri Assessoria e Informatica Ltda</tc:NomeFantasia>
+            <tc:Endereco>
+              <tc:Endereco>Rua Tupi</tc:Endereco>
+              <tc:Numero>758</tc:Numero>
+              <tc:Complemento>3</tc:Complemento>
+              <tc:Bairro>Centro</tc:Bairro>
+              <tc:Cidade>4313409</tc:Cidade>
+              <tc:Estado>RS</tc:Estado>
+              <tc:Cep>93336010</tc:Cep>
+            </tc:Endereco>
+            <tc:Contato>
+              <tc:Telefone>5135829143</tc:Telefone>
+            </tc:Contato>
+          </tc:PrestadorServico>
+          <tc:TomadorServico>
+            <tc:IdentificacaoTomador>
+              <tc:CpfCnpj>
+                <tc:Cnpj>08598422000112</tc:Cnpj>
+              </tc:CpfCnpj>
+            </tc:IdentificacaoTomador>
+            <tc:RazaoSocial>ELIANDRA</tc:RazaoSocial>
+            <tc:Endereco>
+              <tc:Endereco>RUA COIMBRA</tc:Endereco>
+              <tc:Numero>188</tc:Numero>
+              <tc:Bairro>SOL NASCENTE</tc:Bairro>
+              <tc:Cidade>4307609</tc:Cidade>
+              <tc:Estado>RS</tc:Estado>
+              <tc:Cep>93600001</tc:Cep>
+            </tc:Endereco>
+            <tc:Contato />
+          </tc:TomadorServico>
+          <tc:OrgaoGerador>
+            <tc:CodigoMunicipio>4313409</tc:CodigoMunicipio>
+            <tc:Uf>RS</tc:Uf>
+          </tc:OrgaoGerador>
+          <tc:ValorCredito>0</tc:ValorCredito>
+        </tc:InfNfse>
+        <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+          <SignedInfo>
+            <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+            <SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" />
+            <Reference URI="http://www.w3.org/TR/2000/REC-xhtml1-20000126/">
+              <Transforms>
+                <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+              </Transforms>
+              <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+              <DigestValue>wd+1QHdJlPwq+4FKKIgFq3Wa8M0=</DigestValue>
+            </Reference>
+          </SignedInfo>
+          <SignatureValue />
+          <KeyInfo>
+            <X509Data>
+              <X509Certificate />
+            </X509Data>
+          </KeyInfo>
+        </Signature>
+      </tc:Nfse>
+    </CompNfse>
+    <CompNfse>
+      <tc:Nfse>
+        <tc:InfNfse>
+          <tc:Numero>39</tc:Numero>
+          <tc:CodigoVerificacao> EF 8C CB</tc:CodigoVerificacao>
+          <tc:DataEmissao>2013-03-18T14:25:32</tc:DataEmissao>
+          <tc:NaturezaOperacao>1</tc:NaturezaOperacao>
+          <tc:RegimeEspecialTributacao>1</tc:RegimeEspecialTributacao>
+          <tc:OptanteSimplesNacional>2</tc:OptanteSimplesNacional>
+          <tc:IncentivadorCultural>2</tc:IncentivadorCultural>
+          <tc:Competencia>201303</tc:Competencia>
+          <tc:NfseSubstituida>1</tc:NfseSubstituida>
+          <tc:OutrasInformacoes>REF IMPLANTAÇÃO E TREINAMENTO DE SOFTWARE MARÇO 2012&lt;br&gt; &amp;bull; .</tc:OutrasInformacoes>
+          <tc:Servico>
+            <tc:ItemListaServico>105</tc:ItemListaServico>
+            <tc:CodigoCnae>62033100</tc:CodigoCnae>
+            <tc:CodigoTributacaoMunicipio>2526</tc:CodigoTributacaoMunicipio>
+            <tc:Discriminacao>- IMPLANTAÇÃO E TREINAMENTO DE SOTWARE</tc:Discriminacao>
+            <tc:MunicipioPrestacaoServico>4313409</tc:MunicipioPrestacaoServico>
+            <tc:Valores>
+              <tc:ValorServicos>500</tc:ValorServicos>
+              <tc:ValorDeducoes>0</tc:ValorDeducoes>
+              <tc:ValorPis>0</tc:ValorPis>
+              <tc:ValorCofins>0</tc:ValorCofins>
+              <tc:ValorInss>0</tc:ValorInss>
+              <tc:ValorIr>0</tc:ValorIr>
+              <tc:ValorCsll>0</tc:ValorCsll>
+              <tc:IssRetido>2</tc:IssRetido>
+              <tc:OutrasRetencoes>0</tc:OutrasRetencoes>
+              <tc:BaseCalculo>500</tc:BaseCalculo>
+              <tc:Aliquota>2</tc:Aliquota>
+              <tc:ValorLiquidoNfse>500</tc:ValorLiquidoNfse>
+              <tc:ValorIssRetido>0</tc:ValorIssRetido>
+              <tc:ValorIss>10</tc:ValorIss>
+              <tc:DescontoCondicionado>0</tc:DescontoCondicionado>
+              <tc:DescontoIncondicionado>0</tc:DescontoIncondicionado>
+            </tc:Valores>
+          </tc:Servico>
+          <tc:PrestadorServico>
+            <tc:IdentificacaoPrestador>
+              <tc:CpfCnpj>
+                <tc:Cnpj>05874179000120</tc:Cnpj>
+              </tc:CpfCnpj>
+              <tc:InscricaoMunicipal>77026</tc:InscricaoMunicipal>
+            </tc:IdentificacaoPrestador>
+            <tc:RazaoSocial>Cri Assessoria e Informatica Ltda</tc:RazaoSocial>
+            <tc:NomeFantasia>Cri Assessoria e Informatica Ltda</tc:NomeFantasia>
+            <tc:Endereco>
+              <tc:Endereco>Rua Tupi</tc:Endereco>
+              <tc:Numero>758</tc:Numero>
+              <tc:Complemento>3</tc:Complemento>
+              <tc:Bairro>Centro</tc:Bairro>
+              <tc:Cidade>4313409</tc:Cidade>
+              <tc:Estado>RS</tc:Estado>
+              <tc:Cep>93336010</tc:Cep>
+            </tc:Endereco>
+            <tc:Contato>
+              <tc:Telefone>5135829143</tc:Telefone>
+            </tc:Contato>
+          </tc:PrestadorServico>
+          <tc:TomadorServico>
+            <tc:IdentificacaoTomador>
+              <tc:CpfCnpj>
+                <tc:Cnpj>02148430000180</tc:Cnpj>
+              </tc:CpfCnpj>
+            </tc:IdentificacaoTomador>
+            <tc:RazaoSocial>SANDRA VERGINIA FLORES DOMINGUES ME</tc:RazaoSocial>
+            <tc:Endereco>
+              <tc:Endereco>Av. PRESIDENTE VARGAS</tc:Endereco>
+              <tc:Numero>3202</tc:Numero>
+              <tc:Complemento>PAVILH 01</tc:Complemento>
+              <tc:Bairro>CENTRO</tc:Bairro>
+              <tc:Cidade>4307708</tc:Cidade>
+              <tc:Estado>RS</tc:Estado>
+              <tc:Cep>93265226</tc:Cep>
+            </tc:Endereco>
+            <tc:Contato>
+              <tc:Telefone>5134583340</tc:Telefone>
+            </tc:Contato>
+          </tc:TomadorServico>
+          <tc:OrgaoGerador>
+            <tc:CodigoMunicipio>4313409</tc:CodigoMunicipio>
+            <tc:Uf>RS</tc:Uf>
+          </tc:OrgaoGerador>
+          <tc:ValorCredito>0</tc:ValorCredito>
+        </tc:InfNfse>
+        <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+          <SignedInfo>
+            <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+            <SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" />
+            <Reference URI="http://www.w3.org/TR/2000/REC-xhtml1-20000126/">
+              <Transforms>
+                <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+              </Transforms>
+              <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+              <DigestValue>8O8E/7Z1VY1ZRPFzzyKvlhxmiq8=</DigestValue>
+            </Reference>
+          </SignedInfo>
+          <SignatureValue />
+          <KeyInfo>
+            <X509Data>
+              <X509Certificate />
+            </X509Data>
+          </KeyInfo>
+        </Signature>
+      </tc:Nfse>
+    </CompNfse>
+    <CompNfse>
+      <tc:Nfse>
+        <tc:InfNfse>
+          <tc:Numero>40</tc:Numero>
+          <tc:CodigoVerificacao>0 73 2 A0</tc:CodigoVerificacao>
+          <tc:DataEmissao>2013-03-18T16:09:11</tc:DataEmissao>
+          <tc:NaturezaOperacao>1</tc:NaturezaOperacao>
+          <tc:RegimeEspecialTributacao>1</tc:RegimeEspecialTributacao>
+          <tc:OptanteSimplesNacional>2</tc:OptanteSimplesNacional>
+          <tc:IncentivadorCultural>2</tc:IncentivadorCultural>
+          <tc:Competencia>201303</tc:Competencia>
+          <tc:NfseSubstituida>1</tc:NfseSubstituida>
+          <tc:OutrasInformacoes>- MANUTENÇÃO COMPUTADOR&lt;br&gt; &amp;bull; .</tc:OutrasInformacoes>
+          <tc:Servico>
+            <tc:ItemListaServico>107</tc:ItemListaServico>
+            <tc:CodigoCnae>9511800</tc:CodigoCnae>
+            <tc:CodigoTributacaoMunicipio>2526</tc:CodigoTributacaoMunicipio>
+            <tc:Discriminacao>- MANUTENÇÃO DE COMPUTADOR</tc:Discriminacao>
+            <tc:MunicipioPrestacaoServico>4313409</tc:MunicipioPrestacaoServico>
+            <tc:Valores>
+              <tc:ValorServicos>150</tc:ValorServicos>
+              <tc:ValorDeducoes>0</tc:ValorDeducoes>
+              <tc:ValorPis>0</tc:ValorPis>
+              <tc:ValorCofins>0</tc:ValorCofins>
+              <tc:ValorInss>0</tc:ValorInss>
+              <tc:ValorIr>0</tc:ValorIr>
+              <tc:ValorCsll>0</tc:ValorCsll>
+              <tc:IssRetido>2</tc:IssRetido>
+              <tc:OutrasRetencoes>0</tc:OutrasRetencoes>
+              <tc:BaseCalculo>150</tc:BaseCalculo>
+              <tc:Aliquota>2</tc:Aliquota>
+              <tc:ValorLiquidoNfse>150</tc:ValorLiquidoNfse>
+              <tc:ValorIssRetido>0</tc:ValorIssRetido>
+              <tc:ValorIss>3</tc:ValorIss>
+              <tc:DescontoCondicionado>0</tc:DescontoCondicionado>
+              <tc:DescontoIncondicionado>0</tc:DescontoIncondicionado>
+            </tc:Valores>
+          </tc:Servico>
+          <tc:PrestadorServico>
+            <tc:IdentificacaoPrestador>
+              <tc:CpfCnpj>
+                <tc:Cnpj>05874179000120</tc:Cnpj>
+              </tc:CpfCnpj>
+              <tc:InscricaoMunicipal>77026</tc:InscricaoMunicipal>
+            </tc:IdentificacaoPrestador>
+            <tc:RazaoSocial>Cri Assessoria e Informatica Ltda</tc:RazaoSocial>
+            <tc:NomeFantasia>Cri Assessoria e Informatica Ltda</tc:NomeFantasia>
+            <tc:Endereco>
+              <tc:Endereco>Rua Tupi</tc:Endereco>
+              <tc:Numero>758</tc:Numero>
+              <tc:Complemento>3</tc:Complemento>
+              <tc:Bairro>Centro</tc:Bairro>
+              <tc:Cidade>4313409</tc:Cidade>
+              <tc:Estado>RS</tc:Estado>
+              <tc:Cep>93336010</tc:Cep>
+            </tc:Endereco>
+            <tc:Contato>
+              <tc:Telefone>5135829143</tc:Telefone>
+            </tc:Contato>
+          </tc:PrestadorServico>
+          <tc:TomadorServico>
+            <tc:IdentificacaoTomador>
+              <tc:CpfCnpj>
+                <tc:Cnpj>92568815000190</tc:Cnpj>
+              </tc:CpfCnpj>
+              <tc:InscricaoMunicipal>31071</tc:InscricaoMunicipal>
+            </tc:IdentificacaoTomador>
+            <tc:RazaoSocial>Primavera Industria de Plasticos Ltda</tc:RazaoSocial>
+            <tc:Endereco>
+              <tc:Endereco>AV PRESIDENTE VARGAS</tc:Endereco>
+              <tc:Numero>74</tc:Numero>
+              <tc:Bairro>DAS ROSAS</tc:Bairro>
+              <tc:Cidade>7609</tc:Cidade>
+              <tc:Estado>RS</tc:Estado>
+              <tc:Cep>93600000</tc:Cep>
+            </tc:Endereco>
+            <tc:Contato>
+              <tc:Telefone>5135616705</tc:Telefone>
+              <tc:Email>carla@primaverainjetados.com.br</tc:Email>
+            </tc:Contato>
+          </tc:TomadorServico>
+          <tc:OrgaoGerador>
+            <tc:CodigoMunicipio>4313409</tc:CodigoMunicipio>
+            <tc:Uf>RS</tc:Uf>
+          </tc:OrgaoGerador>
+          <tc:ValorCredito>0</tc:ValorCredito>
+        </tc:InfNfse>
+        <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+          <SignedInfo>
+            <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+            <SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" />
+            <Reference URI="http://www.w3.org/TR/2000/REC-xhtml1-20000126/">
+              <Transforms>
+                <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+              </Transforms>
+              <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+              <DigestValue>iDmkpoIqxTjRjRKtImBqD2pWt+4=</DigestValue>
+            </Reference>
+          </SignedInfo>
+          <SignatureValue />
+          <KeyInfo>
+            <X509Data>
+              <X509Certificate />
+            </X509Data>
+          </KeyInfo>
+        </Signature>
+      </tc:Nfse>
+    </CompNfse>
+    <CompNfse>
+      <tc:Nfse>
+        <tc:InfNfse>
+          <tc:Numero>41</tc:Numero>
+          <tc:CodigoVerificacao> 12 D7 F1</tc:CodigoVerificacao>
+          <tc:DataEmissao>2013-03-21T16:28:52</tc:DataEmissao>
+          <tc:NaturezaOperacao>1</tc:NaturezaOperacao>
+          <tc:RegimeEspecialTributacao>1</tc:RegimeEspecialTributacao>
+          <tc:OptanteSimplesNacional>2</tc:OptanteSimplesNacional>
+          <tc:IncentivadorCultural>2</tc:IncentivadorCultural>
+          <tc:Competencia>201303</tc:Competencia>
+          <tc:NfseSubstituida>1</tc:NfseSubstituida>
+          <tc:OutrasInformacoes>REF  IMPLANTAÇÃO E TREINAMENTO MARÇO 2013&lt;br&gt; &amp;bull; .</tc:OutrasInformacoes>
+          <tc:Servico>
+            <tc:ItemListaServico>105</tc:ItemListaServico>
+            <tc:CodigoCnae>6203100</tc:CodigoCnae>
+            <tc:CodigoTributacaoMunicipio>2526</tc:CodigoTributacaoMunicipio>
+            <tc:Discriminacao>- IMPLANTAÇÃO E TREINAMENTO DE GESTÃO</tc:Discriminacao>
+            <tc:MunicipioPrestacaoServico>4313409</tc:MunicipioPrestacaoServico>
+            <tc:Valores>
+              <tc:ValorServicos>300</tc:ValorServicos>
+              <tc:ValorDeducoes>0</tc:ValorDeducoes>
+              <tc:ValorPis>0</tc:ValorPis>
+              <tc:ValorCofins>0</tc:ValorCofins>
+              <tc:ValorInss>0</tc:ValorInss>
+              <tc:ValorIr>0</tc:ValorIr>
+              <tc:ValorCsll>0</tc:ValorCsll>
+              <tc:IssRetido>2</tc:IssRetido>
+              <tc:OutrasRetencoes>0</tc:OutrasRetencoes>
+              <tc:BaseCalculo>300</tc:BaseCalculo>
+              <tc:Aliquota>2</tc:Aliquota>
+              <tc:ValorLiquidoNfse>300</tc:ValorLiquidoNfse>
+              <tc:ValorIssRetido>0</tc:ValorIssRetido>
+              <tc:ValorIss>6</tc:ValorIss>
+              <tc:DescontoCondicionado>0</tc:DescontoCondicionado>
+              <tc:DescontoIncondicionado>0</tc:DescontoIncondicionado>
+            </tc:Valores>
+          </tc:Servico>
+          <tc:PrestadorServico>
+            <tc:IdentificacaoPrestador>
+              <tc:CpfCnpj>
+                <tc:Cnpj>05874179000120</tc:Cnpj>
+              </tc:CpfCnpj>
+              <tc:InscricaoMunicipal>77026</tc:InscricaoMunicipal>
+            </tc:IdentificacaoPrestador>
+            <tc:RazaoSocial>Cri Assessoria e Informatica Ltda</tc:RazaoSocial>
+            <tc:NomeFantasia>Cri Assessoria e Informatica Ltda</tc:NomeFantasia>
+            <tc:Endereco>
+              <tc:Endereco>Rua Tupi</tc:Endereco>
+              <tc:Numero>758</tc:Numero>
+              <tc:Complemento>3</tc:Complemento>
+              <tc:Bairro>Centro</tc:Bairro>
+              <tc:Cidade>4313409</tc:Cidade>
+              <tc:Estado>RS</tc:Estado>
+              <tc:Cep>93336010</tc:Cep>
+            </tc:Endereco>
+            <tc:Contato>
+              <tc:Telefone>5135829143</tc:Telefone>
+            </tc:Contato>
+          </tc:PrestadorServico>
+          <tc:TomadorServico>
+            <tc:IdentificacaoTomador>
+              <tc:CpfCnpj>
+                <tc:Cnpj>72238108000128</tc:Cnpj>
+              </tc:CpfCnpj>
+              <tc:InscricaoMunicipal>41058</tc:InscricaoMunicipal>
+            </tc:IdentificacaoTomador>
+            <tc:RazaoSocial>Reinehr Comercio de Ervas Ltda</tc:RazaoSocial>
+            <tc:Endereco>
+              <tc:Endereco>Avenida Montevidéo</tc:Endereco>
+              <tc:Numero>391</tc:Numero>
+              <tc:Bairro>Santo Afonso</tc:Bairro>
+              <tc:Cidade>4313409</tc:Cidade>
+              <tc:Estado>RS</tc:Estado>
+              <tc:Cep>93420400</tc:Cep>
+            </tc:Endereco>
+            <tc:Contato>
+              <tc:Email>reinehr.comercio@gmail.com</tc:Email>
+            </tc:Contato>
+          </tc:TomadorServico>
+          <tc:OrgaoGerador>
+            <tc:CodigoMunicipio>4313409</tc:CodigoMunicipio>
+            <tc:Uf>RS</tc:Uf>
+          </tc:OrgaoGerador>
+          <tc:ValorCredito>0</tc:ValorCredito>
+        </tc:InfNfse>
+        <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+          <SignedInfo>
+            <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+            <SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" />
+            <Reference URI="http://www.w3.org/TR/2000/REC-xhtml1-20000126/">
+              <Transforms>
+                <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+              </Transforms>
+              <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+              <DigestValue>ISVEaEtUX1MZZS0LOcdQ8tutdw4=</DigestValue>
+            </Reference>
+          </SignedInfo>
+          <SignatureValue />
+          <KeyInfo>
+            <X509Data>
+              <X509Certificate />
+            </X509Data>
+          </KeyInfo>
+        </Signature>
+      </tc:Nfse>
+    </CompNfse>
+    <CompNfse>
+      <tc:Nfse>
+        <tc:InfNfse>
+          <tc:Numero>42</tc:Numero>
+          <tc:CodigoVerificacao> CD DE 27</tc:CodigoVerificacao>
+          <tc:DataEmissao>2013-04-01T10:03:09</tc:DataEmissao>
+          <tc:NaturezaOperacao>1</tc:NaturezaOperacao>
+          <tc:RegimeEspecialTributacao>1</tc:RegimeEspecialTributacao>
+          <tc:OptanteSimplesNacional>2</tc:OptanteSimplesNacional>
+          <tc:IncentivadorCultural>2</tc:IncentivadorCultural>
+          <tc:Competencia>201304</tc:Competencia>
+          <tc:NfseSubstituida>1</tc:NfseSubstituida>
+          <tc:OutrasInformacoes>REF: MARÇO 2013&lt;br&gt; &amp;bull; .</tc:OutrasInformacoes>
+          <tc:Servico>
+            <tc:ItemListaServico>106</tc:ItemListaServico>
+            <tc:CodigoCnae>6204000</tc:CodigoCnae>
+            <tc:CodigoTributacaoMunicipio>2526</tc:CodigoTributacaoMunicipio>
+            <tc:Discriminacao>- CONSULTORIA EM INFORMATICA
+VENCIMENTO: 05/O4/2013</tc:Discriminacao>
+            <tc:MunicipioPrestacaoServico>4313409</tc:MunicipioPrestacaoServico>
+            <tc:Valores>
+              <tc:ValorServicos>680</tc:ValorServicos>
+              <tc:ValorDeducoes>0</tc:ValorDeducoes>
+              <tc:ValorPis>0</tc:ValorPis>
+              <tc:ValorCofins>0</tc:ValorCofins>
+              <tc:ValorInss>0</tc:ValorInss>
+              <tc:ValorIr>0</tc:ValorIr>
+              <tc:ValorCsll>0</tc:ValorCsll>
+              <tc:IssRetido>2</tc:IssRetido>
+              <tc:OutrasRetencoes>0</tc:OutrasRetencoes>
+              <tc:BaseCalculo>680</tc:BaseCalculo>
+              <tc:Aliquota>2</tc:Aliquota>
+              <tc:ValorLiquidoNfse>680</tc:ValorLiquidoNfse>
+              <tc:ValorIssRetido>0</tc:ValorIssRetido>
+              <tc:ValorIss>13.6</tc:ValorIss>
+              <tc:DescontoCondicionado>0</tc:DescontoCondicionado>
+              <tc:DescontoIncondicionado>0</tc:DescontoIncondicionado>
+            </tc:Valores>
+          </tc:Servico>
+          <tc:PrestadorServico>
+            <tc:IdentificacaoPrestador>
+              <tc:CpfCnpj>
+                <tc:Cnpj>05874179000120</tc:Cnpj>
+              </tc:CpfCnpj>
+              <tc:InscricaoMunicipal>77026</tc:InscricaoMunicipal>
+            </tc:IdentificacaoPrestador>
+            <tc:RazaoSocial>Cri Assessoria e Informatica Ltda</tc:RazaoSocial>
+            <tc:NomeFantasia>Cri Assessoria e Informatica Ltda</tc:NomeFantasia>
+            <tc:Endereco>
+              <tc:Endereco>Rua Tupi</tc:Endereco>
+              <tc:Numero>758</tc:Numero>
+              <tc:Complemento>3</tc:Complemento>
+              <tc:Bairro>Centro</tc:Bairro>
+              <tc:Cidade>4313409</tc:Cidade>
+              <tc:Estado>RS</tc:Estado>
+              <tc:Cep>93336010</tc:Cep>
+            </tc:Endereco>
+            <tc:Contato>
+              <tc:Telefone>5135829143</tc:Telefone>
+            </tc:Contato>
+          </tc:PrestadorServico>
+          <tc:TomadorServico>
+            <tc:IdentificacaoTomador>
+              <tc:CpfCnpj>
+                <tc:Cnpj>04824917000161</tc:Cnpj>
+              </tc:CpfCnpj>
+              <tc:InscricaoMunicipal>60169</tc:InscricaoMunicipal>
+            </tc:IdentificacaoTomador>
+            <tc:RazaoSocial>Full Time Contabilidade Empresarial Ltda ME</tc:RazaoSocial>
+            <tc:Endereco>
+              <tc:Endereco>Rua Aimoré</tc:Endereco>
+              <tc:Numero>264</tc:Numero>
+              <tc:Complemento>SALA 11</tc:Complemento>
+              <tc:Bairro>Rio Branco</tc:Bairro>
+              <tc:Cidade>4313409</tc:Cidade>
+              <tc:Estado>RS</tc:Estado>
+              <tc:Cep>93336150</tc:Cep>
+            </tc:Endereco>
+            <tc:Contato>
+              <tc:Email>jaque@fulltimecontabilidade.com.br</tc:Email>
+            </tc:Contato>
+          </tc:TomadorServico>
+          <tc:OrgaoGerador>
+            <tc:CodigoMunicipio>4313409</tc:CodigoMunicipio>
+            <tc:Uf>RS</tc:Uf>
+          </tc:OrgaoGerador>
+          <tc:ValorCredito>0</tc:ValorCredito>
+        </tc:InfNfse>
+        <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+          <SignedInfo>
+            <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+            <SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" />
+            <Reference URI="http://www.w3.org/TR/2000/REC-xhtml1-20000126/">
+              <Transforms>
+                <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+              </Transforms>
+              <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+              <DigestValue>uesISXnpiVV9gWLZ6go9iZ4Raso=</DigestValue>
+            </Reference>
+          </SignedInfo>
+          <SignatureValue />
+          <KeyInfo>
+            <X509Data>
+              <X509Certificate />
+            </X509Data>
+          </KeyInfo>
+        </Signature>
+      </tc:Nfse>
+    </CompNfse>
+    <CompNfse>
+      <tc:Nfse>
+        <tc:InfNfse>
+          <tc:Numero>43</tc:Numero>
+          <tc:CodigoVerificacao> EC 8C FF</tc:CodigoVerificacao>
+          <tc:DataEmissao>2013-04-01T10:09:32</tc:DataEmissao>
+          <tc:NaturezaOperacao>1</tc:NaturezaOperacao>
+          <tc:RegimeEspecialTributacao>1</tc:RegimeEspecialTributacao>
+          <tc:OptanteSimplesNacional>2</tc:OptanteSimplesNacional>
+          <tc:IncentivadorCultural>2</tc:IncentivadorCultural>
+          <tc:Competencia>201304</tc:Competencia>
+          <tc:NfseSubstituida>1</tc:NfseSubstituida>
+          <tc:OutrasInformacoes>- LICENCIAMENTO REF: MARÇO 2013&lt;br&gt; &amp;bull; .</tc:OutrasInformacoes>
+          <tc:Servico>
+            <tc:ItemListaServico>105</tc:ItemListaServico>
+            <tc:CodigoCnae>6203100</tc:CodigoCnae>
+            <tc:CodigoTributacaoMunicipio>2526</tc:CodigoTributacaoMunicipio>
+            <tc:Discriminacao>- LICENCIAMENTO DE SOFTWARE</tc:Discriminacao>
+            <tc:MunicipioPrestacaoServico>4313409</tc:MunicipioPrestacaoServico>
+            <tc:Valores>
+              <tc:ValorServicos>75</tc:ValorServicos>
+              <tc:ValorDeducoes>0</tc:ValorDeducoes>
+              <tc:ValorPis>0</tc:ValorPis>
+              <tc:ValorCofins>0</tc:ValorCofins>
+              <tc:ValorInss>0</tc:ValorInss>
+              <tc:ValorIr>0</tc:ValorIr>
+              <tc:ValorCsll>0</tc:ValorCsll>
+              <tc:IssRetido>2</tc:IssRetido>
+              <tc:OutrasRetencoes>0</tc:OutrasRetencoes>
+              <tc:BaseCalculo>75</tc:BaseCalculo>
+              <tc:Aliquota>2</tc:Aliquota>
+              <tc:ValorLiquidoNfse>75</tc:ValorLiquidoNfse>
+              <tc:ValorIssRetido>0</tc:ValorIssRetido>
+              <tc:ValorIss>1.5</tc:ValorIss>
+              <tc:DescontoCondicionado>0</tc:DescontoCondicionado>
+              <tc:DescontoIncondicionado>0</tc:DescontoIncondicionado>
+            </tc:Valores>
+          </tc:Servico>
+          <tc:PrestadorServico>
+            <tc:IdentificacaoPrestador>
+              <tc:CpfCnpj>
+                <tc:Cnpj>05874179000120</tc:Cnpj>
+              </tc:CpfCnpj>
+              <tc:InscricaoMunicipal>77026</tc:InscricaoMunicipal>
+            </tc:IdentificacaoPrestador>
+            <tc:RazaoSocial>Cri Assessoria e Informatica Ltda</tc:RazaoSocial>
+            <tc:NomeFantasia>Cri Assessoria e Informatica Ltda</tc:NomeFantasia>
+            <tc:Endereco>
+              <tc:Endereco>Rua Tupi</tc:Endereco>
+              <tc:Numero>758</tc:Numero>
+              <tc:Complemento>3</tc:Complemento>
+              <tc:Bairro>Centro</tc:Bairro>
+              <tc:Cidade>4313409</tc:Cidade>
+              <tc:Estado>RS</tc:Estado>
+              <tc:Cep>93336010</tc:Cep>
+            </tc:Endereco>
+            <tc:Contato>
+              <tc:Telefone>5135829143</tc:Telefone>
+            </tc:Contato>
+          </tc:PrestadorServico>
+          <tc:TomadorServico>
+            <tc:IdentificacaoTomador>
+              <tc:CpfCnpj>
+                <tc:Cnpj>10813669000156</tc:Cnpj>
+              </tc:CpfCnpj>
+            </tc:IdentificacaoTomador>
+            <tc:RazaoSocial>PAULO R. MULLER OLARIA</tc:RazaoSocial>
+            <tc:Endereco>
+              <tc:Endereco>RUA MATHIAS MULLER</tc:Endereco>
+              <tc:Numero>531</tc:Numero>
+              <tc:Bairro>BARRINHA</tc:Bairro>
+              <tc:Cidade>4303905</tc:Cidade>
+              <tc:Estado>RS</tc:Estado>
+              <tc:Cep>93700970</tc:Cep>
+            </tc:Endereco>
+            <tc:Contato>
+              <tc:Telefone>5135981507</tc:Telefone>
+            </tc:Contato>
+          </tc:TomadorServico>
+          <tc:OrgaoGerador>
+            <tc:CodigoMunicipio>4313409</tc:CodigoMunicipio>
+            <tc:Uf>RS</tc:Uf>
+          </tc:OrgaoGerador>
+          <tc:ValorCredito>0</tc:ValorCredito>
+        </tc:InfNfse>
+        <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+          <SignedInfo>
+            <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+            <SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" />
+            <Reference URI="http://www.w3.org/TR/2000/REC-xhtml1-20000126/">
+              <Transforms>
+                <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+              </Transforms>
+              <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+              <DigestValue>avJ1+Lb7uUAu2rkTxMscDC4qEEQ=</DigestValue>
+            </Reference>
+          </SignedInfo>
+          <SignatureValue />
+          <KeyInfo>
+            <X509Data>
+              <X509Certificate />
+            </X509Data>
+          </KeyInfo>
+        </Signature>
+      </tc:Nfse>
+    </CompNfse>
+    <CompNfse>
+      <tc:Nfse>
+        <tc:InfNfse>
+          <tc:Numero>44</tc:Numero>
+          <tc:CodigoVerificacao> E4 1E DE</tc:CodigoVerificacao>
+          <tc:DataEmissao>2013-04-01T10:31:19</tc:DataEmissao>
+          <tc:NaturezaOperacao>1</tc:NaturezaOperacao>
+          <tc:RegimeEspecialTributacao>1</tc:RegimeEspecialTributacao>
+          <tc:OptanteSimplesNacional>2</tc:OptanteSimplesNacional>
+          <tc:IncentivadorCultural>2</tc:IncentivadorCultural>
+          <tc:Competencia>201304</tc:Competencia>
+          <tc:NfseSubstituida>1</tc:NfseSubstituida>
+          <tc:OutrasInformacoes>REF MARÇO 2013.&lt;br&gt; &amp;bull; .</tc:OutrasInformacoes>
+          <tc:Servico>
+            <tc:ItemListaServico>106</tc:ItemListaServico>
+            <tc:CodigoCnae>6204000</tc:CodigoCnae>
+            <tc:CodigoTributacaoMunicipio>2526</tc:CodigoTributacaoMunicipio>
+            <tc:Discriminacao>CONSULTORIA EM INFORMATICA
+VENCIMENTO 04/04/2013.
+</tc:Discriminacao>
+            <tc:MunicipioPrestacaoServico>4313409</tc:MunicipioPrestacaoServico>
+            <tc:Valores>
+              <tc:ValorServicos>450</tc:ValorServicos>
+              <tc:ValorDeducoes>0</tc:ValorDeducoes>
+              <tc:ValorPis>0</tc:ValorPis>
+              <tc:ValorCofins>0</tc:ValorCofins>
+              <tc:ValorInss>0</tc:ValorInss>
+              <tc:ValorIr>0</tc:ValorIr>
+              <tc:ValorCsll>0</tc:ValorCsll>
+              <tc:IssRetido>2</tc:IssRetido>
+              <tc:OutrasRetencoes>0</tc:OutrasRetencoes>
+              <tc:BaseCalculo>450</tc:BaseCalculo>
+              <tc:Aliquota>2</tc:Aliquota>
+              <tc:ValorLiquidoNfse>450</tc:ValorLiquidoNfse>
+              <tc:ValorIssRetido>0</tc:ValorIssRetido>
+              <tc:ValorIss>9</tc:ValorIss>
+              <tc:DescontoCondicionado>0</tc:DescontoCondicionado>
+              <tc:DescontoIncondicionado>0</tc:DescontoIncondicionado>
+            </tc:Valores>
+          </tc:Servico>
+          <tc:PrestadorServico>
+            <tc:IdentificacaoPrestador>
+              <tc:CpfCnpj>
+                <tc:Cnpj>05874179000120</tc:Cnpj>
+              </tc:CpfCnpj>
+              <tc:InscricaoMunicipal>77026</tc:InscricaoMunicipal>
+            </tc:IdentificacaoPrestador>
+            <tc:RazaoSocial>Cri Assessoria e Informatica Ltda</tc:RazaoSocial>
+            <tc:NomeFantasia>Cri Assessoria e Informatica Ltda</tc:NomeFantasia>
+            <tc:Endereco>
+              <tc:Endereco>Rua Tupi</tc:Endereco>
+              <tc:Numero>758</tc:Numero>
+              <tc:Complemento>3</tc:Complemento>
+              <tc:Bairro>Centro</tc:Bairro>
+              <tc:Cidade>4313409</tc:Cidade>
+              <tc:Estado>RS</tc:Estado>
+              <tc:Cep>93336010</tc:Cep>
+            </tc:Endereco>
+            <tc:Contato>
+              <tc:Telefone>5135829143</tc:Telefone>
+            </tc:Contato>
+          </tc:PrestadorServico>
+          <tc:TomadorServico>
+            <tc:IdentificacaoTomador>
+              <tc:CpfCnpj>
+                <tc:Cnpj>88252085000227</tc:Cnpj>
+              </tc:CpfCnpj>
+              <tc:InscricaoMunicipal>67214</tc:InscricaoMunicipal>
+            </tc:IdentificacaoTomador>
+            <tc:RazaoSocial>Sindicato do Comercio Varejista de Novo Hamburgo</tc:RazaoSocial>
+            <tc:Endereco>
+              <tc:Endereco>Rua Lima e Silva</tc:Endereco>
+              <tc:Numero>123</tc:Numero>
+              <tc:Complemento>.</tc:Complemento>
+              <tc:Bairro>Centro</tc:Bairro>
+              <tc:Cidade>4313409</tc:Cidade>
+              <tc:Estado>RS</tc:Estado>
+              <tc:Cep>93510030</tc:Cep>
+            </tc:Endereco>
+            <tc:Contato>
+              <tc:Email>financeiro@sindilojasnh.com.br</tc:Email>
+            </tc:Contato>
+          </tc:TomadorServico>
+          <tc:OrgaoGerador>
+            <tc:CodigoMunicipio>4313409</tc:CodigoMunicipio>
+            <tc:Uf>RS</tc:Uf>
+          </tc:OrgaoGerador>
+          <tc:ValorCredito>0</tc:ValorCredito>
+        </tc:InfNfse>
+        <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+          <SignedInfo>
+            <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+            <SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" />
+            <Reference URI="http://www.w3.org/TR/2000/REC-xhtml1-20000126/">
+              <Transforms>
+                <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+              </Transforms>
+              <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+              <DigestValue>ftYik8BrsQutIPwLDPSBlE6NSMA=</DigestValue>
+            </Reference>
+          </SignedInfo>
+          <SignatureValue />
+          <KeyInfo>
+            <X509Data>
+              <X509Certificate />
+            </X509Data>
+          </KeyInfo>
+        </Signature>
+      </tc:Nfse>
+    </CompNfse>
+    <CompNfse>
+      <tc:Nfse>
+        <tc:InfNfse>
+          <tc:Numero>45</tc:Numero>
+          <tc:CodigoVerificacao> 89 7F 12</tc:CodigoVerificacao>
+          <tc:DataEmissao>2013-04-01T11:55:19</tc:DataEmissao>
+          <tc:NaturezaOperacao>1</tc:NaturezaOperacao>
+          <tc:RegimeEspecialTributacao>1</tc:RegimeEspecialTributacao>
+          <tc:OptanteSimplesNacional>2</tc:OptanteSimplesNacional>
+          <tc:IncentivadorCultural>2</tc:IncentivadorCultural>
+          <tc:Competencia>201304</tc:Competencia>
+          <tc:NfseSubstituida>1</tc:NfseSubstituida>
+          <tc:OutrasInformacoes>REF MARÇO 2013&lt;br&gt; &amp;bull; .</tc:OutrasInformacoes>
+          <tc:Servico>
+            <tc:ItemListaServico>105</tc:ItemListaServico>
+            <tc:CodigoCnae>6203100</tc:CodigoCnae>
+            <tc:CodigoTributacaoMunicipio>2526</tc:CodigoTributacaoMunicipio>
+            <tc:Discriminacao>- LICENCIAMENTO DE SOFTWARE
+  VENCIMENTO: 04/04/2013</tc:Discriminacao>
+            <tc:MunicipioPrestacaoServico>4313409</tc:MunicipioPrestacaoServico>
+            <tc:Valores>
+              <tc:ValorServicos>300</tc:ValorServicos>
+              <tc:ValorDeducoes>0</tc:ValorDeducoes>
+              <tc:ValorPis>0</tc:ValorPis>
+              <tc:ValorCofins>0</tc:ValorCofins>
+              <tc:ValorInss>0</tc:ValorInss>
+              <tc:ValorIr>0</tc:ValorIr>
+              <tc:ValorCsll>0</tc:ValorCsll>
+              <tc:IssRetido>2</tc:IssRetido>
+              <tc:OutrasRetencoes>0</tc:OutrasRetencoes>
+              <tc:BaseCalculo>300</tc:BaseCalculo>
+              <tc:Aliquota>2</tc:Aliquota>
+              <tc:ValorLiquidoNfse>300</tc:ValorLiquidoNfse>
+              <tc:ValorIssRetido>0</tc:ValorIssRetido>
+              <tc:ValorIss>6</tc:ValorIss>
+              <tc:DescontoCondicionado>0</tc:DescontoCondicionado>
+              <tc:DescontoIncondicionado>0</tc:DescontoIncondicionado>
+            </tc:Valores>
+          </tc:Servico>
+          <tc:PrestadorServico>
+            <tc:IdentificacaoPrestador>
+              <tc:CpfCnpj>
+                <tc:Cnpj>05874179000120</tc:Cnpj>
+              </tc:CpfCnpj>
+              <tc:InscricaoMunicipal>77026</tc:InscricaoMunicipal>
+            </tc:IdentificacaoPrestador>
+            <tc:RazaoSocial>Cri Assessoria e Informatica Ltda</tc:RazaoSocial>
+            <tc:NomeFantasia>Cri Assessoria e Informatica Ltda</tc:NomeFantasia>
+            <tc:Endereco>
+              <tc:Endereco>Rua Tupi</tc:Endereco>
+              <tc:Numero>758</tc:Numero>
+              <tc:Complemento>3</tc:Complemento>
+              <tc:Bairro>Centro</tc:Bairro>
+              <tc:Cidade>4313409</tc:Cidade>
+              <tc:Estado>RS</tc:Estado>
+              <tc:Cep>93336010</tc:Cep>
+            </tc:Endereco>
+            <tc:Contato>
+              <tc:Telefone>5135829143</tc:Telefone>
+            </tc:Contato>
+          </tc:PrestadorServico>
+          <tc:TomadorServico>
+            <tc:IdentificacaoTomador>
+              <tc:CpfCnpj>
+                <tc:Cnpj>02717649000153</tc:Cnpj>
+              </tc:CpfCnpj>
+            </tc:IdentificacaoTomador>
+            <tc:RazaoSocial>REJANE DA SILVA COSTA IMPORTAÇÕES</tc:RazaoSocial>
+            <tc:Endereco>
+              <tc:Endereco>Avenida Sapucaia</tc:Endereco>
+              <tc:Numero>472</tc:Numero>
+              <tc:Bairro>Primor</tc:Bairro>
+              <tc:Cidade>4320008</tc:Cidade>
+              <tc:Estado>RS</tc:Estado>
+              <tc:Cep>93210240</tc:Cep>
+            </tc:Endereco>
+            <tc:Contato>
+              <tc:Telefone>5134748692</tc:Telefone>
+              <tc:Email>rscostaimp@terra.com.br</tc:Email>
+            </tc:Contato>
+          </tc:TomadorServico>
+          <tc:OrgaoGerador>
+            <tc:CodigoMunicipio>4313409</tc:CodigoMunicipio>
+            <tc:Uf>RS</tc:Uf>
+          </tc:OrgaoGerador>
+          <tc:ValorCredito>0</tc:ValorCredito>
+        </tc:InfNfse>
+        <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+          <SignedInfo>
+            <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+            <SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" />
+            <Reference URI="http://www.w3.org/TR/2000/REC-xhtml1-20000126/">
+              <Transforms>
+                <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+              </Transforms>
+              <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+              <DigestValue>Vxm1mz+4GppkUMMlXtyfZoVC/Ec=</DigestValue>
+            </Reference>
+          </SignedInfo>
+          <SignatureValue />
+          <KeyInfo>
+            <X509Data>
+              <X509Certificate />
+            </X509Data>
+          </KeyInfo>
+        </Signature>
+      </tc:Nfse>
+    </CompNfse>
+    <CompNfse>
+      <tc:Nfse>
+        <tc:InfNfse>
+          <tc:Numero>46</tc:Numero>
+          <tc:CodigoVerificacao> AF 3A B7</tc:CodigoVerificacao>
+          <tc:DataEmissao>2013-04-01T12:23:19</tc:DataEmissao>
+          <tc:NaturezaOperacao>1</tc:NaturezaOperacao>
+          <tc:RegimeEspecialTributacao>1</tc:RegimeEspecialTributacao>
+          <tc:OptanteSimplesNacional>2</tc:OptanteSimplesNacional>
+          <tc:IncentivadorCultural>2</tc:IncentivadorCultural>
+          <tc:Competencia>201304</tc:Competencia>
+          <tc:NfseSubstituida>1</tc:NfseSubstituida>
+          <tc:OutrasInformacoes>REF MARÇO DE 2013&lt;br&gt; &amp;bull; .</tc:OutrasInformacoes>
+          <tc:Servico>
+            <tc:ItemListaServico>105</tc:ItemListaServico>
+            <tc:CodigoCnae>6203100</tc:CodigoCnae>
+            <tc:CodigoTributacaoMunicipio>2526</tc:CodigoTributacaoMunicipio>
+            <tc:Discriminacao>- LICENCIAMENTO DE SOFTWARE</tc:Discriminacao>
+            <tc:MunicipioPrestacaoServico>4313409</tc:MunicipioPrestacaoServico>
+            <tc:Valores>
+              <tc:ValorServicos>200</tc:ValorServicos>
+              <tc:ValorDeducoes>0</tc:ValorDeducoes>
+              <tc:ValorPis>0</tc:ValorPis>
+              <tc:ValorCofins>0</tc:ValorCofins>
+              <tc:ValorInss>0</tc:ValorInss>
+              <tc:ValorIr>0</tc:ValorIr>
+              <tc:ValorCsll>0</tc:ValorCsll>
+              <tc:IssRetido>2</tc:IssRetido>
+              <tc:OutrasRetencoes>0</tc:OutrasRetencoes>
+              <tc:BaseCalculo>200</tc:BaseCalculo>
+              <tc:Aliquota>2</tc:Aliquota>
+              <tc:ValorLiquidoNfse>200</tc:ValorLiquidoNfse>
+              <tc:ValorIssRetido>0</tc:ValorIssRetido>
+              <tc:ValorIss>4</tc:ValorIss>
+              <tc:DescontoCondicionado>0</tc:DescontoCondicionado>
+              <tc:DescontoIncondicionado>0</tc:DescontoIncondicionado>
+            </tc:Valores>
+          </tc:Servico>
+          <tc:PrestadorServico>
+            <tc:IdentificacaoPrestador>
+              <tc:CpfCnpj>
+                <tc:Cnpj>05874179000120</tc:Cnpj>
+              </tc:CpfCnpj>
+              <tc:InscricaoMunicipal>77026</tc:InscricaoMunicipal>
+            </tc:IdentificacaoPrestador>
+            <tc:RazaoSocial>Cri Assessoria e Informatica Ltda</tc:RazaoSocial>
+            <tc:NomeFantasia>Cri Assessoria e Informatica Ltda</tc:NomeFantasia>
+            <tc:Endereco>
+              <tc:Endereco>Rua Tupi</tc:Endereco>
+              <tc:Numero>758</tc:Numero>
+              <tc:Complemento>3</tc:Complemento>
+              <tc:Bairro>Centro</tc:Bairro>
+              <tc:Cidade>4313409</tc:Cidade>
+              <tc:Estado>RS</tc:Estado>
+              <tc:Cep>93336010</tc:Cep>
+            </tc:Endereco>
+            <tc:Contato>
+              <tc:Telefone>5135829143</tc:Telefone>
+            </tc:Contato>
+          </tc:PrestadorServico>
+          <tc:TomadorServico>
+            <tc:IdentificacaoTomador>
+              <tc:CpfCnpj>
+                <tc:Cnpj>16573190000176</tc:Cnpj>
+              </tc:CpfCnpj>
+              <tc:InscricaoMunicipal>1006319</tc:InscricaoMunicipal>
+            </tc:IdentificacaoTomador>
+            <tc:RazaoSocial>Castexx Comercio e Representacoes Ltda</tc:RazaoSocial>
+            <tc:Endereco>
+              <tc:Endereco>Rua Curitiba</tc:Endereco>
+              <tc:Numero>187</tc:Numero>
+              <tc:Bairro>Boa Vista</tc:Bairro>
+              <tc:Cidade>4313409</tc:Cidade>
+              <tc:Estado>RS</tc:Estado>
+              <tc:Cep>93410380</tc:Cep>
+            </tc:Endereco>
+            <tc:Contato />
+          </tc:TomadorServico>
+          <tc:OrgaoGerador>
+            <tc:CodigoMunicipio>4313409</tc:CodigoMunicipio>
+            <tc:Uf>RS</tc:Uf>
+          </tc:OrgaoGerador>
+          <tc:ValorCredito>0</tc:ValorCredito>
+        </tc:InfNfse>
+        <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+          <SignedInfo>
+            <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+            <SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" />
+            <Reference URI="http://www.w3.org/TR/2000/REC-xhtml1-20000126/">
+              <Transforms>
+                <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+              </Transforms>
+              <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+              <DigestValue>u/u4GuoZocTU0yLcf9shACqlJBo=</DigestValue>
+            </Reference>
+          </SignedInfo>
+          <SignatureValue />
+          <KeyInfo>
+            <X509Data>
+              <X509Certificate />
+            </X509Data>
+          </KeyInfo>
+        </Signature>
+      </tc:Nfse>
+    </CompNfse>
+    <CompNfse>
+      <tc:Nfse>
+        <tc:InfNfse>
+          <tc:Numero>47</tc:Numero>
+          <tc:CodigoVerificacao> C3 5F 42</tc:CodigoVerificacao>
+          <tc:DataEmissao>2013-04-01T12:43:24</tc:DataEmissao>
+          <tc:NaturezaOperacao>1</tc:NaturezaOperacao>
+          <tc:RegimeEspecialTributacao>1</tc:RegimeEspecialTributacao>
+          <tc:OptanteSimplesNacional>2</tc:OptanteSimplesNacional>
+          <tc:IncentivadorCultural>2</tc:IncentivadorCultural>
+          <tc:Competencia>201304</tc:Competencia>
+          <tc:NfseSubstituida>1</tc:NfseSubstituida>
+          <tc:OutrasInformacoes>REF HOSPEDAGEM MARÇO 2013&lt;br&gt; &amp;bull; .</tc:OutrasInformacoes>
+          <tc:Servico>
+            <tc:ItemListaServico>103</tc:ItemListaServico>
+            <tc:CodigoCnae>6311900</tc:CodigoCnae>
+            <tc:CodigoTributacaoMunicipio>2526</tc:CodigoTributacaoMunicipio>
+            <tc:Discriminacao>- PRESTAÇÃO DE SERVIÇO DE INFOMÁTICA
+  VENC: 05/04/2013</tc:Discriminacao>
+            <tc:MunicipioPrestacaoServico>4313409</tc:MunicipioPrestacaoServico>
+            <tc:Valores>
+              <tc:ValorServicos>90</tc:ValorServicos>
+              <tc:ValorDeducoes>0</tc:ValorDeducoes>
+              <tc:ValorPis>0</tc:ValorPis>
+              <tc:ValorCofins>0</tc:ValorCofins>
+              <tc:ValorInss>0</tc:ValorInss>
+              <tc:ValorIr>0</tc:ValorIr>
+              <tc:ValorCsll>0</tc:ValorCsll>
+              <tc:IssRetido>2</tc:IssRetido>
+              <tc:OutrasRetencoes>0</tc:OutrasRetencoes>
+              <tc:BaseCalculo>90</tc:BaseCalculo>
+              <tc:Aliquota>2</tc:Aliquota>
+              <tc:ValorLiquidoNfse>90</tc:ValorLiquidoNfse>
+              <tc:ValorIssRetido>0</tc:ValorIssRetido>
+              <tc:ValorIss>1.8</tc:ValorIss>
+              <tc:DescontoCondicionado>0</tc:DescontoCondicionado>
+              <tc:DescontoIncondicionado>0</tc:DescontoIncondicionado>
+            </tc:Valores>
+          </tc:Servico>
+          <tc:PrestadorServico>
+            <tc:IdentificacaoPrestador>
+              <tc:CpfCnpj>
+                <tc:Cnpj>05874179000120</tc:Cnpj>
+              </tc:CpfCnpj>
+              <tc:InscricaoMunicipal>77026</tc:InscricaoMunicipal>
+            </tc:IdentificacaoPrestador>
+            <tc:RazaoSocial>Cri Assessoria e Informatica Ltda</tc:RazaoSocial>
+            <tc:NomeFantasia>Cri Assessoria e Informatica Ltda</tc:NomeFantasia>
+            <tc:Endereco>
+              <tc:Endereco>Rua Tupi</tc:Endereco>
+              <tc:Numero>758</tc:Numero>
+              <tc:Complemento>3</tc:Complemento>
+              <tc:Bairro>Centro</tc:Bairro>
+              <tc:Cidade>4313409</tc:Cidade>
+              <tc:Estado>RS</tc:Estado>
+              <tc:Cep>93336010</tc:Cep>
+            </tc:Endereco>
+            <tc:Contato>
+              <tc:Telefone>5135829143</tc:Telefone>
+            </tc:Contato>
+          </tc:PrestadorServico>
+          <tc:TomadorServico>
+            <tc:IdentificacaoTomador>
+              <tc:CpfCnpj>
+                <tc:Cpf>93164327072</tc:Cpf>
+              </tc:CpfCnpj>
+            </tc:IdentificacaoTomador>
+            <tc:RazaoSocial>MARCELO KENZO TAKETA</tc:RazaoSocial>
+            <tc:Endereco>
+              <tc:Endereco>Avenida Lúcio Bittencourt</tc:Endereco>
+              <tc:Numero>1485</tc:Numero>
+              <tc:Bairro>Vacchi</tc:Bairro>
+              <tc:Cidade>4320008</tc:Cidade>
+              <tc:Estado>RS</tc:Estado>
+              <tc:Cep>93214170</tc:Cep>
+            </tc:Endereco>
+            <tc:Contato>
+              <tc:Email>marcelo@taketa.com.br</tc:Email>
+            </tc:Contato>
+          </tc:TomadorServico>
+          <tc:OrgaoGerador>
+            <tc:CodigoMunicipio>4313409</tc:CodigoMunicipio>
+            <tc:Uf>RS</tc:Uf>
+          </tc:OrgaoGerador>
+          <tc:ValorCredito>0</tc:ValorCredito>
+        </tc:InfNfse>
+        <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+          <SignedInfo>
+            <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+            <SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" />
+            <Reference URI="http://www.w3.org/TR/2000/REC-xhtml1-20000126/">
+              <Transforms>
+                <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+              </Transforms>
+              <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+              <DigestValue>L88fXZrV0eJmNSo+eascZHRHhp0=</DigestValue>
+            </Reference>
+          </SignedInfo>
+          <SignatureValue />
+          <KeyInfo>
+            <X509Data>
+              <X509Certificate />
+            </X509Data>
+          </KeyInfo>
+        </Signature>
+      </tc:Nfse>
+    </CompNfse>
+    <CompNfse>
+      <tc:Nfse>
+        <tc:InfNfse>
+          <tc:Numero>48</tc:Numero>
+          <tc:CodigoVerificacao> 99 E2 1C</tc:CodigoVerificacao>
+          <tc:DataEmissao>2013-04-01T12:53:19</tc:DataEmissao>
+          <tc:NaturezaOperacao>1</tc:NaturezaOperacao>
+          <tc:RegimeEspecialTributacao>1</tc:RegimeEspecialTributacao>
+          <tc:OptanteSimplesNacional>2</tc:OptanteSimplesNacional>
+          <tc:IncentivadorCultural>2</tc:IncentivadorCultural>
+          <tc:Competencia>201304</tc:Competencia>
+          <tc:NfseSubstituida>1</tc:NfseSubstituida>
+          <tc:OutrasInformacoes>REF MARÇO 2013&lt;br&gt; &amp;bull; .</tc:OutrasInformacoes>
+          <tc:Servico>
+            <tc:ItemListaServico>105</tc:ItemListaServico>
+            <tc:CodigoCnae>6203100</tc:CodigoCnae>
+            <tc:CodigoTributacaoMunicipio>2526</tc:CodigoTributacaoMunicipio>
+            <tc:Discriminacao>- LICENCIMENTO DE SOFTWARE
+  VENC: 04/04/2013</tc:Discriminacao>
+            <tc:MunicipioPrestacaoServico>4313409</tc:MunicipioPrestacaoServico>
+            <tc:Valores>
+              <tc:ValorServicos>50</tc:ValorServicos>
+              <tc:ValorDeducoes>0</tc:ValorDeducoes>
+              <tc:ValorPis>0</tc:ValorPis>
+              <tc:ValorCofins>0</tc:ValorCofins>
+              <tc:ValorInss>0</tc:ValorInss>
+              <tc:ValorIr>0</tc:ValorIr>
+              <tc:ValorCsll>0</tc:ValorCsll>
+              <tc:IssRetido>2</tc:IssRetido>
+              <tc:OutrasRetencoes>0</tc:OutrasRetencoes>
+              <tc:BaseCalculo>50</tc:BaseCalculo>
+              <tc:Aliquota>2</tc:Aliquota>
+              <tc:ValorLiquidoNfse>50</tc:ValorLiquidoNfse>
+              <tc:ValorIssRetido>0</tc:ValorIssRetido>
+              <tc:ValorIss>1</tc:ValorIss>
+              <tc:DescontoCondicionado>0</tc:DescontoCondicionado>
+              <tc:DescontoIncondicionado>0</tc:DescontoIncondicionado>
+            </tc:Valores>
+          </tc:Servico>
+          <tc:PrestadorServico>
+            <tc:IdentificacaoPrestador>
+              <tc:CpfCnpj>
+                <tc:Cnpj>05874179000120</tc:Cnpj>
+              </tc:CpfCnpj>
+              <tc:InscricaoMunicipal>77026</tc:InscricaoMunicipal>
+            </tc:IdentificacaoPrestador>
+            <tc:RazaoSocial>Cri Assessoria e Informatica Ltda</tc:RazaoSocial>
+            <tc:NomeFantasia>Cri Assessoria e Informatica Ltda</tc:NomeFantasia>
+            <tc:Endereco>
+              <tc:Endereco>Rua Tupi</tc:Endereco>
+              <tc:Numero>758</tc:Numero>
+              <tc:Complemento>3</tc:Complemento>
+              <tc:Bairro>Centro</tc:Bairro>
+              <tc:Cidade>4313409</tc:Cidade>
+              <tc:Estado>RS</tc:Estado>
+              <tc:Cep>93336010</tc:Cep>
+            </tc:Endereco>
+            <tc:Contato>
+              <tc:Telefone>5135829143</tc:Telefone>
+            </tc:Contato>
+          </tc:PrestadorServico>
+          <tc:TomadorServico>
+            <tc:IdentificacaoTomador>
+              <tc:CpfCnpj>
+                <tc:Cnpj>15268580000170</tc:Cnpj>
+              </tc:CpfCnpj>
+            </tc:IdentificacaoTomador>
+            <tc:RazaoSocial>LUCIANO OLIVEIRA LEAL ME</tc:RazaoSocial>
+            <tc:Endereco>
+              <tc:Endereco>RUA VISCONDE DE OURO PRETO</tc:Endereco>
+              <tc:Numero>136</tc:Numero>
+              <tc:Bairro>RINCAO DOS ILHEUS</tc:Bairro>
+              <tc:Cidade>4307609</tc:Cidade>
+              <tc:Estado>RS</tc:Estado>
+              <tc:Cep>93600970</tc:Cep>
+            </tc:Endereco>
+            <tc:Contato />
+          </tc:TomadorServico>
+          <tc:OrgaoGerador>
+            <tc:CodigoMunicipio>4313409</tc:CodigoMunicipio>
+            <tc:Uf>RS</tc:Uf>
+          </tc:OrgaoGerador>
+          <tc:ValorCredito>0</tc:ValorCredito>
+        </tc:InfNfse>
+        <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+          <SignedInfo>
+            <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+            <SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" />
+            <Reference URI="http://www.w3.org/TR/2000/REC-xhtml1-20000126/">
+              <Transforms>
+                <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+              </Transforms>
+              <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+              <DigestValue>eF6E8RWRcZhMtxc76A410ktih10=</DigestValue>
+            </Reference>
+          </SignedInfo>
+          <SignatureValue />
+          <KeyInfo>
+            <X509Data>
+              <X509Certificate />
+            </X509Data>
+          </KeyInfo>
+        </Signature>
+      </tc:Nfse>
+    </CompNfse>
+    <CompNfse>
+      <tc:Nfse>
+        <tc:InfNfse>
+          <tc:Numero>49</tc:Numero>
+          <tc:CodigoVerificacao> D1 5E EB</tc:CodigoVerificacao>
+          <tc:DataEmissao>2013-04-01T13:00:28</tc:DataEmissao>
+          <tc:NaturezaOperacao>1</tc:NaturezaOperacao>
+          <tc:RegimeEspecialTributacao>1</tc:RegimeEspecialTributacao>
+          <tc:OptanteSimplesNacional>2</tc:OptanteSimplesNacional>
+          <tc:IncentivadorCultural>2</tc:IncentivadorCultural>
+          <tc:Competencia>201304</tc:Competencia>
+          <tc:NfseSubstituida>1</tc:NfseSubstituida>
+          <tc:OutrasInformacoes>REF MES DE MARÇO 2013&lt;br&gt; &amp;bull; .</tc:OutrasInformacoes>
+          <tc:Servico>
+            <tc:ItemListaServico>105</tc:ItemListaServico>
+            <tc:CodigoCnae>6203100</tc:CodigoCnae>
+            <tc:CodigoTributacaoMunicipio>2526</tc:CodigoTributacaoMunicipio>
+            <tc:Discriminacao>- LICENCIAMENTO DE SOFTWARE
+VENC: 04/04/2013</tc:Discriminacao>
+            <tc:MunicipioPrestacaoServico>4313409</tc:MunicipioPrestacaoServico>
+            <tc:Valores>
+              <tc:ValorServicos>50</tc:ValorServicos>
+              <tc:ValorDeducoes>0</tc:ValorDeducoes>
+              <tc:ValorPis>0</tc:ValorPis>
+              <tc:ValorCofins>0</tc:ValorCofins>
+              <tc:ValorInss>0</tc:ValorInss>
+              <tc:ValorIr>0</tc:ValorIr>
+              <tc:ValorCsll>0</tc:ValorCsll>
+              <tc:IssRetido>2</tc:IssRetido>
+              <tc:OutrasRetencoes>0</tc:OutrasRetencoes>
+              <tc:BaseCalculo>50</tc:BaseCalculo>
+              <tc:Aliquota>2</tc:Aliquota>
+              <tc:ValorLiquidoNfse>50</tc:ValorLiquidoNfse>
+              <tc:ValorIssRetido>0</tc:ValorIssRetido>
+              <tc:ValorIss>1</tc:ValorIss>
+              <tc:DescontoCondicionado>0</tc:DescontoCondicionado>
+              <tc:DescontoIncondicionado>0</tc:DescontoIncondicionado>
+            </tc:Valores>
+          </tc:Servico>
+          <tc:PrestadorServico>
+            <tc:IdentificacaoPrestador>
+              <tc:CpfCnpj>
+                <tc:Cnpj>05874179000120</tc:Cnpj>
+              </tc:CpfCnpj>
+              <tc:InscricaoMunicipal>77026</tc:InscricaoMunicipal>
+            </tc:IdentificacaoPrestador>
+            <tc:RazaoSocial>Cri Assessoria e Informatica Ltda</tc:RazaoSocial>
+            <tc:NomeFantasia>Cri Assessoria e Informatica Ltda</tc:NomeFantasia>
+            <tc:Endereco>
+              <tc:Endereco>Rua Tupi</tc:Endereco>
+              <tc:Numero>758</tc:Numero>
+              <tc:Complemento>3</tc:Complemento>
+              <tc:Bairro>Centro</tc:Bairro>
+              <tc:Cidade>4313409</tc:Cidade>
+              <tc:Estado>RS</tc:Estado>
+              <tc:Cep>93336010</tc:Cep>
+            </tc:Endereco>
+            <tc:Contato>
+              <tc:Telefone>5135829143</tc:Telefone>
+            </tc:Contato>
+          </tc:PrestadorServico>
+          <tc:TomadorServico>
+            <tc:IdentificacaoTomador>
+              <tc:CpfCnpj>
+                <tc:Cnpj>13274740000168</tc:Cnpj>
+              </tc:CpfCnpj>
+              <tc:InscricaoMunicipal>81638</tc:InscricaoMunicipal>
+            </tc:IdentificacaoTomador>
+            <tc:RazaoSocial>San Bri Enfeites Para Calcados Ltda</tc:RazaoSocial>
+            <tc:Endereco>
+              <tc:Endereco>Rua Presidente Costa e Silva</tc:Endereco>
+              <tc:Numero>1553</tc:Numero>
+              <tc:Bairro>Canudos</tc:Bairro>
+              <tc:Cidade>4313409</tc:Cidade>
+              <tc:Estado>RS</tc:Estado>
+              <tc:Cep>93544230</tc:Cep>
+            </tc:Endereco>
+            <tc:Contato>
+              <tc:Email>sanbrienfeite@hotmail.com</tc:Email>
+            </tc:Contato>
+          </tc:TomadorServico>
+          <tc:OrgaoGerador>
+            <tc:CodigoMunicipio>4313409</tc:CodigoMunicipio>
+            <tc:Uf>RS</tc:Uf>
+          </tc:OrgaoGerador>
+          <tc:ValorCredito>0</tc:ValorCredito>
+        </tc:InfNfse>
+        <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+          <SignedInfo>
+            <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+            <SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" />
+            <Reference URI="http://www.w3.org/TR/2000/REC-xhtml1-20000126/">
+              <Transforms>
+                <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+              </Transforms>
+              <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+              <DigestValue>dmaEdNqc6zzW9Nrp+oe7puzqCFI=</DigestValue>
+            </Reference>
+          </SignedInfo>
+          <SignatureValue />
+          <KeyInfo>
+            <X509Data>
+              <X509Certificate />
+            </X509Data>
+          </KeyInfo>
+        </Signature>
+      </tc:Nfse>
+    </CompNfse>
+    <CompNfse>
+      <tc:Nfse>
+        <tc:InfNfse>
+          <tc:Numero>50</tc:Numero>
+          <tc:CodigoVerificacao>8 8 86 30</tc:CodigoVerificacao>
+          <tc:DataEmissao>2013-04-01T13:05:55</tc:DataEmissao>
+          <tc:NaturezaOperacao>1</tc:NaturezaOperacao>
+          <tc:RegimeEspecialTributacao>1</tc:RegimeEspecialTributacao>
+          <tc:OptanteSimplesNacional>2</tc:OptanteSimplesNacional>
+          <tc:IncentivadorCultural>2</tc:IncentivadorCultural>
+          <tc:Competencia>201304</tc:Competencia>
+          <tc:NfseSubstituida>1</tc:NfseSubstituida>
+          <tc:OutrasInformacoes>REF MARÇO DE 2013&lt;br&gt; &amp;bull; .</tc:OutrasInformacoes>
+          <tc:Servico>
+            <tc:ItemListaServico>105</tc:ItemListaServico>
+            <tc:CodigoCnae>6203100</tc:CodigoCnae>
+            <tc:CodigoTributacaoMunicipio>2526</tc:CodigoTributacaoMunicipio>
+            <tc:Discriminacao>- LICENCIAMENTO DE SOFTWARE
+VENCIMENTO: 04/04/2013
+</tc:Discriminacao>
+            <tc:MunicipioPrestacaoServico>4313409</tc:MunicipioPrestacaoServico>
+            <tc:Valores>
+              <tc:ValorServicos>65</tc:ValorServicos>
+              <tc:ValorDeducoes>0</tc:ValorDeducoes>
+              <tc:ValorPis>0</tc:ValorPis>
+              <tc:ValorCofins>0</tc:ValorCofins>
+              <tc:ValorInss>0</tc:ValorInss>
+              <tc:ValorIr>0</tc:ValorIr>
+              <tc:ValorCsll>0</tc:ValorCsll>
+              <tc:IssRetido>2</tc:IssRetido>
+              <tc:OutrasRetencoes>0</tc:OutrasRetencoes>
+              <tc:BaseCalculo>65</tc:BaseCalculo>
+              <tc:Aliquota>2</tc:Aliquota>
+              <tc:ValorLiquidoNfse>65</tc:ValorLiquidoNfse>
+              <tc:ValorIssRetido>0</tc:ValorIssRetido>
+              <tc:ValorIss>1.3</tc:ValorIss>
+              <tc:DescontoCondicionado>0</tc:DescontoCondicionado>
+              <tc:DescontoIncondicionado>0</tc:DescontoIncondicionado>
+            </tc:Valores>
+          </tc:Servico>
+          <tc:PrestadorServico>
+            <tc:IdentificacaoPrestador>
+              <tc:CpfCnpj>
+                <tc:Cnpj>05874179000120</tc:Cnpj>
+              </tc:CpfCnpj>
+              <tc:InscricaoMunicipal>77026</tc:InscricaoMunicipal>
+            </tc:IdentificacaoPrestador>
+            <tc:RazaoSocial>Cri Assessoria e Informatica Ltda</tc:RazaoSocial>
+            <tc:NomeFantasia>Cri Assessoria e Informatica Ltda</tc:NomeFantasia>
+            <tc:Endereco>
+              <tc:Endereco>Rua Tupi</tc:Endereco>
+              <tc:Numero>758</tc:Numero>
+              <tc:Complemento>3</tc:Complemento>
+              <tc:Bairro>Centro</tc:Bairro>
+              <tc:Cidade>4313409</tc:Cidade>
+              <tc:Estado>RS</tc:Estado>
+              <tc:Cep>93336010</tc:Cep>
+            </tc:Endereco>
+            <tc:Contato>
+              <tc:Telefone>5135829143</tc:Telefone>
+            </tc:Contato>
+          </tc:PrestadorServico>
+          <tc:TomadorServico>
+            <tc:IdentificacaoTomador>
+              <tc:CpfCnpj>
+                <tc:Cnpj>16580256000155</tc:Cnpj>
+              </tc:CpfCnpj>
+              <tc:InscricaoMunicipal>1006320</tc:InscricaoMunicipal>
+            </tc:IdentificacaoTomador>
+            <tc:RazaoSocial>Madelomba Materiais de Construcao Ltda</tc:RazaoSocial>
+            <tc:Endereco>
+              <tc:Endereco>Rua João Aloysio Algayer</tc:Endereco>
+              <tc:Numero>2790</tc:Numero>
+              <tc:Bairro>Lomba Grande</tc:Bairro>
+              <tc:Cidade>4313409</tc:Cidade>
+              <tc:Estado>RS</tc:Estado>
+              <tc:Cep>93490000</tc:Cep>
+            </tc:Endereco>
+            <tc:Contato />
+          </tc:TomadorServico>
+          <tc:OrgaoGerador>
+            <tc:CodigoMunicipio>4313409</tc:CodigoMunicipio>
+            <tc:Uf>RS</tc:Uf>
+          </tc:OrgaoGerador>
+          <tc:ValorCredito>0</tc:ValorCredito>
+        </tc:InfNfse>
+        <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+          <SignedInfo>
+            <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+            <SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" />
+            <Reference URI="http://www.w3.org/TR/2000/REC-xhtml1-20000126/">
+              <Transforms>
+                <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+              </Transforms>
+              <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+              <DigestValue>ky9K0tg5gQzcj5XZIFuya42/dxI=</DigestValue>
+            </Reference>
+          </SignedInfo>
+          <SignatureValue />
+          <KeyInfo>
+            <X509Data>
+              <X509Certificate />
+            </X509Data>
+          </KeyInfo>
+        </Signature>
+      </tc:Nfse>
+    </CompNfse>
+    <CompNfse>
+      <tc:Nfse>
+        <tc:InfNfse>
+          <tc:Numero>51</tc:Numero>
+          <tc:CodigoVerificacao> CB FF 23</tc:CodigoVerificacao>
+          <tc:DataEmissao>2013-04-01T13:10:03</tc:DataEmissao>
+          <tc:NaturezaOperacao>1</tc:NaturezaOperacao>
+          <tc:RegimeEspecialTributacao>1</tc:RegimeEspecialTributacao>
+          <tc:OptanteSimplesNacional>2</tc:OptanteSimplesNacional>
+          <tc:IncentivadorCultural>2</tc:IncentivadorCultural>
+          <tc:Competencia>201304</tc:Competencia>
+          <tc:NfseSubstituida>1</tc:NfseSubstituida>
+          <tc:OutrasInformacoes>REF MARÇO 2013&lt;br&gt; &amp;bull; .</tc:OutrasInformacoes>
+          <tc:Servico>
+            <tc:ItemListaServico>105</tc:ItemListaServico>
+            <tc:CodigoCnae>6203100</tc:CodigoCnae>
+            <tc:CodigoTributacaoMunicipio>2526</tc:CodigoTributacaoMunicipio>
+            <tc:Discriminacao>- LICENCIAMENTO DE SOFTWARE
+VENC: 05/04/2013</tc:Discriminacao>
+            <tc:MunicipioPrestacaoServico>4313409</tc:MunicipioPrestacaoServico>
+            <tc:Valores>
+              <tc:ValorServicos>75</tc:ValorServicos>
+              <tc:ValorDeducoes>0</tc:ValorDeducoes>
+              <tc:ValorPis>0</tc:ValorPis>
+              <tc:ValorCofins>0</tc:ValorCofins>
+              <tc:ValorInss>0</tc:ValorInss>
+              <tc:ValorIr>0</tc:ValorIr>
+              <tc:ValorCsll>0</tc:ValorCsll>
+              <tc:IssRetido>2</tc:IssRetido>
+              <tc:OutrasRetencoes>0</tc:OutrasRetencoes>
+              <tc:BaseCalculo>75</tc:BaseCalculo>
+              <tc:Aliquota>2</tc:Aliquota>
+              <tc:ValorLiquidoNfse>75</tc:ValorLiquidoNfse>
+              <tc:ValorIssRetido>0</tc:ValorIssRetido>
+              <tc:ValorIss>1.5</tc:ValorIss>
+              <tc:DescontoCondicionado>0</tc:DescontoCondicionado>
+              <tc:DescontoIncondicionado>0</tc:DescontoIncondicionado>
+            </tc:Valores>
+          </tc:Servico>
+          <tc:PrestadorServico>
+            <tc:IdentificacaoPrestador>
+              <tc:CpfCnpj>
+                <tc:Cnpj>05874179000120</tc:Cnpj>
+              </tc:CpfCnpj>
+              <tc:InscricaoMunicipal>77026</tc:InscricaoMunicipal>
+            </tc:IdentificacaoPrestador>
+            <tc:RazaoSocial>Cri Assessoria e Informatica Ltda</tc:RazaoSocial>
+            <tc:NomeFantasia>Cri Assessoria e Informatica Ltda</tc:NomeFantasia>
+            <tc:Endereco>
+              <tc:Endereco>Rua Tupi</tc:Endereco>
+              <tc:Numero>758</tc:Numero>
+              <tc:Complemento>3</tc:Complemento>
+              <tc:Bairro>Centro</tc:Bairro>
+              <tc:Cidade>4313409</tc:Cidade>
+              <tc:Estado>RS</tc:Estado>
+              <tc:Cep>93336010</tc:Cep>
+            </tc:Endereco>
+            <tc:Contato>
+              <tc:Telefone>5135829143</tc:Telefone>
+            </tc:Contato>
+          </tc:PrestadorServico>
+          <tc:TomadorServico>
+            <tc:IdentificacaoTomador>
+              <tc:CpfCnpj>
+                <tc:Cnpj>97094676000123</tc:Cnpj>
+              </tc:CpfCnpj>
+            </tc:IdentificacaoTomador>
+            <tc:RazaoSocial>SILVIO LUIZ BORGES ME</tc:RazaoSocial>
+            <tc:Endereco>
+              <tc:Endereco>Rua São Luiz</tc:Endereco>
+              <tc:Numero>22</tc:Numero>
+              <tc:Bairro>Jardim</tc:Bairro>
+              <tc:Cidade>4320008</tc:Cidade>
+              <tc:Estado>RS</tc:Estado>
+              <tc:Cep>93220400</tc:Cep>
+            </tc:Endereco>
+            <tc:Contato>
+              <tc:Telefone>5134743805</tc:Telefone>
+            </tc:Contato>
+          </tc:TomadorServico>
+          <tc:OrgaoGerador>
+            <tc:CodigoMunicipio>4313409</tc:CodigoMunicipio>
+            <tc:Uf>RS</tc:Uf>
+          </tc:OrgaoGerador>
+          <tc:ValorCredito>0</tc:ValorCredito>
+        </tc:InfNfse>
+        <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+          <SignedInfo>
+            <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+            <SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" />
+            <Reference URI="http://www.w3.org/TR/2000/REC-xhtml1-20000126/">
+              <Transforms>
+                <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+              </Transforms>
+              <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+              <DigestValue>+u5rmqW0hsoun4xZrIwllDxO0m0=</DigestValue>
+            </Reference>
+          </SignedInfo>
+          <SignatureValue />
+          <KeyInfo>
+            <X509Data>
+              <X509Certificate />
+            </X509Data>
+          </KeyInfo>
+        </Signature>
+      </tc:Nfse>
+    </CompNfse>
+    <CompNfse>
+      <tc:Nfse>
+        <tc:InfNfse>
+          <tc:Numero>52</tc:Numero>
+          <tc:CodigoVerificacao> 4F F9 A6</tc:CodigoVerificacao>
+          <tc:DataEmissao>2013-04-01T13:14:45</tc:DataEmissao>
+          <tc:NaturezaOperacao>1</tc:NaturezaOperacao>
+          <tc:RegimeEspecialTributacao>1</tc:RegimeEspecialTributacao>
+          <tc:OptanteSimplesNacional>2</tc:OptanteSimplesNacional>
+          <tc:IncentivadorCultural>2</tc:IncentivadorCultural>
+          <tc:Competencia>201304</tc:Competencia>
+          <tc:NfseSubstituida>1</tc:NfseSubstituida>
+          <tc:OutrasInformacoes>REF MARÇO 2013&lt;br&gt; &amp;bull; .</tc:OutrasInformacoes>
+          <tc:Servico>
+            <tc:ItemListaServico>105</tc:ItemListaServico>
+            <tc:CodigoCnae>6203100</tc:CodigoCnae>
+            <tc:CodigoTributacaoMunicipio>2526</tc:CodigoTributacaoMunicipio>
+            <tc:Discriminacao>- LICENCIAMENTO DE SOFTWARE
+VENC: 04/04/2013</tc:Discriminacao>
+            <tc:MunicipioPrestacaoServico>4313409</tc:MunicipioPrestacaoServico>
+            <tc:Valores>
+              <tc:ValorServicos>60</tc:ValorServicos>
+              <tc:ValorDeducoes>0</tc:ValorDeducoes>
+              <tc:ValorPis>0</tc:ValorPis>
+              <tc:ValorCofins>0</tc:ValorCofins>
+              <tc:ValorInss>0</tc:ValorInss>
+              <tc:ValorIr>0</tc:ValorIr>
+              <tc:ValorCsll>0</tc:ValorCsll>
+              <tc:IssRetido>2</tc:IssRetido>
+              <tc:OutrasRetencoes>0</tc:OutrasRetencoes>
+              <tc:BaseCalculo>60</tc:BaseCalculo>
+              <tc:Aliquota>2</tc:Aliquota>
+              <tc:ValorLiquidoNfse>60</tc:ValorLiquidoNfse>
+              <tc:ValorIssRetido>0</tc:ValorIssRetido>
+              <tc:ValorIss>1.2</tc:ValorIss>
+              <tc:DescontoCondicionado>0</tc:DescontoCondicionado>
+              <tc:DescontoIncondicionado>0</tc:DescontoIncondicionado>
+            </tc:Valores>
+          </tc:Servico>
+          <tc:PrestadorServico>
+            <tc:IdentificacaoPrestador>
+              <tc:CpfCnpj>
+                <tc:Cnpj>05874179000120</tc:Cnpj>
+              </tc:CpfCnpj>
+              <tc:InscricaoMunicipal>77026</tc:InscricaoMunicipal>
+            </tc:IdentificacaoPrestador>
+            <tc:RazaoSocial>Cri Assessoria e Informatica Ltda</tc:RazaoSocial>
+            <tc:NomeFantasia>Cri Assessoria e Informatica Ltda</tc:NomeFantasia>
+            <tc:Endereco>
+              <tc:Endereco>Rua Tupi</tc:Endereco>
+              <tc:Numero>758</tc:Numero>
+              <tc:Complemento>3</tc:Complemento>
+              <tc:Bairro>Centro</tc:Bairro>
+              <tc:Cidade>4313409</tc:Cidade>
+              <tc:Estado>RS</tc:Estado>
+              <tc:Cep>93336010</tc:Cep>
+            </tc:Endereco>
+            <tc:Contato>
+              <tc:Telefone>5135829143</tc:Telefone>
+            </tc:Contato>
+          </tc:PrestadorServico>
+          <tc:TomadorServico>
+            <tc:IdentificacaoTomador>
+              <tc:CpfCnpj>
+                <tc:Cnpj>08302489000168</tc:Cnpj>
+              </tc:CpfCnpj>
+              <tc:InscricaoMunicipal>69444</tc:InscricaoMunicipal>
+            </tc:IdentificacaoTomador>
+            <tc:RazaoSocial>Color Sinos Industria e Comercio de Componentes Para Calcados Ltda</tc:RazaoSocial>
+            <tc:Endereco>
+              <tc:Endereco>Rua Rio Amazonas</tc:Endereco>
+              <tc:Numero>300</tc:Numero>
+              <tc:Bairro>Liberdade</tc:Bairro>
+              <tc:Cidade>4313409</tc:Cidade>
+              <tc:Estado>RS</tc:Estado>
+              <tc:Cep>93332140</tc:Cep>
+            </tc:Endereco>
+            <tc:Contato />
+          </tc:TomadorServico>
+          <tc:OrgaoGerador>
+            <tc:CodigoMunicipio>4313409</tc:CodigoMunicipio>
+            <tc:Uf>RS</tc:Uf>
+          </tc:OrgaoGerador>
+          <tc:ValorCredito>0</tc:ValorCredito>
+        </tc:InfNfse>
+        <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+          <SignedInfo>
+            <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+            <SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" />
+            <Reference URI="http://www.w3.org/TR/2000/REC-xhtml1-20000126/">
+              <Transforms>
+                <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+              </Transforms>
+              <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+              <DigestValue>9VceDxumX464/I5dUMqREUr+PTE=</DigestValue>
+            </Reference>
+          </SignedInfo>
+          <SignatureValue />
+          <KeyInfo>
+            <X509Data>
+              <X509Certificate />
+            </X509Data>
+          </KeyInfo>
+        </Signature>
+      </tc:Nfse>
+    </CompNfse>
+    <CompNfse>
+      <tc:Nfse>
+        <tc:InfNfse>
+          <tc:Numero>53</tc:Numero>
+          <tc:CodigoVerificacao>6 87 D8 A</tc:CodigoVerificacao>
+          <tc:DataEmissao>2013-04-01T13:20:10</tc:DataEmissao>
+          <tc:NaturezaOperacao>1</tc:NaturezaOperacao>
+          <tc:RegimeEspecialTributacao>1</tc:RegimeEspecialTributacao>
+          <tc:OptanteSimplesNacional>2</tc:OptanteSimplesNacional>
+          <tc:IncentivadorCultural>2</tc:IncentivadorCultural>
+          <tc:Competencia>201304</tc:Competencia>
+          <tc:NfseSubstituida>1</tc:NfseSubstituida>
+          <tc:OutrasInformacoes>REF MARÇO 2013&lt;br&gt; &amp;bull; .</tc:OutrasInformacoes>
+          <tc:Servico>
+            <tc:ItemListaServico>105</tc:ItemListaServico>
+            <tc:CodigoCnae>6203100</tc:CodigoCnae>
+            <tc:CodigoTributacaoMunicipio>2526</tc:CodigoTributacaoMunicipio>
+            <tc:Discriminacao>- LICENCIAMENTO DE SOFTWARE
+VENC: 04/04/2013
+DADOS PARA DEPOSITO: 
+BANCO ITAU
+AG: 1621
+CC: 20818-8
+CRI ASSES E INFORM LTDA</tc:Discriminacao>
+            <tc:MunicipioPrestacaoServico>4313409</tc:MunicipioPrestacaoServico>
+            <tc:Valores>
+              <tc:ValorServicos>60</tc:ValorServicos>
+              <tc:ValorDeducoes>0</tc:ValorDeducoes>
+              <tc:ValorPis>0</tc:ValorPis>
+              <tc:ValorCofins>0</tc:ValorCofins>
+              <tc:ValorInss>0</tc:ValorInss>
+              <tc:ValorIr>0</tc:ValorIr>
+              <tc:ValorCsll>0</tc:ValorCsll>
+              <tc:IssRetido>2</tc:IssRetido>
+              <tc:OutrasRetencoes>0</tc:OutrasRetencoes>
+              <tc:BaseCalculo>60</tc:BaseCalculo>
+              <tc:Aliquota>2</tc:Aliquota>
+              <tc:ValorLiquidoNfse>60</tc:ValorLiquidoNfse>
+              <tc:ValorIssRetido>0</tc:ValorIssRetido>
+              <tc:ValorIss>1.2</tc:ValorIss>
+              <tc:DescontoCondicionado>0</tc:DescontoCondicionado>
+              <tc:DescontoIncondicionado>0</tc:DescontoIncondicionado>
+            </tc:Valores>
+          </tc:Servico>
+          <tc:PrestadorServico>
+            <tc:IdentificacaoPrestador>
+              <tc:CpfCnpj>
+                <tc:Cnpj>05874179000120</tc:Cnpj>
+              </tc:CpfCnpj>
+              <tc:InscricaoMunicipal>77026</tc:InscricaoMunicipal>
+            </tc:IdentificacaoPrestador>
+            <tc:RazaoSocial>Cri Assessoria e Informatica Ltda</tc:RazaoSocial>
+            <tc:NomeFantasia>Cri Assessoria e Informatica Ltda</tc:NomeFantasia>
+            <tc:Endereco>
+              <tc:Endereco>Rua Tupi</tc:Endereco>
+              <tc:Numero>758</tc:Numero>
+              <tc:Complemento>3</tc:Complemento>
+              <tc:Bairro>Centro</tc:Bairro>
+              <tc:Cidade>4313409</tc:Cidade>
+              <tc:Estado>RS</tc:Estado>
+              <tc:Cep>93336010</tc:Cep>
+            </tc:Endereco>
+            <tc:Contato>
+              <tc:Telefone>5135829143</tc:Telefone>
+            </tc:Contato>
+          </tc:PrestadorServico>
+          <tc:TomadorServico>
+            <tc:IdentificacaoTomador>
+              <tc:CpfCnpj>
+                <tc:Cnpj>06051721000107</tc:Cnpj>
+              </tc:CpfCnpj>
+            </tc:IdentificacaoTomador>
+            <tc:RazaoSocial>HENEMANN E BARBOZA COM E REPR LTDA-ME</tc:RazaoSocial>
+            <tc:Endereco>
+              <tc:Endereco>Avenida Castro Alves</tc:Endereco>
+              <tc:Numero>267</tc:Numero>
+              <tc:Bairro>Santa Catarina</tc:Bairro>
+              <tc:Cidade>4320008</tc:Cidade>
+              <tc:Estado>RS</tc:Estado>
+              <tc:Cep>93214060</tc:Cep>
+            </tc:Endereco>
+            <tc:Contato>
+              <tc:Telefone>5134741146</tc:Telefone>
+              <tc:Email>nfe.henemannbarboza@gmail.com</tc:Email>
+            </tc:Contato>
+          </tc:TomadorServico>
+          <tc:OrgaoGerador>
+            <tc:CodigoMunicipio>4313409</tc:CodigoMunicipio>
+            <tc:Uf>RS</tc:Uf>
+          </tc:OrgaoGerador>
+          <tc:ValorCredito>0</tc:ValorCredito>
+        </tc:InfNfse>
+        <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+          <SignedInfo>
+            <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+            <SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" />
+            <Reference URI="http://www.w3.org/TR/2000/REC-xhtml1-20000126/">
+              <Transforms>
+                <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+              </Transforms>
+              <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+              <DigestValue>zrcjDvaxiL3khXA7/1SB+bJ+0Ns=</DigestValue>
+            </Reference>
+          </SignedInfo>
+          <SignatureValue />
+          <KeyInfo>
+            <X509Data>
+              <X509Certificate />
+            </X509Data>
+          </KeyInfo>
+        </Signature>
+      </tc:Nfse>
+    </CompNfse>
+    <CompNfse>
+      <tc:Nfse>
+        <tc:InfNfse>
+          <tc:Numero>54</tc:Numero>
+          <tc:CodigoVerificacao> 13 63 D2</tc:CodigoVerificacao>
+          <tc:DataEmissao>2013-04-01T13:24:32</tc:DataEmissao>
+          <tc:NaturezaOperacao>1</tc:NaturezaOperacao>
+          <tc:RegimeEspecialTributacao>1</tc:RegimeEspecialTributacao>
+          <tc:OptanteSimplesNacional>2</tc:OptanteSimplesNacional>
+          <tc:IncentivadorCultural>2</tc:IncentivadorCultural>
+          <tc:Competencia>201304</tc:Competencia>
+          <tc:NfseSubstituida>1</tc:NfseSubstituida>
+          <tc:OutrasInformacoes>REF MARÇO 2013&lt;br&gt; &amp;bull; .</tc:OutrasInformacoes>
+          <tc:Servico>
+            <tc:ItemListaServico>105</tc:ItemListaServico>
+            <tc:CodigoCnae>6203100</tc:CodigoCnae>
+            <tc:CodigoTributacaoMunicipio>2526</tc:CodigoTributacaoMunicipio>
+            <tc:Discriminacao>- LICENCIAMENTO DE SOFTWARE
+VENC: 05/04/2013</tc:Discriminacao>
+            <tc:MunicipioPrestacaoServico>4313409</tc:MunicipioPrestacaoServico>
+            <tc:Valores>
+              <tc:ValorServicos>60</tc:ValorServicos>
+              <tc:ValorDeducoes>0</tc:ValorDeducoes>
+              <tc:ValorPis>0</tc:ValorPis>
+              <tc:ValorCofins>0</tc:ValorCofins>
+              <tc:ValorInss>0</tc:ValorInss>
+              <tc:ValorIr>0</tc:ValorIr>
+              <tc:ValorCsll>0</tc:ValorCsll>
+              <tc:IssRetido>2</tc:IssRetido>
+              <tc:OutrasRetencoes>0</tc:OutrasRetencoes>
+              <tc:BaseCalculo>60</tc:BaseCalculo>
+              <tc:Aliquota>2</tc:Aliquota>
+              <tc:ValorLiquidoNfse>60</tc:ValorLiquidoNfse>
+              <tc:ValorIssRetido>0</tc:ValorIssRetido>
+              <tc:ValorIss>1.2</tc:ValorIss>
+              <tc:DescontoCondicionado>0</tc:DescontoCondicionado>
+              <tc:DescontoIncondicionado>0</tc:DescontoIncondicionado>
+            </tc:Valores>
+          </tc:Servico>
+          <tc:PrestadorServico>
+            <tc:IdentificacaoPrestador>
+              <tc:CpfCnpj>
+                <tc:Cnpj>05874179000120</tc:Cnpj>
+              </tc:CpfCnpj>
+              <tc:InscricaoMunicipal>77026</tc:InscricaoMunicipal>
+            </tc:IdentificacaoPrestador>
+            <tc:RazaoSocial>Cri Assessoria e Informatica Ltda</tc:RazaoSocial>
+            <tc:NomeFantasia>Cri Assessoria e Informatica Ltda</tc:NomeFantasia>
+            <tc:Endereco>
+              <tc:Endereco>Rua Tupi</tc:Endereco>
+              <tc:Numero>758</tc:Numero>
+              <tc:Complemento>3</tc:Complemento>
+              <tc:Bairro>Centro</tc:Bairro>
+              <tc:Cidade>4313409</tc:Cidade>
+              <tc:Estado>RS</tc:Estado>
+              <tc:Cep>93336010</tc:Cep>
+            </tc:Endereco>
+            <tc:Contato>
+              <tc:Telefone>5135829143</tc:Telefone>
+            </tc:Contato>
+          </tc:PrestadorServico>
+          <tc:TomadorServico>
+            <tc:IdentificacaoTomador>
+              <tc:CpfCnpj>
+                <tc:Cnpj>90582628000135</tc:Cnpj>
+              </tc:CpfCnpj>
+            </tc:IdentificacaoTomador>
+            <tc:RazaoSocial>CLAUDIO RUBASKI</tc:RazaoSocial>
+            <tc:Endereco>
+              <tc:Endereco>Rua Dulcimar Cardoso</tc:Endereco>
+              <tc:Numero>192</tc:Numero>
+              <tc:Bairro>Paraíso</tc:Bairro>
+              <tc:Cidade>4320008</tc:Cidade>
+              <tc:Estado>RS</tc:Estado>
+              <tc:Cep>93220560</tc:Cep>
+            </tc:Endereco>
+            <tc:Contato />
+          </tc:TomadorServico>
+          <tc:OrgaoGerador>
+            <tc:CodigoMunicipio>4313409</tc:CodigoMunicipio>
+            <tc:Uf>RS</tc:Uf>
+          </tc:OrgaoGerador>
+          <tc:ValorCredito>0</tc:ValorCredito>
+        </tc:InfNfse>
+        <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+          <SignedInfo>
+            <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+            <SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" />
+            <Reference URI="http://www.w3.org/TR/2000/REC-xhtml1-20000126/">
+              <Transforms>
+                <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+              </Transforms>
+              <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+              <DigestValue>mEKKIcPAZ5nVBecmPi5zAohzEqU=</DigestValue>
+            </Reference>
+          </SignedInfo>
+          <SignatureValue />
+          <KeyInfo>
+            <X509Data>
+              <X509Certificate />
+            </X509Data>
+          </KeyInfo>
+        </Signature>
+      </tc:Nfse>
+    </CompNfse>
+    <CompNfse>
+      <tc:Nfse>
+        <tc:InfNfse>
+          <tc:Numero>55</tc:Numero>
+          <tc:CodigoVerificacao> B7 28 7D</tc:CodigoVerificacao>
+          <tc:DataEmissao>2013-04-01T13:29:06</tc:DataEmissao>
+          <tc:NaturezaOperacao>1</tc:NaturezaOperacao>
+          <tc:RegimeEspecialTributacao>1</tc:RegimeEspecialTributacao>
+          <tc:OptanteSimplesNacional>2</tc:OptanteSimplesNacional>
+          <tc:IncentivadorCultural>2</tc:IncentivadorCultural>
+          <tc:Competencia>201304</tc:Competencia>
+          <tc:NfseSubstituida>1</tc:NfseSubstituida>
+          <tc:OutrasInformacoes>REF MARÇO 2013&lt;br&gt; &amp;bull; .</tc:OutrasInformacoes>
+          <tc:Servico>
+            <tc:ItemListaServico>105</tc:ItemListaServico>
+            <tc:CodigoCnae>6203100</tc:CodigoCnae>
+            <tc:CodigoTributacaoMunicipio>2526</tc:CodigoTributacaoMunicipio>
+            <tc:Discriminacao>- LICENCIAMENTO DE SOFTWARE
+VENC: 05/04/2013</tc:Discriminacao>
+            <tc:MunicipioPrestacaoServico>4313409</tc:MunicipioPrestacaoServico>
+            <tc:Valores>
+              <tc:ValorServicos>60</tc:ValorServicos>
+              <tc:ValorDeducoes>0</tc:ValorDeducoes>
+              <tc:ValorPis>0</tc:ValorPis>
+              <tc:ValorCofins>0</tc:ValorCofins>
+              <tc:ValorInss>0</tc:ValorInss>
+              <tc:ValorIr>0</tc:ValorIr>
+              <tc:ValorCsll>0</tc:ValorCsll>
+              <tc:IssRetido>2</tc:IssRetido>
+              <tc:OutrasRetencoes>0</tc:OutrasRetencoes>
+              <tc:BaseCalculo>60</tc:BaseCalculo>
+              <tc:Aliquota>2</tc:Aliquota>
+              <tc:ValorLiquidoNfse>60</tc:ValorLiquidoNfse>
+              <tc:ValorIssRetido>0</tc:ValorIssRetido>
+              <tc:ValorIss>1.2</tc:ValorIss>
+              <tc:DescontoCondicionado>0</tc:DescontoCondicionado>
+              <tc:DescontoIncondicionado>0</tc:DescontoIncondicionado>
+            </tc:Valores>
+          </tc:Servico>
+          <tc:PrestadorServico>
+            <tc:IdentificacaoPrestador>
+              <tc:CpfCnpj>
+                <tc:Cnpj>05874179000120</tc:Cnpj>
+              </tc:CpfCnpj>
+              <tc:InscricaoMunicipal>77026</tc:InscricaoMunicipal>
+            </tc:IdentificacaoPrestador>
+            <tc:RazaoSocial>Cri Assessoria e Informatica Ltda</tc:RazaoSocial>
+            <tc:NomeFantasia>Cri Assessoria e Informatica Ltda</tc:NomeFantasia>
+            <tc:Endereco>
+              <tc:Endereco>Rua Tupi</tc:Endereco>
+              <tc:Numero>758</tc:Numero>
+              <tc:Complemento>3</tc:Complemento>
+              <tc:Bairro>Centro</tc:Bairro>
+              <tc:Cidade>4313409</tc:Cidade>
+              <tc:Estado>RS</tc:Estado>
+              <tc:Cep>93336010</tc:Cep>
+            </tc:Endereco>
+            <tc:Contato>
+              <tc:Telefone>5135829143</tc:Telefone>
+            </tc:Contato>
+          </tc:PrestadorServico>
+          <tc:TomadorServico>
+            <tc:IdentificacaoTomador>
+              <tc:CpfCnpj>
+                <tc:Cnpj>02192561000165</tc:Cnpj>
+              </tc:CpfCnpj>
+            </tc:IdentificacaoTomador>
+            <tc:RazaoSocial>PICOTEC MAQUINAS E PLASTICOS LTDA</tc:RazaoSocial>
+            <tc:Endereco>
+              <tc:Endereco>Rua Bonfim</tc:Endereco>
+              <tc:Numero>101</tc:Numero>
+              <tc:Bairro>Santos Dumont</tc:Bairro>
+              <tc:Cidade>4318705</tc:Cidade>
+              <tc:Estado>RS</tc:Estado>
+              <tc:Cep>93115460</tc:Cep>
+            </tc:Endereco>
+            <tc:Contato>
+              <tc:Telefone>5135681843</tc:Telefone>
+              <tc:Email>picotec@brturbo.com.br</tc:Email>
+            </tc:Contato>
+          </tc:TomadorServico>
+          <tc:OrgaoGerador>
+            <tc:CodigoMunicipio>4313409</tc:CodigoMunicipio>
+            <tc:Uf>RS</tc:Uf>
+          </tc:OrgaoGerador>
+          <tc:ValorCredito>0</tc:ValorCredito>
+        </tc:InfNfse>
+        <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+          <SignedInfo>
+            <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+            <SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" />
+            <Reference URI="http://www.w3.org/TR/2000/REC-xhtml1-20000126/">
+              <Transforms>
+                <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+              </Transforms>
+              <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+              <DigestValue>o5lMbMT760lsuP8GjU83OqFzvio=</DigestValue>
+            </Reference>
+          </SignedInfo>
+          <SignatureValue />
+          <KeyInfo>
+            <X509Data>
+              <X509Certificate />
+            </X509Data>
+          </KeyInfo>
+        </Signature>
+      </tc:Nfse>
+    </CompNfse>
+    <CompNfse>
+      <tc:Nfse>
+        <tc:InfNfse>
+          <tc:Numero>56</tc:Numero>
+          <tc:CodigoVerificacao>8 C9 B 25</tc:CodigoVerificacao>
+          <tc:DataEmissao>2013-04-01T13:37:12</tc:DataEmissao>
+          <tc:NaturezaOperacao>1</tc:NaturezaOperacao>
+          <tc:RegimeEspecialTributacao>1</tc:RegimeEspecialTributacao>
+          <tc:OptanteSimplesNacional>2</tc:OptanteSimplesNacional>
+          <tc:IncentivadorCultural>2</tc:IncentivadorCultural>
+          <tc:Competencia>201304</tc:Competencia>
+          <tc:NfseSubstituida>1</tc:NfseSubstituida>
+          <tc:OutrasInformacoes>REF MARÇO 2013&lt;br&gt; &amp;bull; .</tc:OutrasInformacoes>
+          <tc:Servico>
+            <tc:ItemListaServico>105</tc:ItemListaServico>
+            <tc:CodigoCnae>6203100</tc:CodigoCnae>
+            <tc:CodigoTributacaoMunicipio>2526</tc:CodigoTributacaoMunicipio>
+            <tc:Discriminacao>- LICENCIAMENTO DE SOFTWARE
+VENC: 05/04/2013</tc:Discriminacao>
+            <tc:MunicipioPrestacaoServico>4313409</tc:MunicipioPrestacaoServico>
+            <tc:Valores>
+              <tc:ValorServicos>80</tc:ValorServicos>
+              <tc:ValorDeducoes>0</tc:ValorDeducoes>
+              <tc:ValorPis>0</tc:ValorPis>
+              <tc:ValorCofins>0</tc:ValorCofins>
+              <tc:ValorInss>0</tc:ValorInss>
+              <tc:ValorIr>0</tc:ValorIr>
+              <tc:ValorCsll>0</tc:ValorCsll>
+              <tc:IssRetido>2</tc:IssRetido>
+              <tc:OutrasRetencoes>0</tc:OutrasRetencoes>
+              <tc:BaseCalculo>80</tc:BaseCalculo>
+              <tc:Aliquota>2</tc:Aliquota>
+              <tc:ValorLiquidoNfse>80</tc:ValorLiquidoNfse>
+              <tc:ValorIssRetido>0</tc:ValorIssRetido>
+              <tc:ValorIss>1.6</tc:ValorIss>
+              <tc:DescontoCondicionado>0</tc:DescontoCondicionado>
+              <tc:DescontoIncondicionado>0</tc:DescontoIncondicionado>
+            </tc:Valores>
+          </tc:Servico>
+          <tc:PrestadorServico>
+            <tc:IdentificacaoPrestador>
+              <tc:CpfCnpj>
+                <tc:Cnpj>05874179000120</tc:Cnpj>
+              </tc:CpfCnpj>
+              <tc:InscricaoMunicipal>77026</tc:InscricaoMunicipal>
+            </tc:IdentificacaoPrestador>
+            <tc:RazaoSocial>Cri Assessoria e Informatica Ltda</tc:RazaoSocial>
+            <tc:NomeFantasia>Cri Assessoria e Informatica Ltda</tc:NomeFantasia>
+            <tc:Endereco>
+              <tc:Endereco>Rua Tupi</tc:Endereco>
+              <tc:Numero>758</tc:Numero>
+              <tc:Complemento>3</tc:Complemento>
+              <tc:Bairro>Centro</tc:Bairro>
+              <tc:Cidade>4313409</tc:Cidade>
+              <tc:Estado>RS</tc:Estado>
+              <tc:Cep>93336010</tc:Cep>
+            </tc:Endereco>
+            <tc:Contato>
+              <tc:Telefone>5135829143</tc:Telefone>
+            </tc:Contato>
+          </tc:PrestadorServico>
+          <tc:TomadorServico>
+            <tc:IdentificacaoTomador>
+              <tc:CpfCnpj>
+                <tc:Cnpj>08484565000101</tc:Cnpj>
+              </tc:CpfCnpj>
+            </tc:IdentificacaoTomador>
+            <tc:RazaoSocial>Luis Carlos da Silva Automoveis</tc:RazaoSocial>
+            <tc:Endereco>
+              <tc:Endereco>Av. PRESIDENTE VARGAS</tc:Endereco>
+              <tc:Numero>350</tc:Numero>
+              <tc:Bairro>SÃO SEBASTIÃO</tc:Bairro>
+              <tc:Cidade>4307708</tc:Cidade>
+              <tc:Estado>RS</tc:Estado>
+              <tc:Cep>93265316</tc:Cep>
+            </tc:Endereco>
+            <tc:Contato>
+              <tc:Telefone>5134595216</tc:Telefone>
+              <tc:Email>windcar.rs@terra.com.br</tc:Email>
+            </tc:Contato>
+          </tc:TomadorServico>
+          <tc:OrgaoGerador>
+            <tc:CodigoMunicipio>4313409</tc:CodigoMunicipio>
+            <tc:Uf>RS</tc:Uf>
+          </tc:OrgaoGerador>
+          <tc:ValorCredito>0</tc:ValorCredito>
+        </tc:InfNfse>
+        <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+          <SignedInfo>
+            <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+            <SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" />
+            <Reference URI="http://www.w3.org/TR/2000/REC-xhtml1-20000126/">
+              <Transforms>
+                <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+              </Transforms>
+              <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+              <DigestValue>gV3H7dI8vIA1PMV+F1kCemxnbTY=</DigestValue>
+            </Reference>
+          </SignedInfo>
+          <SignatureValue />
+          <KeyInfo>
+            <X509Data>
+              <X509Certificate />
+            </X509Data>
+          </KeyInfo>
+        </Signature>
+      </tc:Nfse>
+    </CompNfse>
+    <CompNfse>
+      <tc:Nfse>
+        <tc:InfNfse>
+          <tc:Numero>57</tc:Numero>
+          <tc:CodigoVerificacao> 73 B1 73</tc:CodigoVerificacao>
+          <tc:DataEmissao>2013-04-01T13:42:39</tc:DataEmissao>
+          <tc:NaturezaOperacao>1</tc:NaturezaOperacao>
+          <tc:RegimeEspecialTributacao>1</tc:RegimeEspecialTributacao>
+          <tc:OptanteSimplesNacional>2</tc:OptanteSimplesNacional>
+          <tc:IncentivadorCultural>2</tc:IncentivadorCultural>
+          <tc:Competencia>201304</tc:Competencia>
+          <tc:NfseSubstituida>1</tc:NfseSubstituida>
+          <tc:OutrasInformacoes>REF MARÇO 2013&lt;br&gt; &amp;bull; .</tc:OutrasInformacoes>
+          <tc:Servico>
+            <tc:ItemListaServico>105</tc:ItemListaServico>
+            <tc:CodigoCnae>6203100</tc:CodigoCnae>
+            <tc:CodigoTributacaoMunicipio>2526</tc:CodigoTributacaoMunicipio>
+            <tc:Discriminacao>- LICENCIAMENTO DE SOFTWARE
+VENC: 04/04/2013</tc:Discriminacao>
+            <tc:MunicipioPrestacaoServico>4313409</tc:MunicipioPrestacaoServico>
+            <tc:Valores>
+              <tc:ValorServicos>80</tc:ValorServicos>
+              <tc:ValorDeducoes>0</tc:ValorDeducoes>
+              <tc:ValorPis>0</tc:ValorPis>
+              <tc:ValorCofins>0</tc:ValorCofins>
+              <tc:ValorInss>0</tc:ValorInss>
+              <tc:ValorIr>0</tc:ValorIr>
+              <tc:ValorCsll>0</tc:ValorCsll>
+              <tc:IssRetido>2</tc:IssRetido>
+              <tc:OutrasRetencoes>0</tc:OutrasRetencoes>
+              <tc:BaseCalculo>80</tc:BaseCalculo>
+              <tc:Aliquota>2</tc:Aliquota>
+              <tc:ValorLiquidoNfse>80</tc:ValorLiquidoNfse>
+              <tc:ValorIssRetido>0</tc:ValorIssRetido>
+              <tc:ValorIss>1.6</tc:ValorIss>
+              <tc:DescontoCondicionado>0</tc:DescontoCondicionado>
+              <tc:DescontoIncondicionado>0</tc:DescontoIncondicionado>
+            </tc:Valores>
+          </tc:Servico>
+          <tc:PrestadorServico>
+            <tc:IdentificacaoPrestador>
+              <tc:CpfCnpj>
+                <tc:Cnpj>05874179000120</tc:Cnpj>
+              </tc:CpfCnpj>
+              <tc:InscricaoMunicipal>77026</tc:InscricaoMunicipal>
+            </tc:IdentificacaoPrestador>
+            <tc:RazaoSocial>Cri Assessoria e Informatica Ltda</tc:RazaoSocial>
+            <tc:NomeFantasia>Cri Assessoria e Informatica Ltda</tc:NomeFantasia>
+            <tc:Endereco>
+              <tc:Endereco>Rua Tupi</tc:Endereco>
+              <tc:Numero>758</tc:Numero>
+              <tc:Complemento>3</tc:Complemento>
+              <tc:Bairro>Centro</tc:Bairro>
+              <tc:Cidade>4313409</tc:Cidade>
+              <tc:Estado>RS</tc:Estado>
+              <tc:Cep>93336010</tc:Cep>
+            </tc:Endereco>
+            <tc:Contato>
+              <tc:Telefone>5135829143</tc:Telefone>
+            </tc:Contato>
+          </tc:PrestadorServico>
+          <tc:TomadorServico>
+            <tc:IdentificacaoTomador>
+              <tc:CpfCnpj>
+                <tc:Cnpj>11929203000183</tc:Cnpj>
+              </tc:CpfCnpj>
+              <tc:InscricaoMunicipal>80058</tc:InscricaoMunicipal>
+            </tc:IdentificacaoTomador>
+            <tc:RazaoSocial>Via Sul Metais Ltda</tc:RazaoSocial>
+            <tc:Endereco>
+              <tc:Endereco>Rua Bartolomeu de Gusmão</tc:Endereco>
+              <tc:Numero>1817</tc:Numero>
+              <tc:Bairro>Canudos</tc:Bairro>
+              <tc:Cidade>4313409</tc:Cidade>
+              <tc:Estado>RS</tc:Estado>
+              <tc:Cep>93546000</tc:Cep>
+            </tc:Endereco>
+            <tc:Contato>
+              <tc:Email>fernando.viasulmetais@hotmail.com</tc:Email>
+            </tc:Contato>
+          </tc:TomadorServico>
+          <tc:OrgaoGerador>
+            <tc:CodigoMunicipio>4313409</tc:CodigoMunicipio>
+            <tc:Uf>RS</tc:Uf>
+          </tc:OrgaoGerador>
+          <tc:ValorCredito>0</tc:ValorCredito>
+        </tc:InfNfse>
+        <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+          <SignedInfo>
+            <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+            <SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" />
+            <Reference URI="http://www.w3.org/TR/2000/REC-xhtml1-20000126/">
+              <Transforms>
+                <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+              </Transforms>
+              <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+              <DigestValue>NcgysapRfyJHk4zfMzb2A1FwkFM=</DigestValue>
+            </Reference>
+          </SignedInfo>
+          <SignatureValue />
+          <KeyInfo>
+            <X509Data>
+              <X509Certificate />
+            </X509Data>
+          </KeyInfo>
+        </Signature>
+      </tc:Nfse>
+    </CompNfse>
+    <CompNfse>
+      <tc:Nfse>
+        <tc:InfNfse>
+          <tc:Numero>58</tc:Numero>
+          <tc:CodigoVerificacao> C5 CE 4C</tc:CodigoVerificacao>
+          <tc:DataEmissao>2013-03-27T00:00:00</tc:DataEmissao>
+          <tc:IdentificacaoRps>
+            <tc:Numero>1</tc:Numero>
+            <tc:Serie>3</tc:Serie>
+            <tc:Tipo>1</tc:Tipo>
+          </tc:IdentificacaoRps>
+          <tc:DataEmissaoRps>2013-03-27T00:00:00</tc:DataEmissaoRps>
+          <tc:NaturezaOperacao>1</tc:NaturezaOperacao>
+          <tc:RegimeEspecialTributacao>1</tc:RegimeEspecialTributacao>
+          <tc:OptanteSimplesNacional>2</tc:OptanteSimplesNacional>
+          <tc:IncentivadorCultural>2</tc:IncentivadorCultural>
+          <tc:Competencia>201304</tc:Competencia>
+          <tc:NfseSubstituida>1</tc:NfseSubstituida>
+          <tc:OutrasInformacoes>&lt;br&gt;</tc:OutrasInformacoes>
+          <tc:Servico>
+            <tc:ItemListaServico>105</tc:ItemListaServico>
+            <tc:CodigoCnae>6209100</tc:CodigoCnae>
+            <tc:CodigoTributacaoMunicipio>2526</tc:CodigoTributacaoMunicipio>
+            <tc:Discriminacao>CONSULTORIA EM TECNOLOGIA  Vlr. 680,00)</tc:Discriminacao>
+            <tc:MunicipioPrestacaoServico>4313409</tc:MunicipioPrestacaoServico>
+            <tc:Valores>
+              <tc:ValorServicos>680.00</tc:ValorServicos>
+              <tc:ValorPis>4.42</tc:ValorPis>
+              <tc:ValorCofins>20.40</tc:ValorCofins>
+              <tc:ValorIr>20.40</tc:ValorIr>
+              <tc:ValorCsll>32.64</tc:ValorCsll>
+              <tc:IssRetido>2</tc:IssRetido>
+              <tc:BaseCalculo>680.00</tc:BaseCalculo>
+              <tc:Aliquota>2</tc:Aliquota>
+              <tc:ValorLiquidoNfse>602.14</tc:ValorLiquidoNfse>
+              <tc:ValorIss>13.60</tc:ValorIss>
+              <tc:DescontoCondicionado>0.00</tc:DescontoCondicionado>
+              <tc:DescontoIncondicionado>0.00</tc:DescontoIncondicionado>
+            </tc:Valores>
+          </tc:Servico>
+          <tc:PrestadorServico>
+            <tc:IdentificacaoPrestador>
+              <tc:CpfCnpj>
+                <tc:Cnpj>05874179000120</tc:Cnpj>
+              </tc:CpfCnpj>
+              <tc:InscricaoMunicipal>77026</tc:InscricaoMunicipal>
+            </tc:IdentificacaoPrestador>
+            <tc:RazaoSocial>Cri Assessoria e Informatica Ltda</tc:RazaoSocial>
+            <tc:NomeFantasia>Cri Assessoria e Informatica Ltda</tc:NomeFantasia>
+            <tc:Endereco>
+              <tc:Endereco>Rua Tupi</tc:Endereco>
+              <tc:Numero>758</tc:Numero>
+              <tc:Complemento>3</tc:Complemento>
+              <tc:Bairro>Centro</tc:Bairro>
+              <tc:Cidade>4313409</tc:Cidade>
+              <tc:Estado>RS</tc:Estado>
+              <tc:Cep>93336010</tc:Cep>
+            </tc:Endereco>
+            <tc:Contato>
+              <tc:Telefone>5135829143</tc:Telefone>
+            </tc:Contato>
+          </tc:PrestadorServico>
+          <tc:TomadorServico>
+            <tc:IdentificacaoTomador>
+              <tc:CpfCnpj>
+                <tc:Cnpj>04824917000161</tc:Cnpj>
+              </tc:CpfCnpj>
+            </tc:IdentificacaoTomador>
+            <tc:RazaoSocial>FULL TIME CONTABILIDADE EMPRESARIAL LTDA ME</tc:RazaoSocial>
+            <tc:Endereco>
+              <tc:Endereco>RUA AIMORE</tc:Endereco>
+              <tc:Numero>264</tc:Numero>
+              <tc:Complemento>SALA 11</tc:Complemento>
+              <tc:Bairro>IDEAL</tc:Bairro>
+              <tc:Cidade>4313409</tc:Cidade>
+              <tc:Estado>RS</tc:Estado>
+              <tc:Cep>93336150</tc:Cep>
+            </tc:Endereco>
+            <tc:Contato>
+              <tc:Telefone>05135829143</tc:Telefone>
+              <tc:Email>jaque@fulltimecontabilidade.com.br</tc:Email>
+            </tc:Contato>
+          </tc:TomadorServico>
+          <tc:OrgaoGerador>
+            <tc:CodigoMunicipio>4313409</tc:CodigoMunicipio>
+            <tc:Uf>RS</tc:Uf>
+          </tc:OrgaoGerador>
+          <tc:ValorCredito>0</tc:ValorCredito>
+        </tc:InfNfse>
+        <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+          <SignedInfo>
+            <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+            <SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" />
+            <Reference URI="">
+              <Transforms>
+                <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+              </Transforms>
+              <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+              <DigestValue>B+5O+H4yHNi+/ZPLD9RqZclUbaQ=</DigestValue>
+            </Reference>
+          </SignedInfo>
+          <SignatureValue>XRUPR2sxZk7Vn6850yaB9zepC2nnxSEShUdPDw96vsFwpiri1eCOJIEki2llApqcKx0wCr7RXuRnvU4WtH+to46u3uJROJpQ6RD0LsT75f02jWX8npYXY5G8/ki9F7vpqQmBLNFTfwknNUZX+6JxJ39Vz4rwLaHROLQQmf4HE7s=</SignatureValue>
+          <KeyInfo>
+            <X509Data>
+              <X509Certificate>MIIE6zCCA9OgAwIBAgIKYVdRhAABAAAAJjANBgkqhkiG9w0BAQUFADCB6DEvMC0GCSqGSIb3DQEJARYgYWNub3RhY29udHJvbEBub3RhY29udHJvbC5jb20uYnIxDzANBgNVBAYTBkJyYXNpbDEbMBkGA1UECBMSTWF0byBHcm9zc28gZG8gU3VsMRUwEwYDVQQHEwxDYW1wbyBHcmFuZGUxMTAvBgNVBAsTKERlcGFydGFtZW50byBkZSBUZWNub2xvZ2lhIGRhIEluZm9ybWFjYW8xJTAjBgNVBAoTHE5vdGEgQ29udHJvbCBUZWNub2xvZ2lhIEx0ZGExFjAUBgNVBAMTDUFDTk9UQUNPTlRST0wwHhcNMDYwNjE5MTkyNzUwWhcNMDcwNjE5MTkzNzUwWjCBqTELMAkGA1UEBhMCQlIxCzAJBgNVBAgTAk1TMRUwEwYDVQQHEwxDYW1wbyBHcmFuZGUxFTATBgNVBAoTDE5vdGEgQ29udHJvbDEWMBQGA1UECwwNSW1wbGFudGHDp8OjbzEWMBQGA1UEAxMNTWFyaW5hIEZsb3JlczEvMC0GCSqGSIb3DQEJARYgbWFyaW5hLm1hdHJpekBub3RhY29udHJvbC5jb20uYnIwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAO3b4upTb+Dzfn8455N9idfTqF2058s28IQ5/GfuNjHwUe1Gdjj+Ge+6CDopVJK/tBpTxmhjj7AfdVfvMrRaHWEruupna2Yc9sCUAdu+WxpwPU4p85l1NQ7hFZrDsPnMM1GnuWOiQa3K3QGnUKCbSz5JioBTxddSqxAr2trwFFzhAgMBAAGjggFWMIIBUjAOBgNVHQ8BAf8EBAMCBPAwRAYJKoZIhvcNAQkPBDcwNTAOBggqhkiG9w0DAgICAIAwDgYIKoZIhvcNAwQCAgCAMAcGBSsOAwIHMAoGCCqGSIb3DQMHMB0GA1UdDgQWBBSlHRez2aXfGIYCwV4SBWhZ3BH0hjATBgNVHSUEDDAKBggrBgEFBQcDAjAfBgNVHSMEGDAWgBRmX/X2zlSS737xO8NBSJ0or/3g4jBMBgNVHR8ERTBDMEGgP6A9hjtodHRwOi8vMjAwLjE5OS4yMTguMjM2L2NybHMvYWNub3RhY29udHJvbC9hY25vdGFjb250cm9sLmNybDBXBggrBgEFBQcBAQRLMEkwRwYIKwYBBQUHMAKGO2h0dHA6Ly8yMDAuMTk5LjIxOC4yMzYvbHBjL2Fjbm90YWNvbnRyb2wvbHBjbm90YWNvbnRyb2wucGRmMA0GCSqGSIb3DQEBBQUAA4IBAQCZNKnc4zeRso3V5jx1E81DwMIG8u/Kq+KQbxWE1bM+Qy7jQ0+LC0lJHQT9Ot7mD/WXmDLVTSy5aZbDBuc7uSaz6LgdgBekzUOcAvVhnv5r4Zu74zjcpWABn78T1P9LLPwJZmKZVFJei2fVuhoP+lbXHmKl8DCb3kAfpKE41/75rMchUBBGf8++Q1Wbq/ycs/cFldgcW1vtKThjAsIBJvFNAgPVXvdhmVf9aTXkdKvrYITmlhPt5oK5mxzKJK22aRUI8F3w6uvtHvBGB3mNusbR4mGgj2KqY7q4xtHpD17CgjG9Q9lCT8gunMDJDXJN7CymuzVZB00xKT1z/MMVcgH2</X509Certificate>
+            </X509Data>
+          </KeyInfo>
+        </Signature>
+      </tc:Nfse>
+    </CompNfse>
+    <CompNfse>
+      <tc:Nfse>
+        <tc:InfNfse>
+          <tc:Numero>59</tc:Numero>
+          <tc:CodigoVerificacao> 3B E4 44</tc:CodigoVerificacao>
+          <tc:DataEmissao>2013-04-08T14:19:17</tc:DataEmissao>
+          <tc:IdentificacaoRps>
+            <tc:Numero>2</tc:Numero>
+            <tc:Serie>3</tc:Serie>
+            <tc:Tipo>1</tc:Tipo>
+          </tc:IdentificacaoRps>
+          <tc:DataEmissaoRps>2013-04-08T14:19:17</tc:DataEmissaoRps>
+          <tc:NaturezaOperacao>1</tc:NaturezaOperacao>
+          <tc:OptanteSimplesNacional>2</tc:OptanteSimplesNacional>
+          <tc:IncentivadorCultural>2</tc:IncentivadorCultural>
+          <tc:Competencia>201304</tc:Competencia>
+          <tc:NfseSubstituida>1</tc:NfseSubstituida>
+          <tc:OutrasInformacoes>&lt;br&gt;</tc:OutrasInformacoes>
+          <tc:Servico>
+            <tc:ItemListaServico>105</tc:ItemListaServico>
+            <tc:CodigoCnae>6203100</tc:CodigoCnae>
+            <tc:CodigoTributacaoMunicipio>2526</tc:CodigoTributacaoMunicipio>
+            <tc:Discriminacao>LICENCIAMENTO SOFTWARE  Vlr. 60,00)</tc:Discriminacao>
+            <tc:MunicipioPrestacaoServico>4313409</tc:MunicipioPrestacaoServico>
+            <tc:Valores>
+              <tc:ValorServicos>60.00</tc:ValorServicos>
+              <tc:ValorPis>0.39</tc:ValorPis>
+              <tc:ValorCofins>1.80</tc:ValorCofins>
+              <tc:ValorCsll>2.88</tc:ValorCsll>
+              <tc:IssRetido>2</tc:IssRetido>
+              <tc:BaseCalculo>60.00</tc:BaseCalculo>
+              <tc:Aliquota>2</tc:Aliquota>
+              <tc:ValorLiquidoNfse>54.93</tc:ValorLiquidoNfse>
+              <tc:ValorIss>1.20</tc:ValorIss>
+              <tc:DescontoCondicionado>0.00</tc:DescontoCondicionado>
+              <tc:DescontoIncondicionado>0.00</tc:DescontoIncondicionado>
+            </tc:Valores>
+          </tc:Servico>
+          <tc:PrestadorServico>
+            <tc:IdentificacaoPrestador>
+              <tc:CpfCnpj>
+                <tc:Cnpj>05874179000120</tc:Cnpj>
+              </tc:CpfCnpj>
+              <tc:InscricaoMunicipal>77026</tc:InscricaoMunicipal>
+            </tc:IdentificacaoPrestador>
+            <tc:RazaoSocial>Cri Assessoria e Informatica Ltda</tc:RazaoSocial>
+            <tc:NomeFantasia>Cri Assessoria e Informatica Ltda</tc:NomeFantasia>
+            <tc:Endereco>
+              <tc:Endereco>Rua Tupi</tc:Endereco>
+              <tc:Numero>758</tc:Numero>
+              <tc:Complemento>3</tc:Complemento>
+              <tc:Bairro>Centro</tc:Bairro>
+              <tc:Cidade>4313409</tc:Cidade>
+              <tc:Estado>RS</tc:Estado>
+              <tc:Cep>93336010</tc:Cep>
+            </tc:Endereco>
+            <tc:Contato>
+              <tc:Telefone>5135829143</tc:Telefone>
+            </tc:Contato>
+          </tc:PrestadorServico>
+          <tc:TomadorServico>
+            <tc:IdentificacaoTomador>
+              <tc:CpfCnpj>
+                <tc:Cnpj>08598422000112</tc:Cnpj>
+              </tc:CpfCnpj>
+            </tc:IdentificacaoTomador>
+            <tc:RazaoSocial>ELIANDRA E SCHETTINI IND COM ART COURO LTDA ME</tc:RazaoSocial>
+            <tc:Endereco>
+              <tc:Endereco>RUA COIMBRA</tc:Endereco>
+              <tc:Numero>188</tc:Numero>
+              <tc:Bairro>SOL NASCENTE</tc:Bairro>
+              <tc:Cidade>4307609</tc:Cidade>
+              <tc:Estado>RS</tc:Estado>
+              <tc:Cep>93600001</tc:Cep>
+            </tc:Endereco>
+            <tc:Contato>
+              <tc:Telefone>00000000000</tc:Telefone>
+            </tc:Contato>
+          </tc:TomadorServico>
+          <tc:OrgaoGerador>
+            <tc:CodigoMunicipio>4313409</tc:CodigoMunicipio>
+            <tc:Uf>RS</tc:Uf>
+          </tc:OrgaoGerador>
+          <tc:ValorCredito>0</tc:ValorCredito>
+        </tc:InfNfse>
+        <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+          <SignedInfo>
+            <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+            <SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" />
+            <Reference URI="">
+              <Transforms>
+                <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+              </Transforms>
+              <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+              <DigestValue>dB7l83kNFoEeMSHOK3QsICSefz0=</DigestValue>
+            </Reference>
+          </SignedInfo>
+          <SignatureValue>qGacd+1ryNrruhqk3cVWuziADtRMWEZpQBlCerpTEPdFRyPSQFvdopSY2PrFmE+LX1uR2+OmIhB5DPNvsJT3slymUG/S4tIIdU98RD1AYn6pKPFgj4u+HuEozuSimmTaSXpJN2qXUCn4ad8XrWaNvlYl3AXvxVYkdDtU6VnBqmk=</SignatureValue>
+          <KeyInfo>
+            <X509Data>
+              <X509Certificate>MIIE6zCCA9OgAwIBAgIKYVdRhAABAAAAJjANBgkqhkiG9w0BAQUFADCB6DEvMC0GCSqGSIb3DQEJARYgYWNub3RhY29udHJvbEBub3RhY29udHJvbC5jb20uYnIxDzANBgNVBAYTBkJyYXNpbDEbMBkGA1UECBMSTWF0byBHcm9zc28gZG8gU3VsMRUwEwYDVQQHEwxDYW1wbyBHcmFuZGUxMTAvBgNVBAsTKERlcGFydGFtZW50byBkZSBUZWNub2xvZ2lhIGRhIEluZm9ybWFjYW8xJTAjBgNVBAoTHE5vdGEgQ29udHJvbCBUZWNub2xvZ2lhIEx0ZGExFjAUBgNVBAMTDUFDTk9UQUNPTlRST0wwHhcNMDYwNjE5MTkyNzUwWhcNMDcwNjE5MTkzNzUwWjCBqTELMAkGA1UEBhMCQlIxCzAJBgNVBAgTAk1TMRUwEwYDVQQHEwxDYW1wbyBHcmFuZGUxFTATBgNVBAoTDE5vdGEgQ29udHJvbDEWMBQGA1UECwwNSW1wbGFudGHDp8OjbzEWMBQGA1UEAxMNTWFyaW5hIEZsb3JlczEvMC0GCSqGSIb3DQEJARYgbWFyaW5hLm1hdHJpekBub3RhY29udHJvbC5jb20uYnIwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAO3b4upTb+Dzfn8455N9idfTqF2058s28IQ5/GfuNjHwUe1Gdjj+Ge+6CDopVJK/tBpTxmhjj7AfdVfvMrRaHWEruupna2Yc9sCUAdu+WxpwPU4p85l1NQ7hFZrDsPnMM1GnuWOiQa3K3QGnUKCbSz5JioBTxddSqxAr2trwFFzhAgMBAAGjggFWMIIBUjAOBgNVHQ8BAf8EBAMCBPAwRAYJKoZIhvcNAQkPBDcwNTAOBggqhkiG9w0DAgICAIAwDgYIKoZIhvcNAwQCAgCAMAcGBSsOAwIHMAoGCCqGSIb3DQMHMB0GA1UdDgQWBBSlHRez2aXfGIYCwV4SBWhZ3BH0hjATBgNVHSUEDDAKBggrBgEFBQcDAjAfBgNVHSMEGDAWgBRmX/X2zlSS737xO8NBSJ0or/3g4jBMBgNVHR8ERTBDMEGgP6A9hjtodHRwOi8vMjAwLjE5OS4yMTguMjM2L2NybHMvYWNub3RhY29udHJvbC9hY25vdGFjb250cm9sLmNybDBXBggrBgEFBQcBAQRLMEkwRwYIKwYBBQUHMAKGO2h0dHA6Ly8yMDAuMTk5LjIxOC4yMzYvbHBjL2Fjbm90YWNvbnRyb2wvbHBjbm90YWNvbnRyb2wucGRmMA0GCSqGSIb3DQEBBQUAA4IBAQCZNKnc4zeRso3V5jx1E81DwMIG8u/Kq+KQbxWE1bM+Qy7jQ0+LC0lJHQT9Ot7mD/WXmDLVTSy5aZbDBuc7uSaz6LgdgBekzUOcAvVhnv5r4Zu74zjcpWABn78T1P9LLPwJZmKZVFJei2fVuhoP+lbXHmKl8DCb3kAfpKE41/75rMchUBBGf8++Q1Wbq/ycs/cFldgcW1vtKThjAsIBJvFNAgPVXvdhmVf9aTXkdKvrYITmlhPt5oK5mxzKJK22aRUI8F3w6uvtHvBGB3mNusbR4mGgj2KqY7q4xtHpD17CgjG9Q9lCT8gunMDJDXJN7CymuzVZB00xKT1z/MMVcgH2</X509Certificate>
+            </X509Data>
+          </KeyInfo>
+        </Signature>
+      </tc:Nfse>
+    </CompNfse>
+    <CompNfse>
+      <tc:Nfse>
+        <tc:InfNfse>
+          <tc:Numero>60</tc:Numero>
+          <tc:CodigoVerificacao> F4 51 70</tc:CodigoVerificacao>
+          <tc:DataEmissao>2013-04-09T00:18:33</tc:DataEmissao>
+          <tc:IdentificacaoRps>
+            <tc:Numero>3</tc:Numero>
+            <tc:Serie>3</tc:Serie>
+            <tc:Tipo>1</tc:Tipo>
+          </tc:IdentificacaoRps>
+          <tc:DataEmissaoRps>2013-04-09T00:18:33</tc:DataEmissaoRps>
+          <tc:NaturezaOperacao>1</tc:NaturezaOperacao>
+          <tc:OptanteSimplesNacional>2</tc:OptanteSimplesNacional>
+          <tc:IncentivadorCultural>2</tc:IncentivadorCultural>
+          <tc:Competencia>201304</tc:Competencia>
+          <tc:NfseSubstituida>1</tc:NfseSubstituida>
+          <tc:OutrasInformacoes>&lt;br&gt;</tc:OutrasInformacoes>
+          <tc:Servico>
+            <tc:ItemListaServico>105</tc:ItemListaServico>
+            <tc:CodigoCnae>6203100</tc:CodigoCnae>
+            <tc:CodigoTributacaoMunicipio>2526</tc:CodigoTributacaoMunicipio>
+            <tc:Discriminacao>(LICENCIAMENTO SOFTWARE  Valor R$ 60,00) (Ref Março 2013 - Vencimento: 15/04/2013.)</tc:Discriminacao>
+            <tc:MunicipioPrestacaoServico>4313409</tc:MunicipioPrestacaoServico>
+            <tc:Valores>
+              <tc:ValorServicos>60.00</tc:ValorServicos>
+              <tc:IssRetido>2</tc:IssRetido>
+              <tc:BaseCalculo>60.00</tc:BaseCalculo>
+              <tc:Aliquota>2</tc:Aliquota>
+              <tc:ValorLiquidoNfse>60</tc:ValorLiquidoNfse>
+              <tc:ValorIss>1.20</tc:ValorIss>
+              <tc:DescontoCondicionado>0.00</tc:DescontoCondicionado>
+              <tc:DescontoIncondicionado>0.00</tc:DescontoIncondicionado>
+            </tc:Valores>
+          </tc:Servico>
+          <tc:PrestadorServico>
+            <tc:IdentificacaoPrestador>
+              <tc:CpfCnpj>
+                <tc:Cnpj>05874179000120</tc:Cnpj>
+              </tc:CpfCnpj>
+              <tc:InscricaoMunicipal>77026</tc:InscricaoMunicipal>
+            </tc:IdentificacaoPrestador>
+            <tc:RazaoSocial>Cri Assessoria e Informatica Ltda</tc:RazaoSocial>
+            <tc:NomeFantasia>Cri Assessoria e Informatica Ltda</tc:NomeFantasia>
+            <tc:Endereco>
+              <tc:Endereco>Rua Tupi</tc:Endereco>
+              <tc:Numero>758</tc:Numero>
+              <tc:Complemento>3</tc:Complemento>
+              <tc:Bairro>Centro</tc:Bairro>
+              <tc:Cidade>4313409</tc:Cidade>
+              <tc:Estado>RS</tc:Estado>
+              <tc:Cep>93336010</tc:Cep>
+            </tc:Endereco>
+            <tc:Contato>
+              <tc:Telefone>5135829143</tc:Telefone>
+            </tc:Contato>
+          </tc:PrestadorServico>
+          <tc:TomadorServico>
+            <tc:IdentificacaoTomador>
+              <tc:CpfCnpj>
+                <tc:Cnpj>08598422000112</tc:Cnpj>
+              </tc:CpfCnpj>
+            </tc:IdentificacaoTomador>
+            <tc:RazaoSocial>ELIANDRA E SCHETTINI IND COM ART COURO LTDA ME</tc:RazaoSocial>
+            <tc:Endereco>
+              <tc:Endereco>RUA COIMBRA</tc:Endereco>
+              <tc:Numero>188</tc:Numero>
+              <tc:Bairro>SOL NASCENTE</tc:Bairro>
+              <tc:Cidade>4307609</tc:Cidade>
+              <tc:Estado>RS</tc:Estado>
+              <tc:Cep>93600001</tc:Cep>
+            </tc:Endereco>
+            <tc:Contato>
+              <tc:Telefone>00000000000</tc:Telefone>
+            </tc:Contato>
+          </tc:TomadorServico>
+          <tc:OrgaoGerador>
+            <tc:CodigoMunicipio>4313409</tc:CodigoMunicipio>
+            <tc:Uf>RS</tc:Uf>
+          </tc:OrgaoGerador>
+          <tc:ValorCredito>0</tc:ValorCredito>
+        </tc:InfNfse>
+        <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+          <SignedInfo>
+            <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+            <SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" />
+            <Reference URI="">
+              <Transforms>
+                <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+              </Transforms>
+              <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+              <DigestValue>KZUk60ZaOisHTPWEVFy83Dl/QPE=</DigestValue>
+            </Reference>
+          </SignedInfo>
+          <SignatureValue>unUk4T+eQPe//NMLzmONtmgPfecgRRlzQHx5M/FSOwzBus71oNtcmEGc4XO9dYK5wihphT9ezPXoqUFbuKOtdzp6KmPf1+HggsiSNsYENTY47SN9Z2F/BkPv4wIpt9WgEadKiYAiy5w0q3H+Zw1o+FVcCfKQPtb+PjXO1TQJkhc=</SignatureValue>
+          <KeyInfo>
+            <X509Data>
+              <X509Certificate>MIIE6zCCA9OgAwIBAgIKYVdRhAABAAAAJjANBgkqhkiG9w0BAQUFADCB6DEvMC0GCSqGSIb3DQEJARYgYWNub3RhY29udHJvbEBub3RhY29udHJvbC5jb20uYnIxDzANBgNVBAYTBkJyYXNpbDEbMBkGA1UECBMSTWF0byBHcm9zc28gZG8gU3VsMRUwEwYDVQQHEwxDYW1wbyBHcmFuZGUxMTAvBgNVBAsTKERlcGFydGFtZW50byBkZSBUZWNub2xvZ2lhIGRhIEluZm9ybWFjYW8xJTAjBgNVBAoTHE5vdGEgQ29udHJvbCBUZWNub2xvZ2lhIEx0ZGExFjAUBgNVBAMTDUFDTk9UQUNPTlRST0wwHhcNMDYwNjE5MTkyNzUwWhcNMDcwNjE5MTkzNzUwWjCBqTELMAkGA1UEBhMCQlIxCzAJBgNVBAgTAk1TMRUwEwYDVQQHEwxDYW1wbyBHcmFuZGUxFTATBgNVBAoTDE5vdGEgQ29udHJvbDEWMBQGA1UECwwNSW1wbGFudGHDp8OjbzEWMBQGA1UEAxMNTWFyaW5hIEZsb3JlczEvMC0GCSqGSIb3DQEJARYgbWFyaW5hLm1hdHJpekBub3RhY29udHJvbC5jb20uYnIwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAO3b4upTb+Dzfn8455N9idfTqF2058s28IQ5/GfuNjHwUe1Gdjj+Ge+6CDopVJK/tBpTxmhjj7AfdVfvMrRaHWEruupna2Yc9sCUAdu+WxpwPU4p85l1NQ7hFZrDsPnMM1GnuWOiQa3K3QGnUKCbSz5JioBTxddSqxAr2trwFFzhAgMBAAGjggFWMIIBUjAOBgNVHQ8BAf8EBAMCBPAwRAYJKoZIhvcNAQkPBDcwNTAOBggqhkiG9w0DAgICAIAwDgYIKoZIhvcNAwQCAgCAMAcGBSsOAwIHMAoGCCqGSIb3DQMHMB0GA1UdDgQWBBSlHRez2aXfGIYCwV4SBWhZ3BH0hjATBgNVHSUEDDAKBggrBgEFBQcDAjAfBgNVHSMEGDAWgBRmX/X2zlSS737xO8NBSJ0or/3g4jBMBgNVHR8ERTBDMEGgP6A9hjtodHRwOi8vMjAwLjE5OS4yMTguMjM2L2NybHMvYWNub3RhY29udHJvbC9hY25vdGFjb250cm9sLmNybDBXBggrBgEFBQcBAQRLMEkwRwYIKwYBBQUHMAKGO2h0dHA6Ly8yMDAuMTk5LjIxOC4yMzYvbHBjL2Fjbm90YWNvbnRyb2wvbHBjbm90YWNvbnRyb2wucGRmMA0GCSqGSIb3DQEBBQUAA4IBAQCZNKnc4zeRso3V5jx1E81DwMIG8u/Kq+KQbxWE1bM+Qy7jQ0+LC0lJHQT9Ot7mD/WXmDLVTSy5aZbDBuc7uSaz6LgdgBekzUOcAvVhnv5r4Zu74zjcpWABn78T1P9LLPwJZmKZVFJei2fVuhoP+lbXHmKl8DCb3kAfpKE41/75rMchUBBGf8++Q1Wbq/ycs/cFldgcW1vtKThjAsIBJvFNAgPVXvdhmVf9aTXkdKvrYITmlhPt5oK5mxzKJK22aRUI8F3w6uvtHvBGB3mNusbR4mGgj2KqY7q4xtHpD17CgjG9Q9lCT8gunMDJDXJN7CymuzVZB00xKT1z/MMVcgH2</X509Certificate>
+            </X509Data>
+          </KeyInfo>
+        </Signature>
+      </tc:Nfse>
+    </CompNfse>
+    <CompNfse>
+      <tc:Nfse>
+        <tc:InfNfse>
+          <tc:Numero>61</tc:Numero>
+          <tc:CodigoVerificacao> 9B C0 26</tc:CodigoVerificacao>
+          <tc:DataEmissao>2013-04-09T11:18:27</tc:DataEmissao>
+          <tc:IdentificacaoRps>
+            <tc:Numero>4</tc:Numero>
+            <tc:Serie>3</tc:Serie>
+            <tc:Tipo>1</tc:Tipo>
+          </tc:IdentificacaoRps>
+          <tc:DataEmissaoRps>2013-04-09T11:18:27</tc:DataEmissaoRps>
+          <tc:NaturezaOperacao>1</tc:NaturezaOperacao>
+          <tc:OptanteSimplesNacional>2</tc:OptanteSimplesNacional>
+          <tc:IncentivadorCultural>2</tc:IncentivadorCultural>
+          <tc:Competencia>201304</tc:Competencia>
+          <tc:NfseSubstituida>1</tc:NfseSubstituida>
+          <tc:OutrasInformacoes>&lt;br&gt;</tc:OutrasInformacoes>
+          <tc:Servico>
+            <tc:ItemListaServico>105</tc:ItemListaServico>
+            <tc:CodigoCnae>6203100</tc:CodigoCnae>
+            <tc:CodigoTributacaoMunicipio>2526</tc:CodigoTributacaoMunicipio>
+            <tc:Discriminacao>LICENCIAMENTO SOFTWARE  Valor R$ 60,00) (Ref Abril 2013. Vencimento 15/04/2013)</tc:Discriminacao>
+            <tc:MunicipioPrestacaoServico>4313409</tc:MunicipioPrestacaoServico>
+            <tc:Valores>
+              <tc:ValorServicos>60.00</tc:ValorServicos>
+              <tc:IssRetido>2</tc:IssRetido>
+              <tc:BaseCalculo>60.00</tc:BaseCalculo>
+              <tc:Aliquota>2</tc:Aliquota>
+              <tc:ValorLiquidoNfse>60</tc:ValorLiquidoNfse>
+              <tc:ValorIss>1.20</tc:ValorIss>
+              <tc:DescontoCondicionado>0.00</tc:DescontoCondicionado>
+              <tc:DescontoIncondicionado>0.00</tc:DescontoIncondicionado>
+            </tc:Valores>
+          </tc:Servico>
+          <tc:PrestadorServico>
+            <tc:IdentificacaoPrestador>
+              <tc:CpfCnpj>
+                <tc:Cnpj>05874179000120</tc:Cnpj>
+              </tc:CpfCnpj>
+              <tc:InscricaoMunicipal>77026</tc:InscricaoMunicipal>
+            </tc:IdentificacaoPrestador>
+            <tc:RazaoSocial>Cri Assessoria e Informatica Ltda</tc:RazaoSocial>
+            <tc:NomeFantasia>Cri Assessoria e Informatica Ltda</tc:NomeFantasia>
+            <tc:Endereco>
+              <tc:Endereco>Rua Tupi</tc:Endereco>
+              <tc:Numero>758</tc:Numero>
+              <tc:Complemento>3</tc:Complemento>
+              <tc:Bairro>Centro</tc:Bairro>
+              <tc:Cidade>4313409</tc:Cidade>
+              <tc:Estado>RS</tc:Estado>
+              <tc:Cep>93336010</tc:Cep>
+            </tc:Endereco>
+            <tc:Contato>
+              <tc:Telefone>5135829143</tc:Telefone>
+            </tc:Contato>
+          </tc:PrestadorServico>
+          <tc:TomadorServico>
+            <tc:IdentificacaoTomador>
+              <tc:CpfCnpj>
+                <tc:Cnpj>10813669000156</tc:Cnpj>
+              </tc:CpfCnpj>
+            </tc:IdentificacaoTomador>
+            <tc:RazaoSocial>PAULO R MULLER OLARIA ME</tc:RazaoSocial>
+            <tc:Endereco>
+              <tc:Endereco>RUA MATHIAS MULLER</tc:Endereco>
+              <tc:Numero>531</tc:Numero>
+              <tc:Bairro>BARRINHA</tc:Bairro>
+              <tc:Cidade>4303905</tc:Cidade>
+              <tc:Estado>RS</tc:Estado>
+              <tc:Cep>93700970</tc:Cep>
+            </tc:Endereco>
+            <tc:Contato>
+              <tc:Telefone>05135981507</tc:Telefone>
+            </tc:Contato>
+          </tc:TomadorServico>
+          <tc:OrgaoGerador>
+            <tc:CodigoMunicipio>4313409</tc:CodigoMunicipio>
+            <tc:Uf>RS</tc:Uf>
+          </tc:OrgaoGerador>
+          <tc:ValorCredito>0</tc:ValorCredito>
+        </tc:InfNfse>
+        <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+          <SignedInfo>
+            <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+            <SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" />
+            <Reference URI="">
+              <Transforms>
+                <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+              </Transforms>
+              <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+              <DigestValue>6+Bt36Pwu2aEWEbvyaGY23wm0nM=</DigestValue>
+            </Reference>
+          </SignedInfo>
+          <SignatureValue>6offR2nXg78pd2tZcKN7kFOCUKzf5ck8n5Fvrh6IlJxp9yFNc16+9rWd1F1qjEoj0p3wuzPnhPKybtW35ujmcVj5DLVLLbzAp6uA4F2iUGlernfJTeg4sCFQSnn7B1wOV4FLOLFajVuYrywyWxhxW293SX3wcaermNJoglW9OyY=</SignatureValue>
+          <KeyInfo>
+            <X509Data>
+              <X509Certificate>MIIE6zCCA9OgAwIBAgIKYVdRhAABAAAAJjANBgkqhkiG9w0BAQUFADCB6DEvMC0GCSqGSIb3DQEJARYgYWNub3RhY29udHJvbEBub3RhY29udHJvbC5jb20uYnIxDzANBgNVBAYTBkJyYXNpbDEbMBkGA1UECBMSTWF0byBHcm9zc28gZG8gU3VsMRUwEwYDVQQHEwxDYW1wbyBHcmFuZGUxMTAvBgNVBAsTKERlcGFydGFtZW50byBkZSBUZWNub2xvZ2lhIGRhIEluZm9ybWFjYW8xJTAjBgNVBAoTHE5vdGEgQ29udHJvbCBUZWNub2xvZ2lhIEx0ZGExFjAUBgNVBAMTDUFDTk9UQUNPTlRST0wwHhcNMDYwNjE5MTkyNzUwWhcNMDcwNjE5MTkzNzUwWjCBqTELMAkGA1UEBhMCQlIxCzAJBgNVBAgTAk1TMRUwEwYDVQQHEwxDYW1wbyBHcmFuZGUxFTATBgNVBAoTDE5vdGEgQ29udHJvbDEWMBQGA1UECwwNSW1wbGFudGHDp8OjbzEWMBQGA1UEAxMNTWFyaW5hIEZsb3JlczEvMC0GCSqGSIb3DQEJARYgbWFyaW5hLm1hdHJpekBub3RhY29udHJvbC5jb20uYnIwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAO3b4upTb+Dzfn8455N9idfTqF2058s28IQ5/GfuNjHwUe1Gdjj+Ge+6CDopVJK/tBpTxmhjj7AfdVfvMrRaHWEruupna2Yc9sCUAdu+WxpwPU4p85l1NQ7hFZrDsPnMM1GnuWOiQa3K3QGnUKCbSz5JioBTxddSqxAr2trwFFzhAgMBAAGjggFWMIIBUjAOBgNVHQ8BAf8EBAMCBPAwRAYJKoZIhvcNAQkPBDcwNTAOBggqhkiG9w0DAgICAIAwDgYIKoZIhvcNAwQCAgCAMAcGBSsOAwIHMAoGCCqGSIb3DQMHMB0GA1UdDgQWBBSlHRez2aXfGIYCwV4SBWhZ3BH0hjATBgNVHSUEDDAKBggrBgEFBQcDAjAfBgNVHSMEGDAWgBRmX/X2zlSS737xO8NBSJ0or/3g4jBMBgNVHR8ERTBDMEGgP6A9hjtodHRwOi8vMjAwLjE5OS4yMTguMjM2L2NybHMvYWNub3RhY29udHJvbC9hY25vdGFjb250cm9sLmNybDBXBggrBgEFBQcBAQRLMEkwRwYIKwYBBQUHMAKGO2h0dHA6Ly8yMDAuMTk5LjIxOC4yMzYvbHBjL2Fjbm90YWNvbnRyb2wvbHBjbm90YWNvbnRyb2wucGRmMA0GCSqGSIb3DQEBBQUAA4IBAQCZNKnc4zeRso3V5jx1E81DwMIG8u/Kq+KQbxWE1bM+Qy7jQ0+LC0lJHQT9Ot7mD/WXmDLVTSy5aZbDBuc7uSaz6LgdgBekzUOcAvVhnv5r4Zu74zjcpWABn78T1P9LLPwJZmKZVFJei2fVuhoP+lbXHmKl8DCb3kAfpKE41/75rMchUBBGf8++Q1Wbq/ycs/cFldgcW1vtKThjAsIBJvFNAgPVXvdhmVf9aTXkdKvrYITmlhPt5oK5mxzKJK22aRUI8F3w6uvtHvBGB3mNusbR4mGgj2KqY7q4xtHpD17CgjG9Q9lCT8gunMDJDXJN7CymuzVZB00xKT1z/MMVcgH2</X509Certificate>
+            </X509Data>
+          </KeyInfo>
+        </Signature>
+      </tc:Nfse>
+    </CompNfse>
+    <CompNfse>
+      <tc:Nfse>
+        <tc:InfNfse>
+          <tc:Numero>62</tc:Numero>
+          <tc:CodigoVerificacao> A3 F2 93</tc:CodigoVerificacao>
+          <tc:DataEmissao>2013-04-09T11:25:12</tc:DataEmissao>
+          <tc:IdentificacaoRps>
+            <tc:Numero>5</tc:Numero>
+            <tc:Serie>3</tc:Serie>
+            <tc:Tipo>1</tc:Tipo>
+          </tc:IdentificacaoRps>
+          <tc:DataEmissaoRps>2013-04-09T11:25:12</tc:DataEmissaoRps>
+          <tc:NaturezaOperacao>1</tc:NaturezaOperacao>
+          <tc:OptanteSimplesNacional>2</tc:OptanteSimplesNacional>
+          <tc:IncentivadorCultural>2</tc:IncentivadorCultural>
+          <tc:Competencia>201304</tc:Competencia>
+          <tc:NfseSubstituida>1</tc:NfseSubstituida>
+          <tc:OutrasInformacoes>&lt;br&gt;</tc:OutrasInformacoes>
+          <tc:Servico>
+            <tc:ItemListaServico>105</tc:ItemListaServico>
+            <tc:CodigoCnae>6203100</tc:CodigoCnae>
+            <tc:CodigoTributacaoMunicipio>2526</tc:CodigoTributacaoMunicipio>
+            <tc:Discriminacao>(LICENCIAMENTO SOFTWARE  Valor R$ 50,00) (Ref Abril 2013.)</tc:Discriminacao>
+            <tc:MunicipioPrestacaoServico>4313409</tc:MunicipioPrestacaoServico>
+            <tc:Valores>
+              <tc:ValorServicos>50.00</tc:ValorServicos>
+              <tc:IssRetido>2</tc:IssRetido>
+              <tc:BaseCalculo>50.00</tc:BaseCalculo>
+              <tc:Aliquota>2</tc:Aliquota>
+              <tc:ValorLiquidoNfse>50</tc:ValorLiquidoNfse>
+              <tc:ValorIss>1.00</tc:ValorIss>
+              <tc:DescontoCondicionado>0.00</tc:DescontoCondicionado>
+              <tc:DescontoIncondicionado>0.00</tc:DescontoIncondicionado>
+            </tc:Valores>
+          </tc:Servico>
+          <tc:PrestadorServico>
+            <tc:IdentificacaoPrestador>
+              <tc:CpfCnpj>
+                <tc:Cnpj>05874179000120</tc:Cnpj>
+              </tc:CpfCnpj>
+              <tc:InscricaoMunicipal>77026</tc:InscricaoMunicipal>
+            </tc:IdentificacaoPrestador>
+            <tc:RazaoSocial>Cri Assessoria e Informatica Ltda</tc:RazaoSocial>
+            <tc:NomeFantasia>Cri Assessoria e Informatica Ltda</tc:NomeFantasia>
+            <tc:Endereco>
+              <tc:Endereco>Rua Tupi</tc:Endereco>
+              <tc:Numero>758</tc:Numero>
+              <tc:Complemento>3</tc:Complemento>
+              <tc:Bairro>Centro</tc:Bairro>
+              <tc:Cidade>4313409</tc:Cidade>
+              <tc:Estado>RS</tc:Estado>
+              <tc:Cep>93336010</tc:Cep>
+            </tc:Endereco>
+            <tc:Contato>
+              <tc:Telefone>5135829143</tc:Telefone>
+            </tc:Contato>
+          </tc:PrestadorServico>
+          <tc:TomadorServico>
+            <tc:IdentificacaoTomador>
+              <tc:CpfCnpj>
+                <tc:Cnpj>15268580000170</tc:Cnpj>
+              </tc:CpfCnpj>
+            </tc:IdentificacaoTomador>
+            <tc:RazaoSocial>LUCIANO OLIVEIRA LEAL ME</tc:RazaoSocial>
+            <tc:Endereco>
+              <tc:Endereco>RUA VISC DE OURO PRETO</tc:Endereco>
+              <tc:Numero>136</tc:Numero>
+              <tc:Bairro>RINCAO DOS ILHEUS</tc:Bairro>
+              <tc:Cidade>4307609</tc:Cidade>
+              <tc:Estado>RS</tc:Estado>
+              <tc:Cep>93600000</tc:Cep>
+            </tc:Endereco>
+            <tc:Contato>
+              <tc:Telefone>00000000000</tc:Telefone>
+            </tc:Contato>
+          </tc:TomadorServico>
+          <tc:OrgaoGerador>
+            <tc:CodigoMunicipio>4313409</tc:CodigoMunicipio>
+            <tc:Uf>RS</tc:Uf>
+          </tc:OrgaoGerador>
+          <tc:ValorCredito>0</tc:ValorCredito>
+        </tc:InfNfse>
+        <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+          <SignedInfo>
+            <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+            <SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" />
+            <Reference URI="">
+              <Transforms>
+                <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+              </Transforms>
+              <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+              <DigestValue>A8Jixw6IL4EWhs+MSrLqJIqK+KU=</DigestValue>
+            </Reference>
+          </SignedInfo>
+          <SignatureValue>ElaJGHNR33WtHEkGqUP0w4c7mNnLNWczuehaj7lc18wqyqbsU3LCg0HjPKOdlJKe4BCbdmhOaO6aPUSyOPVLfYLnBuTNS9x/LMVe/UzPVt5TX5GkrnDSJu50FjuAwBUWkOBnvgW7GFg2UlLi2k3qv50oxMmKiGUL9ZDNAhbEzPI=</SignatureValue>
+          <KeyInfo>
+            <X509Data>
+              <X509Certificate>MIIE6zCCA9OgAwIBAgIKYVdRhAABAAAAJjANBgkqhkiG9w0BAQUFADCB6DEvMC0GCSqGSIb3DQEJARYgYWNub3RhY29udHJvbEBub3RhY29udHJvbC5jb20uYnIxDzANBgNVBAYTBkJyYXNpbDEbMBkGA1UECBMSTWF0byBHcm9zc28gZG8gU3VsMRUwEwYDVQQHEwxDYW1wbyBHcmFuZGUxMTAvBgNVBAsTKERlcGFydGFtZW50byBkZSBUZWNub2xvZ2lhIGRhIEluZm9ybWFjYW8xJTAjBgNVBAoTHE5vdGEgQ29udHJvbCBUZWNub2xvZ2lhIEx0ZGExFjAUBgNVBAMTDUFDTk9UQUNPTlRST0wwHhcNMDYwNjE5MTkyNzUwWhcNMDcwNjE5MTkzNzUwWjCBqTELMAkGA1UEBhMCQlIxCzAJBgNVBAgTAk1TMRUwEwYDVQQHEwxDYW1wbyBHcmFuZGUxFTATBgNVBAoTDE5vdGEgQ29udHJvbDEWMBQGA1UECwwNSW1wbGFudGHDp8OjbzEWMBQGA1UEAxMNTWFyaW5hIEZsb3JlczEvMC0GCSqGSIb3DQEJARYgbWFyaW5hLm1hdHJpekBub3RhY29udHJvbC5jb20uYnIwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAO3b4upTb+Dzfn8455N9idfTqF2058s28IQ5/GfuNjHwUe1Gdjj+Ge+6CDopVJK/tBpTxmhjj7AfdVfvMrRaHWEruupna2Yc9sCUAdu+WxpwPU4p85l1NQ7hFZrDsPnMM1GnuWOiQa3K3QGnUKCbSz5JioBTxddSqxAr2trwFFzhAgMBAAGjggFWMIIBUjAOBgNVHQ8BAf8EBAMCBPAwRAYJKoZIhvcNAQkPBDcwNTAOBggqhkiG9w0DAgICAIAwDgYIKoZIhvcNAwQCAgCAMAcGBSsOAwIHMAoGCCqGSIb3DQMHMB0GA1UdDgQWBBSlHRez2aXfGIYCwV4SBWhZ3BH0hjATBgNVHSUEDDAKBggrBgEFBQcDAjAfBgNVHSMEGDAWgBRmX/X2zlSS737xO8NBSJ0or/3g4jBMBgNVHR8ERTBDMEGgP6A9hjtodHRwOi8vMjAwLjE5OS4yMTguMjM2L2NybHMvYWNub3RhY29udHJvbC9hY25vdGFjb250cm9sLmNybDBXBggrBgEFBQcBAQRLMEkwRwYIKwYBBQUHMAKGO2h0dHA6Ly8yMDAuMTk5LjIxOC4yMzYvbHBjL2Fjbm90YWNvbnRyb2wvbHBjbm90YWNvbnRyb2wucGRmMA0GCSqGSIb3DQEBBQUAA4IBAQCZNKnc4zeRso3V5jx1E81DwMIG8u/Kq+KQbxWE1bM+Qy7jQ0+LC0lJHQT9Ot7mD/WXmDLVTSy5aZbDBuc7uSaz6LgdgBekzUOcAvVhnv5r4Zu74zjcpWABn78T1P9LLPwJZmKZVFJei2fVuhoP+lbXHmKl8DCb3kAfpKE41/75rMchUBBGf8++Q1Wbq/ycs/cFldgcW1vtKThjAsIBJvFNAgPVXvdhmVf9aTXkdKvrYITmlhPt5oK5mxzKJK22aRUI8F3w6uvtHvBGB3mNusbR4mGgj2KqY7q4xtHpD17CgjG9Q9lCT8gunMDJDXJN7CymuzVZB00xKT1z/MMVcgH2</X509Certificate>
+            </X509Data>
+          </KeyInfo>
+        </Signature>
+      </tc:Nfse>
+    </CompNfse>
+  </ListaNfse>
+</ConsultarNfseResposta>
